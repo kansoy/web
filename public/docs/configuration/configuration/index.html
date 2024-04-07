@@ -1,0 +1,952 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  
+  <title>基本設定 &middot; Congo</title>
+    <meta name="title" content="基本設定 &middot; Congo" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.022d0ebc3b46a335eb1c7ef79b7f2de143d7cd5156d433638592ef1ce5f8554e.js"
+    integrity="sha256-Ai0OvDtGozXrHH73m38t4UPXzVFW1DNjhZLvHOX4VU4="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.8cd4199ad423a763e2dd42a32c20643d8eb472bc550188be85b60444140826dd.css"
+    integrity="sha256-jNQZmtQjp2Pi3UKjLCBkPY60crxVAYi&#43;hbYERBQIJt0="
+  />
+  
+  
+  
+  
+  
+  
+  
+  <meta
+    name="description"
+    content="
+      Congoで利用可能なすべての設定
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="http://localhost:1313/docs/configuration/configuration/" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="基本設定" />
+<meta property="og:description" content="Congoで利用可能なすべての設定" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/docs/configuration/configuration/" /><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2020-08-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-14T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="基本設定"/>
+<meta name="twitter:description" content="Congoで利用可能なすべての設定"/>
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Documentation",
+    "name": "基本設定",
+    "headline": "基本設定",
+    "description": "Congoで利用可能なすべての設定",
+    "abstract": "Congoで利用可能なすべてのサイト、言語、テーマ設定と、それらを使用してプロジェクトをカスタマイズする方法をご覧ください。",
+    "inLanguage": "en",
+    "url" : "http:\/\/localhost:1313\/docs\/configuration\/configuration\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2020",
+    "dateCreated": "2020-08-14T00:00:00\u002b00:00",
+    "datePublished": "2020-08-14T00:00:00\u002b00:00",
+    
+    "dateModified": "2020-08-14T00:00:00\u002b00:00",
+    
+    "keywords": ["config","docs"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "503"
+  }
+  </script>
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >Skip to main content</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 print:hidden sm:py-10 dark:text-neutral">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Congo</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href=""
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Blog</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/categories/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Categories</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/tags/"
+                  title=""
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >Tags</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+              
+            </li>
+          
+            
+              
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        基本設定
+      </h1>
+      
+        <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <span title="Reading time">3 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <p>Congoは高度にカスタマイズ可能なテーマで、最新のHugoの機能のいくつかを使用して、設定方法を簡素化しています。</p>
+<p>このテーマには、基本的なブログまたは静的ウェブサイトを立ち上げて実行できるようにするデフォルト設定が同梱されています。</p>
+<blockquote>
+<p>同梱されている設定ファイルはTOMLフォーマットで提供されています。設定ファイルをYAMLやJSONに変換したい場合はご自由にどうぞ。</p>
+</blockquote>
+<p>デフォルトのテーマ設定は各ファイルに文書化されているので、ニーズに合わせて自由に設定を調整することができます。</p>
+<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+  <span class="pe-3 text-primary-400">
+    <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+</span>
+  </span>
+  <span class="dark:text-neutral-300"><a href="http://localhost:1313/docs/installation/#set-up-theme-configuration-files" target="_blank" rel="noreferrer">インストール手順</a>で説明されているように、Hugoプロジェクトの <code>config/_default/</code> にあるファイルを修正し、プロジェクトルートにある <code>config.toml</code> ファイルを削除することで、テーマの設定を調整します。</span>
+</div>
+
+<h2 id="サイト設定" class="relative group">サイト設定 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%82%b5%e3%82%a4%e3%83%88%e8%a8%ad%e5%ae%9a" aria-label="Anchor">#</a></span></h2><p>Hugoの標準的な設定変数はテーマ全体を通して尊重されますが、最良のエクスペリエンスのために設定すべき特別なものもあります。</p>
+<p>サイトの設定は <code>config/_default/config.toml</code> ファイルで管理されます。下の表はCongoが利用するすべての設定の概要です。</p>
+<p>この表で提供される変数名は、TOML構造を簡略化するためにドット記法を使用していることに注意してください（つまり、 <code>outputs.home</code> は <code>[outputs] home</code> を指します）。</p>
+<!-- prettier-ignore-start -->
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>theme</code></td>
+<td><code>&quot;congo&quot;</code></td>
+<td>Hugo Modulesを使用する場合、この設定値は削除してください。他のすべてのインストールタイプでは、テーマを機能させるために <code>congo</code> に設定する必要があります。</td>
+</tr>
+<tr>
+<td><code>baseURL</code></td>
+<td><em>Not set</em></td>
+<td>ウェブサイトのルートへのURL。</td>
+</tr>
+<tr>
+<td><code>defaultContentLanguage</code></td>
+<td><code>&quot;en&quot;</code></td>
+<td>この値はテーマコンポーネントとコンテンツのデフォルト言語を決定します。サポートされる言語コードについては、下記の<a href="#%e8%a8%80%e8%aa%9e%e3%81%a8%e5%9b%bd%e9%9a%9b%e5%8c%96">言語と国際化</a>セクションを参照してください。</td>
+</tr>
+<tr>
+<td><code>enableRobotsTXT</code></td>
+<td><code>true</code></td>
+<td>有効にすると、サイトルートに <code>robots.txt</code> ファイルが作成され、検索エンジンがサイト全体をクロールできるようになります。あらかじめ用意されている <code>robots.txt</code> を利用したい場合は、<code>false</code> に設定して <code>static</code> ディレクトリにファイルを置いてください。完全にコントロールしたい場合は、<a href="">カスタムレイアウト</a>を指定してこのファイルを生成することができます。</td>
+</tr>
+<tr>
+<td><code>paginate</code></td>
+<td><code>10</code></td>
+<td>記事一覧の各ページに掲載される記事の数。</td>
+</tr>
+<tr>
+<td><code>summaryLength</code></td>
+<td><code>0</code></td>
+<td>記事の要約が<a href="">フロントマター</a>で提供されていない場合に、記事の要約を生成するために使われる単語の数。デフォルト値 <code>0</code> は最初の文章を使用します。この値は要約が非表示の場合には影響しません。</td>
+</tr>
+<tr>
+<td><code>outputs.home</code></td>
+<td><code>[&quot;HTML&quot;, &quot;RSS&quot;, &quot;JSON&quot;]</code></td>
+<td>生成される出力フォーマット。Congoでは、すべてのテーマコンポーネントが正しく動作するために、HTML、RSS、JSONが必要です。</td>
+</tr>
+<tr>
+<td><code>permalinks</code></td>
+<td><em>Not set</em></td>
+<td>パーマリンクの設定は<a href="https://gohugo.io/content-management/urls/#permalinks" target="_blank" rel="noreferrer">Hugo docs</a>を参照してください。</td>
+</tr>
+<tr>
+<td><code>taxonomies</code></td>
+<td><em>Not set</em></td>
+<td>Taxonomiesについては、<a href="">コンテンツの整理</a>セクションを参照してください。</td>
+</tr>
+</tbody>
+</table>
+<!-- prettier-ignore-end -->
+<h2 id="言語と国際化" class="relative group">言語と国際化 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%a8%80%e8%aa%9e%e3%81%a8%e5%9b%bd%e9%9a%9b%e5%8c%96" aria-label="Anchor">#</a></span></h2><p>Congoは完全な多言語ウェブサイト用に最適化されており、テーマのアセットはすぐに複数の言語に翻訳されます。言語設定により、複数バージョンのコンテンツを生成し、訪問者の母国語でカスタマイズされたエクスペリエンスを提供することができます。</p>
+<p>Congoは現在、以下の言語に対応しています:</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🇬🇧 <strong>English (default)</strong></td>
+<td><code>en</code></td>
+</tr>
+<tr>
+<td>🇪🇬 Arabic</td>
+<td><code>ar</code></td>
+</tr>
+<tr>
+<td>🇧🇩 Bengali</td>
+<td><code>bn</code></td>
+</tr>
+<tr>
+<td>🇧🇬 Bulgarian</td>
+<td><code>bg</code></td>
+</tr>
+<tr>
+<td>🇨🇳 Chinese - Simplified (China)</td>
+<td><code>zh-cn</code></td>
+</tr>
+<tr>
+<td>🇹🇼 Chinese - Traditional (Taiwan)</td>
+<td><code>zh-tw</code></td>
+</tr>
+<tr>
+<td>🇨🇿 Czech</td>
+<td><code>cs</code></td>
+</tr>
+<tr>
+<td>🇳🇱 Dutch</td>
+<td><code>nl</code></td>
+</tr>
+<tr>
+<td>🇫🇮 Finnish</td>
+<td><code>fi</code></td>
+</tr>
+<tr>
+<td>🇫🇷 French</td>
+<td><code>fr</code></td>
+</tr>
+<tr>
+<td>🇩🇪 German</td>
+<td><code>de</code></td>
+</tr>
+<tr>
+<td>🇮🇱 Hebrew</td>
+<td><code>he</code></td>
+</tr>
+<tr>
+<td>🇭🇺 Hungarian</td>
+<td><code>hu</code></td>
+</tr>
+<tr>
+<td>🇮🇩 Indonesian</td>
+<td><code>id</code></td>
+</tr>
+<tr>
+<td>🇮🇹 Italian</td>
+<td><code>it</code></td>
+</tr>
+<tr>
+<td>🇯🇵 Japanese</td>
+<td><code>ja</code></td>
+</tr>
+<tr>
+<td>🇵🇱 Polish</td>
+<td><code>pl</code></td>
+</tr>
+<tr>
+<td>🇧🇷 Portuguese (Brazil)</td>
+<td><code>pt-br</code></td>
+</tr>
+<tr>
+<td>🇵🇹 Portuguese (Portugal)</td>
+<td><code>pt-pt</code></td>
+</tr>
+<tr>
+<td>🇷🇴 Romanian</td>
+<td><code>ro</code></td>
+</tr>
+<tr>
+<td>🇷🇺 Russian</td>
+<td><code>ru</code></td>
+</tr>
+<tr>
+<td>🇸🇰 Slovak</td>
+<td><code>sk</code></td>
+</tr>
+<tr>
+<td>🇪🇸 Spanish (Spain)</td>
+<td><code>es</code></td>
+</tr>
+<tr>
+<td>🇹🇷 Turkish</td>
+<td><code>tr</code></td>
+</tr>
+<tr>
+<td>🇺🇦 Ukrainian</td>
+<td><code>uk</code></td>
+</tr>
+</tbody>
+</table>
+<p>翻訳文字列を含むカスタムファイルを <code>i18n/[code].yaml</code> に作成することでデフォルトの翻訳をオーバーライドできます。このメソッドを使って新しい言語を追加することもできます。新しい翻訳をコミュニティと共有したい場合、<a href="https://github.com/jpanther/congo/pulls" target="_blank" rel="noreferrer">Pull Request</a>を作ってください。</p>
+<h3 id="設定" class="relative group">設定 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%a8%ad%e5%ae%9a" aria-label="Anchor">#</a></span></h3><p>可能な限り柔軟に対応するために、ウェブサイトの言語ごとに言語設定ファイルを作成する必要があります。デフォルトでは、Congoは <code>config/_default/languages.en.toml</code> に英語の言語設定を含んでいます。</p>
+<p>英語以外の言語でウェブサイトを作成したい場合は、デフォルトのファイルをテンプレートとして使用したり、ファイル名を変更したりすることができます。ファイル名は <code>languages.[language-code].toml</code> という形式にしてください。</p>
+<div class="flex rounded-md bg-primary-100 px-4 py-3 dark:bg-primary-900">
+  <span class="pe-3 text-primary-400">
+    <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/></svg>
+</span>
+  </span>
+  <span class="dark:text-neutral-300"><strong>注記:</strong> <a href="#%e3%82%b5%e3%82%a4%e3%83%88%e8%a8%ad%e5%ae%9a">サイト設定</a>の <code>defaultContentLanguage</code> パラメーターが、言語設定ファイル名の <code>[language-code]</code> と一致していることを確認してください。</span>
+</div>
+
+<!-- prettier-ignore-start -->
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>languageCode</code></td>
+<td><code>&quot;en&quot;</code></td>
+<td>このファイルの言語コード。トップレベル言語 (例 <code>en</code>)またはサブ変数 (例 <code>en-AU</code>)で、ファイル名の <code>[language-code]</code> と一致する必要があります。</td>
+</tr>
+<tr>
+<td><code>languageName</code></td>
+<td><code>&quot;English&quot;</code></td>
+<td>言語名。</td>
+</tr>
+<tr>
+<td><code>languageDirection</code></td>
+<td><code>&quot;ltr&quot;</code></td>
+<td>RTL言語かどうか。 <code>&quot;rtl&quot;</code> に設定すると、コンテンツを右から左にリフローする。CongoはRTL言語とLTR言語の同時使用を完全にサポートしており、動的に両方の言語に調整します。</td>
+</tr>
+<tr>
+<td><code>weight</code></td>
+<td><code>1</code></td>
+<td>多言語サイトを構築する際の優先順序。</td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td><code>&quot;Congo&quot;</code></td>
+<td>ウェブサイトのタイトル。サイトのヘッダーとフッターに表示されます。</td>
+</tr>
+<tr>
+<td><code>copyright</code></td>
+<td><em>Not set</em></td>
+<td>サイトのフッターに表示する著作権メッセージを含むMarkdown文字列。何も指定されない場合、Congoは <code>title</code> を使って自動的にコピーライト文字列を生成します。</td>
+</tr>
+<tr>
+<td><code>params.dateFormat</code></td>
+<td><code>&quot;2 January 2006&quot;</code></td>
+<td>日付の書式。許容される書式については、<a href="https://gohugo.io/functions/format/#gos-layout-string" target="_blank" rel="noreferrer">Hugo docs</a>を参照してください。</td>
+</tr>
+<tr>
+<td><code>params.mainSections</code></td>
+<td><em>Not set</em></td>
+<td>最近の記事リストに表示するセクション。指定されていない場合は、記事の数が最も多いセクションが使われます。</td>
+</tr>
+<tr>
+<td><code>params.description</code></td>
+<td><em>Not set</em></td>
+<td>ウェブサイトの説明。これはサイトのメタデータに使用されます。</td>
+</tr>
+<tr>
+<td><code>params.author.name</code></td>
+<td><em>Not set</em></td>
+<td>著者の名前。これは記事のフッターと、プロフィールレイアウトが使用されている場合にホームページに表示されます。</td>
+</tr>
+<tr>
+<td><code>params.author.image</code></td>
+<td><em>Not set</em></td>
+<td>著者の画像ファイルへのパス。画像は縦横比1:1で、 <code>assets/</code> に置くこと。</td>
+</tr>
+<tr>
+<td><code>params.author.headline</code></td>
+<td><em>Not set</em></td>
+<td>著者の見出しを含むMarkdown文字列。プロフィールのトップページで著者の名前の下に表示されます。</td>
+</tr>
+<tr>
+<td><code>params.author.bio</code></td>
+<td><em>Not set</em></td>
+<td>著者の経歴を含むMarkdown文字列。記事のフッターに表示されます。</td>
+</tr>
+<tr>
+<td><code>params.author.links</code></td>
+<td><em>Not set</em></td>
+<td>著者の詳細とともに表示するリンク。設定ファイルにはリンクの例が含まれており、コメントを外すだけで有効にすることができます。リンクが表示される順番は、配列に表示される順番によって決まります。 <code>assets/icons/</code> に対応するSVGアイコンを用意することで、カスタムリンクを追加することもできます。</td>
+</tr>
+</tbody>
+</table>
+<!-- prettier-ignore-end -->
+<h3 id="メニュー" class="relative group">メニュー <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" aria-label="Anchor">#</a></span></h3><p>Congoは言語別メニュー設定もサポートしている。メニュー設定ファイルは、言語ファイルと同じ命名形式に従っています。ファイル名に言語コードを指定するだけで、そのファイルがどの言語に関連するかをHugoに伝えることができます。</p>
+<p>メニュー設定ファイルは <code>menus.[language-code].toml</code> という形式で命名されます。 <code>[language-code]</code> が設定と一致していることを常に確認してください。</p>
+<p><a href="">はじめに</a>セクションで、このファイルの構造について詳しく説明しています。また、<a href="https://gohugo.io/content-management/menus/" target="_blank" rel="noreferrer">Hugo menu docs</a>にも設定例があります。</p>
+<h2 id="テーマパラメーター" class="relative group">テーマパラメーター <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%83%86%e3%83%bc%e3%83%9e%e3%83%91%e3%83%a9%e3%83%a1%e3%83%bc%e3%82%bf%e3%83%bc" aria-label="Anchor">#</a></span></h2><p>Congoはテーマの機能を制御する多数の設定パラメーターを提供します。下の表は <code>config/_default/params.toml</code> ファイルで利用可能なパラメーターの概要です。</p>
+<p>パラメーターの多くは、フロントマターで指定することで、記事ごとに上書きすることができます。詳しくは、<a href="">フロントマター</a>セクションを参照してください。</p>
+<!-- prettier-ignore-start -->
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>colorScheme</code></td>
+<td><code>&quot;congo&quot;</code></td>
+<td>使用する配色。有効な値は <code>congo</code> (デフォルト), <code>avocado</code>, <code>cherry</code>, <code>fire</code>, <code>ocean</code>, <code>sapphire</code>, <code>slate</code> です。詳しくは <a href="">カラースキーム</a>セクションを参照してください。</td>
+</tr>
+<tr>
+<td><code>defaultAppearance</code></td>
+<td><code>&quot;light&quot;</code></td>
+<td>デフォルトのテーマ外観、 <code>light</code> または <code>dark</code> のいずれか。</td>
+</tr>
+<tr>
+<td><code>autoSwitchAppearance</code></td>
+<td><code>true</code></td>
+<td>テーマの外観を訪問者のオペレーティングシステムの設定に基づいて自動的に切り替えるかどうか。常に <code>defaultAppearance</code> を使うようにするには <code>false</code> を設定します。</td>
+</tr>
+<tr>
+<td><code>enableSearch</code></td>
+<td><code>false</code></td>
+<td>サイト内検索を有効にするかどうか。検索機能を有効にするには <code>true</code> を設定します。検索機能は、<a href="#%e3%82%b5%e3%82%a4%e3%83%88%e8%a8%ad%e5%ae%9a">サイト設定</a>の <code>outputs.home</code> が正しく設定されているかどうかに依存することに注意してください。</td>
+</tr>
+<tr>
+<td><code>enableCodeCopy</code></td>
+<td><code>false</code></td>
+<td><code>&lt;code&gt;</code> ブロックに対してクリップボードへのコピーボタンを有効にするかどうか。 <code>highlight.noClasses</code> が <code>false</code> に設定されていなければ、コードコピーは正しく機能しません。<a href="#%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%ae%e8%a8%ad%e5%ae%9a%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab">その他の設定ファイル</a>については以下を参照してください。</td>
+</tr>
+<tr>
+<td><code>enableImageLazyLoading</code></td>
+<td><code>true</code></td>
+<td>ブラウザが遅延ロードするように画像をマークするかどうか。</td>
+</tr>
+<tr>
+<td><code>robots</code></td>
+<td><em>Not set</em></td>
+<td>ロボットがあなたのサイトをどのように扱うべきかを示す文字列。設定された場合、 <code>&lt;head&gt;</code> に出力されます。有効な値については<a href="https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#directives" target="_blank" rel="noreferrer">Googleのドキュメント</a>を参照してください。</td>
+</tr>
+<tr>
+<td><code>fingerprintAlgorithm</code></td>
+<td><code>&quot;sha256&quot;</code></td>
+<td><code>assets</code> にフィンガープリントを行う際のハッシュアルゴリズム。有効なオプションは <code>md5</code>、<code>sha256</code>、<code>sha384</code> および <code>sha512</code> です。</td>
+</tr>
+<tr>
+<td><code>header.layout</code></td>
+<td><code>&quot;basic&quot;</code></td>
+<td>ヘッダーとメニューのレイアウト。有効な値は <code>basic</code>、<code>hamburger</code>、<code>hybrid</code>または<code>custom</code>です。 <code>custom</code> に設定した場合は、 <code>/layouts/partials/header/custom.html</code> ファイルを作成して独自のレイアウトを指定する必要があります。</td>
+</tr>
+<tr>
+<td><code>header.logo</code></td>
+<td><em>Not set</em></td>
+<td><code>assets/</code> 内のロゴファイルへの相対パス。ロゴファイルは2倍の解像度で提供され、任意の画像サイズに対応している必要があります。</td>
+</tr>
+<tr>
+<td><code>header.logoDark</code></td>
+<td><em>Not set</em></td>
+<td><code>dark</code> モード時に使用されるロゴファイルへの相対パス。</td>
+</tr>
+<tr>
+<td><code>header.showTitle</code></td>
+<td><code>true</code></td>
+<td>サイトのタイトルをヘッダーに表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>footer.showCopyright</code></td>
+<td><code>true</code></td>
+<td>サイトフッターにコピーライト文字列を表示するかどうか。<a href="#%e8%a8%80%e8%aa%9e%e3%81%a8%e5%9b%bd%e9%9a%9b%e5%8c%96">言語と国際化</a>の <code>copyright</code> パラメーターを使って文字列自体をカスタマイズできます。</td>
+</tr>
+<tr>
+<td><code>footer.showThemeAttribution</code></td>
+<td><code>true</code></td>
+<td>&ldquo;Powered by Hugo &amp; Congo&rdquo; といった帰属表示をフッターに表示するかどうか。この表示を無効にする場合は、サイト上の他の場所（例えば、アバウトページなど）でテーマの帰属を表示することを検討してください。</td>
+</tr>
+<tr>
+<td><code>footer.showAppearanceSwitcher</code></td>
+<td><code>false</code></td>
+<td>フッターに外観スイッチャーを表示するかどうか。訪問者の設定を保持するためにブラウザのローカルストレージが使用されます。</td>
+</tr>
+<tr>
+<td><code>footer.showScrollToTop</code></td>
+<td><code>true</code></td>
+<td><code>true</code> に設定すると、最上部にスクロールする矢印が表示されます。</td>
+</tr>
+<tr>
+<td><code>homepage.layout</code></td>
+<td><code>&quot;page&quot;</code></td>
+<td>ホームページのレイアウト。有効な値は <code>page</code>, <code>profile</code> または <code>custom</code> です。 <code>custom</code> に設定した場合は、 <code>/layouts/partials/home/custom.html</code> ファイルを作成して、独自のレイアウトを指定する必要があります。詳しくは<a href="">ホームページレイアウト</a>セクションを参照してください。</td>
+</tr>
+<tr>
+<td><code>homepage.showRecent</code></td>
+<td><code>false</code></td>
+<td>ホームページに最近の記事リストを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>homepage.recentLimit</code></td>
+<td><code>5</code></td>
+<td><code>homepage.showRecent</code> が <code>true</code> の場合に表示する最近の記事の最大数。</td>
+</tr>
+<tr>
+<td><code>article.showDate</code></td>
+<td><code>true</code></td>
+<td>記事が作成された日付を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showDateUpdated</code></td>
+<td><code>false</code></td>
+<td>記事が更新された日付を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showAuthor</code></td>
+<td><code>true</code></td>
+<td>記事フッターに著者欄を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showBreadcrumbs</code></td>
+<td><code>false</code></td>
+<td>記事のヘッダーにパンくずリストを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showDraftLabel</code></td>
+<td><code>true</code></td>
+<td><code>--buildDrafts</code> でビルドしたときに、記事の横に下書きインジケータを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showEdit</code></td>
+<td><code>false</code></td>
+<td>記事の内容を編集するためのリンクを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.editURL</code></td>
+<td><em>Not set</em></td>
+<td><code>article.showEdit</code> がアクティブな場合の編集リンクのURL。</td>
+</tr>
+<tr>
+<td><code>article.editAppendPath</code></td>
+<td><code>true</code></td>
+<td><code>article.editURL</code>で設定されたURLに現在の記事へのパスを追加するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showHeadingAnchors</code></td>
+<td><code>true</code></td>
+<td>見出しアンカーリンクを記事内の見出しと一緒に表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showPagination</code></td>
+<td><code>true</code></td>
+<td>記事のフッターに次/前の記事リンクを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.invertPagination</code></td>
+<td><code>false</code></td>
+<td>次の記事/前の記事リンクの向きを反転させるかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showReadingTime</code></td>
+<td><code>true</code></td>
+<td>記事の予想読了時間を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showTableOfContents</code></td>
+<td><code>false</code></td>
+<td>記事に目次を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showTaxonomies</code></td>
+<td><code>false</code></td>
+<td>この記事に関連するTaxonomiesを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showWordCount</code></td>
+<td><code>false</code></td>
+<td>記事の単語数を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>article.showComments</code></td>
+<td><code>false</code></td>
+<td><a href="">コメント</a>を記事フッターの後に含めるかどうか。</td>
+</tr>
+<tr>
+<td><code>article.sharingLinks</code></td>
+<td><em>Not set</em></td>
+<td>各記事の最後に共有リンクを表示するかどうか。 <code>false</code> にすると共有リンクは表示されません。</td>
+</tr>
+<tr>
+<td><code>list.showBreadcrumbs</code></td>
+<td><code>false</code></td>
+<td>リストページのヘッダーにパンくずリストを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>list.showTableOfContents</code></td>
+<td><code>false</code></td>
+<td>リストページに目次を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>list.showTaxonomies</code></td>
+<td><code>false</code></td>
+<td>リストページに関連するTaxonomiesを表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>list.showSummary</code></td>
+<td><code>false</code></td>
+<td>リストページに記事の要約を表示するかどうか。もし<a href="">フロントマター</a>で要約が提供されていない場合、<a href="#%e3%82%b5%e3%82%a4%e3%83%88%e8%a8%ad%e5%ae%9a">サイト設定</a>の <code>summaryLength</code> パラメーターを使って要約が自動生成されます。</td>
+</tr>
+<tr>
+<td><code>list.groupByYear</code></td>
+<td><code>true</code></td>
+<td>リストページで記事を年ごとにグループ化するかどうか。</td>
+</tr>
+<tr>
+<td><code>list.paginationWidth</code></td>
+<td><code>1</code></td>
+<td>リストページを切り詰める際に、現在のページの両側にいくつのページネーションリンクを出力するか。 <code>1</code> の場合、現在のページの両側に1つのリンクを出力します。 <em>最初のページ</em> と <em>最後のページ</em> へのリンクは常に表示され、この値に追加されます。</td>
+</tr>
+<tr>
+<td><code>sitemap.excludedKinds</code></td>
+<td><code>[&quot;taxonomy&quot;, &quot;term&quot;]</code></td>
+<td>生成される <code>/sitemap.xml</code> から除外されるべきコンテンツの種類。許容される値については<a href="https://gohugo.io/templates/section-templates/#page-kinds" target="_blank" rel="noreferrer">Hugo docs</a>を参照してください。</td>
+</tr>
+<tr>
+<td><code>taxonomy.showTermCount</code></td>
+<td><code>true</code></td>
+<td>TaxonomiesのリストにTermごとの記事数を表示するかどうか。</td>
+</tr>
+<tr>
+<td><code>fathomAnalytics.site</code></td>
+<td><em>Not set</em></td>
+<td>Fathom Analyticsによって生成されたウェブサイトのサイトコード。詳細は<a href="">アナリティクス</a>を参照してください。</td>
+</tr>
+<tr>
+<td><code>verification.google</code></td>
+<td><em>Not set</em></td>
+<td>サイトのメタデータに含めるGoogleが提供するサイト検証文字列。</td>
+</tr>
+<tr>
+<td><code>verification.bing</code></td>
+<td><em>Not set</em></td>
+<td>サイトのメタデータに含めるBingが提供するサイト検証文字列。</td>
+</tr>
+<tr>
+<td><code>verification.pinterest</code></td>
+<td><em>Not set</em></td>
+<td>サイトのメタデータに含めるPinterestが提供するサイト検証文字列。</td>
+</tr>
+<tr>
+<td><code>verification.yandex</code></td>
+<td><em>Not set</em></td>
+<td>サイトのメタデータに含めるYandexが提供するサイト検証文字列。</td>
+</tr>
+</tbody>
+</table>
+<!-- prettier-ignore-end -->
+<h2 id="その他の設定ファイル" class="relative group">その他の設定ファイル <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%ae%e8%a8%ad%e5%ae%9a%e3%83%95%e3%82%a1%e3%82%a4%e3%83%ab" aria-label="Anchor">#</a></span></h2><p>このテーマには <code>markup.toml</code> 設定ファイルも含まれています。このファイルにはいくつかの重要なパラメータが含まれており、Congoで構築されたサイトを生成するためにHugoが正しく設定されるようにします。</p>
+<p>このファイルがconfigディレクトリに存在し、必要な値が設定されていることを常に確認してください。これを行わないと、特定の機能が正しく動作しなかったり、意図しない動作になったりする可能性があります。</p>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+
+      
+
+      
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="group flex" href="/docs/installation/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Installation</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="group flex text-right" href="/docs/homepage-layout/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Homepage Layout</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
+            <a
+              href="#the-top"
+              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+              aria-label="Scroll to top"
+              title="Scroll to top"
+            >
+              &uarr;
+            </a>
+          </div>
+        
+      </main><footer class="py-10 print:hidden">
+  
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2024
+            
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+    </div>
+  </div>
+  
+  
+</footer>
+
+    </div>
+  </body>
+</html>
