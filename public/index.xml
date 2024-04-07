@@ -38,13 +38,6 @@
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>http://localhost:1313/projects/climatechange/</link>
-      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/climatechange/</guid>
-      <description>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</description>
-    </item>
-    <item>
-      <title>Climate Change and Central Banks</title>
       <link>http://localhost:1313/blog/climate_central_banks/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/climate_central_banks/</guid>
@@ -93,66 +86,10 @@
       <description>Macroeconomics - 2</description>
     </item>
     <item>
-      <title>Upgrading from Congo 1.x</title>
-      <link>http://localhost:1313/docs/version-2/upgrade/</link>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/version-2/upgrade/</guid>
-      <description>Although Congo 2.</description>
-    </item>
-    <item>
-      <title>Upgrading from Congo 1.x</title>
-      <link>http://localhost:1313/projects/version-2/upgrade/</link>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/version-2/upgrade/</guid>
-      <description>Although Congo 2.</description>
-    </item>
-    <item>
-      <title>2.0版本新特性 ✨</title>
-      <link>http://localhost:1313/docs/version-2/_index.zh-cn/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/version-2/_index.zh-cn/</guid>
-      <description>2.0版本将Congo推向新的高度，使主题变得更加强大，同时仍然保持其轻量的特点。</description>
-    </item>
-    <item>
-      <title>2.0版本新特性 ✨</title>
-      <link>http://localhost:1313/projects/version-2/_index.zh-cn/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/version-2/_index.zh-cn/</guid>
-      <description>2.0版本将Congo推向新的高度，使主题变得更加强大，同时仍然保持其轻量的特点。</description>
-    </item>
-    <item>
-      <title>What&#39;s New in 2.0 ✨</title>
-      <link>http://localhost:1313/docs/version-2/_index.ja/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/version-2/_index.ja/</guid>
-      <description>Version 2.0では、Congoを新たな高みへと導き、その軽量さを維持しながらも、テーマをさらに強力なものにしています。</description>
-    </item>
-    <item>
-      <title>What&#39;s New in 2.0 ✨</title>
-      <link>http://localhost:1313/projects/version-2/_index.ja/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/version-2/_index.ja/</guid>
-      <description>Version 2.0では、Congoを新たな高みへと導き、その軽量さを維持しながらも、テーマをさらに強力なものにしています。</description>
-    </item>
-    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>http://localhost:1313/docs/installation/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/installation/</guid>
-      <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
-    </item>
-    <item>
-      <title>Installation</title>
-      <link>http://localhost:1313/projects/installation/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/installation/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
     <item>
@@ -161,209 +98,6 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/teaching/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
-    </item>
-    <item>
-      <title>Getting Started</title>
-      <link>http://localhost:1313/docs/getting-started/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/getting-started/</guid>
-      <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
-    </item>
-    <item>
-      <title>Getting Started</title>
-      <link>http://localhost:1313/projects/getting-started/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/getting-started/</guid>
-      <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
-    </item>
-    <item>
-      <title>Configuration</title>
-      <link>http://localhost:1313/docs/configuration/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/configuration/</guid>
-      <description>Discover all the site, language and theme configurations that are available in Congo and how they can be used to customise your project.</description>
-    </item>
-    <item>
-      <title>Configuration</title>
-      <link>http://localhost:1313/projects/configuration/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/configuration/</guid>
-      <description>Discover all the site, language and theme configurations that are available in Congo and how they can be used to customise your project.</description>
-    </item>
-    <item>
-      <title>Icons</title>
-      <link>http://localhost:1313/samples/icons/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/icons/</guid>
-      <description>Congo has built-in support for a number of FontAwesome 6 icons.</description>
-    </item>
-    <item>
-      <title>Users</title>
-      <link>http://localhost:1313/users/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/users/</guid>
-      <description>Real websites that have been built using Congo.</description>
-    </item>
-    <item>
-      <title>Homepage Layout</title>
-      <link>http://localhost:1313/docs/homepage-layout/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/homepage-layout/</guid>
-      <description>Congo provides a fully flexible homepage layout with built-in templates and the ability to provide your own.</description>
-    </item>
-    <item>
-      <title>Homepage Layout</title>
-      <link>http://localhost:1313/projects/homepage-layout/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/homepage-layout/</guid>
-      <description>Congo provides a fully flexible homepage layout with built-in templates and the ability to provide your own.</description>
-    </item>
-    <item>
-      <title>Front Matter</title>
-      <link>http://localhost:1313/docs/front-matter/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/front-matter/</guid>
-      <description>While supporting most Hugo defaults, Congo adds a number of front matter parameters to customise the presentation of individual articles.</description>
-    </item>
-    <item>
-      <title>Front Matter</title>
-      <link>http://localhost:1313/projects/front-matter/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/front-matter/</guid>
-      <description>While supporting most Hugo defaults, Congo adds a number of front matter parameters to customise the presentation of individual articles.</description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/docs/shortcodes/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/shortcodes/</guid>
-      <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/projects/shortcodes/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/shortcodes/</guid>
-      <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
-    </item>
-    <item>
-      <title>Partials</title>
-      <link>http://localhost:1313/docs/partials/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/partials/</guid>
-      <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
-    </item>
-    <item>
-      <title>Partials</title>
-      <link>http://localhost:1313/projects/partials/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/partials/</guid>
-      <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
-    </item>
-    <item>
-      <title>Content Examples</title>
-      <link>http://localhost:1313/docs/content-examples/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/content-examples/</guid>
-      <description>It&amp;rsquo;s time to bring everything together with some examples that demonstrate how content should be created and structured.</description>
-    </item>
-    <item>
-      <title>Content Examples</title>
-      <link>http://localhost:1313/projects/content-examples/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/content-examples/</guid>
-      <description>It&amp;rsquo;s time to bring everything together with some examples that demonstrate how content should be created and structured.</description>
-    </item>
-    <item>
-      <title>Advanced Customisation</title>
-      <link>http://localhost:1313/docs/advanced-customisation/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/advanced-customisation/</guid>
-      <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
-    </item>
-    <item>
-      <title>Advanced Customisation</title>
-      <link>http://localhost:1313/projects/advanced-customisation/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/advanced-customisation/</guid>
-      <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
-    </item>
-    <item>
-      <title>Hosting &amp; Deployment</title>
-      <link>http://localhost:1313/docs/hosting-deployment/</link>
-      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/hosting-deployment/</guid>
-      <description>Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.</description>
-    </item>
-    <item>
-      <title>Hosting &amp; Deployment</title>
-      <link>http://localhost:1313/projects/hosting-deployment/</link>
-      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/hosting-deployment/</guid>
-      <description>Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.</description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/samples/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Congo, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rich Content</title>
-      <link>http://localhost:1313/samples/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/rich-content/</guid>
-      <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
-    </item>
-    <item>
-      <title>Mathematical notation</title>
-      <link>http://localhost:1313/samples/mathematical-notation/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/mathematical-notation/</guid>
-      <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Charts</title>
-      <link>http://localhost:1313/samples/charts/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/charts/</guid>
-      <description>Congo includes Chart.js for powerful charts and data visualisations.</description>
-    </item>
-    <item>
-      <title>Diagrams and Flowcharts</title>
-      <link>http://localhost:1313/samples/diagrams-flowcharts/</link>
-      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/diagrams-flowcharts/</guid>
-      <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
-    </item>
-    <item>
-      <title>Emoji :parachute:</title>
-      <link>http://localhost:1313/samples/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/emoji/</guid>
-      <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/docs/version-2/lighthouse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/version-2/lighthouse/</guid>
-      <description>Lighthouse Report Lighthouse report requires JavaScript.</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/projects/version-2/lighthouse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/version-2/lighthouse/</guid>
-      <description>Lighthouse Report Lighthouse report requires JavaScript.</description>
-    </item>
-    <item>
-      <title>¡Bienvenido a Congo! :tada:</title>
-      <link>http://localhost:1313/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_index.es/</guid>
-      <description>Un tema poderoso y liviano para Hugo creado con Tailwind CSS.</description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
@@ -408,25 +142,11 @@
       <description>Esta es la etiqueta avanzada.</description>
     </item>
     <item>
-      <title>Beispiele für Inhalte</title>
-      <link>http://localhost:1313/samples/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/_index.de/</guid>
-      <description>Congo erweckt deinen Inhalt zum Leben.</description>
-    </item>
-    <item>
       <title>Climate Change and Central Banks</title>
       <link>http://localhost:1313/posts/climate_central_banks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/climate_central_banks/</guid>
       <description>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</description>
-    </item>
-    <item>
-      <title>Congoへようこそ! :tada:</title>
-      <link>http://localhost:1313/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_index.ja/</guid>
-      <description>Tailwind CSSをベースに開発された強力で軽量なHugo向けテーマ。 これはCongoを使って構築されたデモサイトです。 Congoに関するドキュメントも含まれています。 Congoは柔軟性に富み、静的なコンテンツ配信にも、投稿フィード機能を持つようなBlogにも適しています。</description>
     </item>
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>
@@ -492,13 +212,6 @@
       <description>The illustration includes elements such as bank buildings, currency symbols, financial charts, and educational tools, emphasizing the themes of monetary systems, banking operations, financial markets, and economic theory.</description>
     </item>
     <item>
-      <title>Páginas de ejemplo</title>
-      <link>http://localhost:1313/samples/_index.es/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/_index.es/</guid>
-      <description>Congo da vida a su contenido.</description>
-    </item>
-    <item>
       <title>Quantitative [Macro] Economics</title>
       <link>http://localhost:1313/posts/ec106/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -560,62 +273,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/monetary_policy_and_futures_markets/</guid>
       <description>The illustration capturing the dynamics of the futures market has been created, showcasing various aspects of trading.</description>
-    </item>
-    <item>
-      <title>Willkommen bei Congo! :tada:</title>
-      <link>http://localhost:1313/_index.de/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_index.de/</guid>
-      <description>Ein mächtiges und gleichzeitig leichtes Theme für Hugo, das mit Tailwind CSS erstellt wurde.</description>
-    </item>
-    <item>
-      <title>サンプル</title>
-      <link>http://localhost:1313/samples/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/_index.ja/</guid>
-      <description>Congoはあなたのコンテンツに命を吹き込みます :heart_eyes: このセクションには、Congoがさまざまなタイプのコンテンツをどのようにレンダリングするかを示すいくつかのデモページがあります。また、Tagsページの例も見ることができます。</description>
-    </item>
-    <item>
-      <title>ドキュメント</title>
-      <link>http://localhost:1313/docs/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/_index.ja/</guid>
-      <description>シンプルでパワフル。Congoの使い方と特徴をご紹介します。 このセクションにはCongoの知るべきすべてが含まれています。もしあなたがCongoに触れるのが初めてならば、インストールガイドを読むか、例を見て、Congoは何ができるか確認してください。</description>
-    </item>
-    <item>
-      <title>ドキュメント</title>
-      <link>http://localhost:1313/projects/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/_index.ja/</guid>
-      <description>シンプルでパワフル。Congoの使い方と特徴をご紹介します。 このセクションにはCongoの知るべきすべてが含まれています。もしあなたがCongoに触れるのが初めてならば、インストールガイドを読むか、例を見て、Congoは何ができるか確認してください。</description>
-    </item>
-    <item>
-      <title>内容样例</title>
-      <link>http://localhost:1313/samples/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/_index.zh-cn/</guid>
-      <description>Congo让您的内容栩栩如生。 :heart_eyes: 这个部分包含一些演示页面，展示了Congo 如何呈现不同类型的内容。您还可以查看一个 分类法列表 页面的示例。</description>
-    </item>
-    <item>
-      <title>文档</title>
-      <link>http://localhost:1313/docs/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/docs/_index.zh-cn/</guid>
-      <description>简单而强大。了解如何使用Congo及其功能。 该部分包含关于Congo的所有必要信息。如果您是新手，请查看 安装 指南以开始，或访问 示例 部分查看Congo的功能。</description>
-    </item>
-    <item>
-      <title>文档</title>
-      <link>http://localhost:1313/projects/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/_index.zh-cn/</guid>
-      <description>简单而强大。了解如何使用Congo及其功能。 该部分包含关于Congo的所有必要信息。如果您是新手，请查看 安装 指南以开始，或访问 示例 部分查看Congo的功能。</description>
-    </item>
-    <item>
-      <title>欢迎使用Congo! :tada:</title>
-      <link>http://localhost:1313/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/_index.zh-cn/</guid>
-      <description>一款基于Tailwindcss的强大且轻量Hugo主题 这是一个完全使用Congo构建的演示站点。它还包含一个完整的 主题文档 集。Congo是灵活的，非常适合静态基于页面的内容（就像你看到的这个演示）或具有最新文章的传统博客。</description>
     </item>
   </channel>
 </rss>

@@ -15,19 +15,5 @@
       <guid>http://localhost:1313/docs/advanced-customisation/</guid>
       <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
     </item>
-    <item>
-      <title>Advanced Customisation</title>
-      <link>http://localhost:1313/projects/advanced-customisation/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/advanced-customisation/</guid>
-      <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
-    </item>
-    <item>
-      <title>Markdown</title>
-      <link>http://localhost:1313/samples/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/samples/markdown/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Congo, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

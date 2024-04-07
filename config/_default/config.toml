@@ -6,7 +6,7 @@ baseURL = "https://fatih.ai"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 15
+paginate = 9
 summaryLength = 0
 
 [outputs]

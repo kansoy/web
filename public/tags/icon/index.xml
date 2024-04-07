@@ -16,24 +16,10 @@
       <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
     </item>
     <item>
-      <title>Shortcodes</title>
-      <link>http://localhost:1313/projects/shortcodes/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/shortcodes/</guid>
-      <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
-    </item>
-    <item>
       <title>Partials</title>
       <link>http://localhost:1313/docs/partials/</link>
       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/partials/</guid>
-      <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
-    </item>
-    <item>
-      <title>Partials</title>
-      <link>http://localhost:1313/projects/partials/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/partials/</guid>
       <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
     </item>
   </channel>
