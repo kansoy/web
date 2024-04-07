@@ -8,6 +8,15 @@ slug: "teaching"
 tags: ["teaching", "courses"]
 ---
 
+
+- [Teaching Philosophy](#teaching-philosophy)
+- [Courses](#courses)
+  - [Courses for Masters](#courses-for-masters)
+  - [Courses for Undergraduate](#courses-for-undergraduate)
+  - [Courses for Summer School](#courses-for-summer-school)
+  - [Dissertation Supervision](#dissertation-supervision)
+
+---
 Welcome to my teaching page. I teach a range of courses designed to deepen understanding in finance and economics. On this page, you'll find detailed syllabi, course outlines, recommended readings, and additional resources to support student learning.
 ![Teaching Portfolio](/img/teachingfeynman.png)
 
@@ -19,27 +28,27 @@ My teaching philosophy is deeply inspired by [**Richard Feynman**](https://en.wi
 
 ### Courses for Masters
 
-- [Topics in Global Finance (EC916) - Department of Economics - Module Leader](/posts/ec916)
+- [Topics in Global Finance (EC916) - Department of Economics - Module Leader](/blog/ec916)
 
-- [Macroeconomics (EC956) - Warwick Business School - Module Leader](/posts/ec956)
+- [Macroeconomics (EC956) - Warwick Business School - Module Leader](/blog/ec956)
 
-- [Economic Analysis (EC9DA) - Department of Economics - Lead Tutor](/posts/ec9da)
+- [Economic Analysis (EC9DA) - Department of Economics - Lead Tutor](/blog/ec9da)
 
 ### Courses for Undergraduate
 
--  [Quantitative Economics (EC106) - Dept of Math. - Module|Section Leader](/posts/ec106)
+-  [Quantitative Economics (EC106) - Dept of Math. - Module|Section Leader](/blog/ec106)
 
--  [Macroeconomics 2 (EC201) - Dept of Economics - Lead Tutor](/posts/ec201)
+-  [Macroeconomics 2 (EC201) - Dept of Economics - Lead Tutor](/blog/ec201)
 
--  [Financial Economics (EC333) - Department of Economics - Tutor](/posts/ec333)
+-  [Financial Economics (EC333) - Department of Economics - Tutor](/blog/ec333)
 
--  [Research in Applied Economics (EC331) - Dept. of Economics - Supervisor](/posts/ec331)
+-  [Research in Applied Economics (EC331) - Dept. of Economics - Supervisor](/blog/ec331)
 
 ### Courses for Summer School
 
--  [Money, Banking and Finance - Module Leader](/posts/money_and_banking)
+-  [Money, Banking and Finance - Module Leader](/blog/money_and_banking)
 
--  [Finance in the 21st Century (Including Cryptocurrencies) - Module Leader](/posts/finance21)
+-  [Finance in the 21st Century (Including Cryptocurrencies) - Module Leader](/blog/finance21)
 
 ### Dissertation Supervision
 

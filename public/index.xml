@@ -6,14 +6,91 @@
     <description>Recent content in fatih.ai on Fatih Kansoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Upgrading from Congo 1.x</title>
-      <link>http://localhost:1313/blog/version-2/upgrade/</link>
-      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/version-2/upgrade/</guid>
-      <description>Although Congo 2.</description>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>On this Research page, you&amp;rsquo;ll find my research interests: central bank communication, empirical finance, applied economics, and the economics of artificial intelligence.</description>
+    </item>
+    <item>
+      <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics✨</title>
+      <link>http://localhost:1313/blog/projects_news/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/projects_news/</guid>
+      <description>I am thrilled to share that I have recently been awarded approximately £10K in funding from the Department of Economics for three dynamic projects, each designed to merge empirical research with educational innovation in finance and economics.</description>
+    </item>
+    <item>
+      <title>Macroconomics</title>
+      <link>http://localhost:1313/blog/ec956/</link>
+      <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec956/</guid>
+      <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
+    </item>
+    <item>
+      <title>Quantitative [Macro] Economics</title>
+      <link>http://localhost:1313/blog/ec106/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec106/</guid>
+      <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
+    </item>
+    <item>
+      <title>Climate Change and Central Banks</title>
+      <link>http://localhost:1313/projects/climatechange/</link>
+      <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/climatechange/</guid>
+      <description>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</description>
+    </item>
+    <item>
+      <title>Climate Change and Central Banks</title>
+      <link>http://localhost:1313/blog/climate_central_banks/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/climate_central_banks/</guid>
+      <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
+    </item>
+    <item>
+      <title>EC916 Topics in Global Finace </title>
+      <link>http://localhost:1313/blog/ec916/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec916/</guid>
+      <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
+    </item>
+    <item>
+      <title>Money and Banking</title>
+      <link>http://localhost:1313/blog/money_and_banking/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/money_and_banking/</guid>
+      <description>The course will relate this to recent economic events which have reverberated worldwide. It is particularly suitable for students wishing to enter careers in financial markets or further study in this area. The Money and Banking course will look at some key issues in the theory and practice of financial markets, monetary policy and banking and how their interactions affect the real world.</description>
+    </item>
+    <item>
+      <title>Understanding the Impact of Monetary Policy on Futures Markets</title>
+      <link>http://localhost:1313/blog/monetary_policy_and_futures_markets/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/monetary_policy_and_futures_markets/</guid>
+      <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
+    </item>
+    <item>
+      <title>Macroeconomics</title>
+      <link>http://localhost:1313/blog/macroeconomics/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/macroeconomics/</guid>
+      <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
+    </item>
+    <item>
+      <title>Finance in the 21st Century </title>
+      <link>http://localhost:1313/blog/finance21/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/finance21/</guid>
+      <description>I teach an engaging summer school course at the University of Warwick, specifically tailored for about 200 pre-university students from across the world. This course covers three significant areas: the evolving landscape of digital currencies like Bitcoin and their potential to redefine traditional monetary systems; the vital role of central banks in addressing the global climate crisis and maintaining financial stability; and the impact of big financial data, AI, machine learning, and algorithmic trading on financial markets</description>
+    </item>
+    <item>
+      <title>Macroeconomics - 2</title>
+      <link>http://localhost:1313/blog/ec201/</link>
+      <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec201/</guid>
+      <description>Macroeconomics - 2</description>
     </item>
     <item>
       <title>Upgrading from Congo 1.x</title>
@@ -31,13 +108,6 @@
     </item>
     <item>
       <title>2.0版本新特性 ✨</title>
-      <link>http://localhost:1313/blog/version-2/_index.zh-cn/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/version-2/_index.zh-cn/</guid>
-      <description>2.0版本将Congo推向新的高度，使主题变得更加强大，同时仍然保持其轻量的特点。</description>
-    </item>
-    <item>
-      <title>2.0版本新特性 ✨</title>
       <link>http://localhost:1313/docs/version-2/_index.zh-cn/</link>
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/version-2/_index.zh-cn/</guid>
@@ -49,13 +119,6 @@
       <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/version-2/_index.zh-cn/</guid>
       <description>2.0版本将Congo推向新的高度，使主题变得更加强大，同时仍然保持其轻量的特点。</description>
-    </item>
-    <item>
-      <title>What&#39;s New in 2.0 ✨</title>
-      <link>http://localhost:1313/blog/version-2/_index.ja/</link>
-      <pubDate>Wed, 19 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/version-2/_index.ja/</guid>
-      <description>Version 2.0では、Congoを新たな高みへと導き、その軽量さを維持しながらも、テーマをさらに強力なものにしています。</description>
     </item>
     <item>
       <title>What&#39;s New in 2.0 ✨</title>
@@ -80,13 +143,6 @@
     </item>
     <item>
       <title>Installation</title>
-      <link>http://localhost:1313/blog/installation/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/installation/</guid>
-      <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
-    </item>
-    <item>
-      <title>Installation</title>
       <link>http://localhost:1313/docs/installation/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/installation/</guid>
@@ -100,25 +156,11 @@
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
     <item>
-      <title>Research</title>
-      <link>http://localhost:1313/research/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
-      <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
-    </item>
-    <item>
       <title>Teaching</title>
       <link>http://localhost:1313/teaching/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/teaching/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
-    </item>
-    <item>
-      <title>Getting Started</title>
-      <link>http://localhost:1313/blog/getting-started/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/getting-started/</guid>
-      <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
     </item>
     <item>
       <title>Getting Started</title>
@@ -133,13 +175,6 @@
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/getting-started/</guid>
       <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
-    </item>
-    <item>
-      <title>Configuration</title>
-      <link>http://localhost:1313/blog/configuration/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/configuration/</guid>
-      <description>Discover all the site, language and theme configurations that are available in Congo and how they can be used to customise your project.</description>
     </item>
     <item>
       <title>Configuration</title>
@@ -171,13 +206,6 @@
     </item>
     <item>
       <title>Homepage Layout</title>
-      <link>http://localhost:1313/blog/homepage-layout/</link>
-      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/homepage-layout/</guid>
-      <description>Congo provides a fully flexible homepage layout with built-in templates and the ability to provide your own.</description>
-    </item>
-    <item>
-      <title>Homepage Layout</title>
       <link>http://localhost:1313/docs/homepage-layout/</link>
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/homepage-layout/</guid>
@@ -189,13 +217,6 @@
       <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/homepage-layout/</guid>
       <description>Congo provides a fully flexible homepage layout with built-in templates and the ability to provide your own.</description>
-    </item>
-    <item>
-      <title>Front Matter</title>
-      <link>http://localhost:1313/blog/front-matter/</link>
-      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/front-matter/</guid>
-      <description>While supporting most Hugo defaults, Congo adds a number of front matter parameters to customise the presentation of individual articles.</description>
     </item>
     <item>
       <title>Front Matter</title>
@@ -213,13 +234,6 @@
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>http://localhost:1313/blog/shortcodes/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/shortcodes/</guid>
-      <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
       <link>http://localhost:1313/docs/shortcodes/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/shortcodes/</guid>
@@ -231,13 +245,6 @@
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/shortcodes/</guid>
       <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
-    </item>
-    <item>
-      <title>Partials</title>
-      <link>http://localhost:1313/blog/partials/</link>
-      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/partials/</guid>
-      <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
     </item>
     <item>
       <title>Partials</title>
@@ -255,13 +262,6 @@
     </item>
     <item>
       <title>Content Examples</title>
-      <link>http://localhost:1313/blog/content-examples/</link>
-      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/content-examples/</guid>
-      <description>It&amp;rsquo;s time to bring everything together with some examples that demonstrate how content should be created and structured.</description>
-    </item>
-    <item>
-      <title>Content Examples</title>
       <link>http://localhost:1313/docs/content-examples/</link>
       <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/content-examples/</guid>
@@ -276,13 +276,6 @@
     </item>
     <item>
       <title>Advanced Customisation</title>
-      <link>http://localhost:1313/blog/advanced-customisation/</link>
-      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/advanced-customisation/</guid>
-      <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
-    </item>
-    <item>
-      <title>Advanced Customisation</title>
       <link>http://localhost:1313/docs/advanced-customisation/</link>
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/advanced-customisation/</guid>
@@ -294,13 +287,6 @@
       <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/advanced-customisation/</guid>
       <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
-    </item>
-    <item>
-      <title>Hosting &amp; Deployment</title>
-      <link>http://localhost:1313/blog/hosting-deployment/</link>
-      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/hosting-deployment/</guid>
-      <description>Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.</description>
     </item>
     <item>
       <title>Hosting &amp; Deployment</title>
@@ -360,13 +346,6 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:1313/blog/version-2/lighthouse/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/version-2/lighthouse/</guid>
-      <description>Lighthouse Report Lighthouse report requires JavaScript.</description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/docs/version-2/lighthouse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/version-2/lighthouse/</guid>
@@ -387,6 +366,20 @@
       <description>Un tema poderoso y liviano para Hugo creado con Tailwind CSS.</description>
     </item>
     <item>
+      <title>A Data based Introduction to Macroeconomics Course Design</title>
+      <link>http://localhost:1313/blog/python_macroeconomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/python_macroeconomics/</guid>
+      <description>The illustration depicts a modern classroom setting where students interact with macroeconomic data using Python or R.</description>
+    </item>
+    <item>
+      <title>A Data based Introduction to Macroeconomics Course Design</title>
+      <link>http://localhost:1313/posts/python_macroeconomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/python_macroeconomics/</guid>
+      <description>The illustration depicts a modern classroom setting where students interact with macroeconomic data using Python or R.</description>
+    </item>
+    <item>
       <title>advanced</title>
       <link>http://localhost:1313/tags/advanced/_index.ja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -399,6 +392,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/advanced/_index.zh-cn/</guid>
       <description>这是高级标签。就像Congo中的其他列表页面一样，您可以为单个分类术语添加自定义内容，并将其显示在术语列表的顶部。 :rocket:</description>
+    </item>
+    <item>
+      <title>AstroPaper 3.0</title>
+      <link>http://localhost:1313/posts/astro-paper-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/astro-paper-3/</guid>
+      <description>We&amp;rsquo;rsdfsdfs dsa das dsad e excited to announce the release of AstroPaper v3, packed with new features, enhancements, and bug fixes to elevate your web development experience.</description>
     </item>
     <item>
       <title>Avanzada</title>
@@ -415,11 +415,32 @@
       <description>Congo erweckt deinen Inhalt zum Leben.</description>
     </item>
     <item>
+      <title>Climate Change and Central Banks</title>
+      <link>http://localhost:1313/posts/climate_central_banks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/climate_central_banks/</guid>
+      <description>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</description>
+    </item>
+    <item>
       <title>Congoへようこそ! :tada:</title>
       <link>http://localhost:1313/_index.ja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/_index.ja/</guid>
       <description>Tailwind CSSをベースに開発された強力で軽量なHugo向けテーマ。 これはCongoを使って構築されたデモサイトです。 Congoに関するドキュメントも含まれています。 Congoは柔軟性に富み、静的なコンテンツ配信にも、投稿フィード機能を持つようなBlogにも適しています。</description>
+    </item>
+    <item>
+      <title>Economic Analysis- Macroeconomics (EC9DA)</title>
+      <link>http://localhost:1313/blog/ec9da/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec9da/</guid>
+      <description>This page is under construction.</description>
+    </item>
+    <item>
+      <title>Economic Analysis- Macroeconomics (EC9DA)</title>
+      <link>http://localhost:1313/posts/ec9da/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec9da/</guid>
+      <description>This page is under construction.</description>
     </item>
     <item>
       <title>Etiquetas</title>
@@ -429,11 +450,74 @@
       <description>Congo tiene soporte total para las taxonomías de Hugo y se adaptará a cualquier configuración de taxonomía.</description>
     </item>
     <item>
+      <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics</title>
+      <link>http://localhost:1313/posts/projects_news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/projects_news/</guid>
+      <description>I am thrilled to share that I have recently been awarded approximately £10K in funding from the Department of Economics for three dynamic projects, each designed to merge empirical research with educational innovation in finance and economics.</description>
+    </item>
+    <item>
+      <title>Finance in the 21st Century (including cryptocurrencies)</title>
+      <link>http://localhost:1313/posts/finance21/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/finance21/</guid>
+      <description>I teach an engaging summer school course at the University of Warwick, specifically tailored for about 200 pre-university students from across the world.</description>
+    </item>
+    <item>
+      <title>Macroconomics</title>
+      <link>http://localhost:1313/posts/ec956/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec956/</guid>
+      <description>This module provides students who have a mathematical background with an introduction to macroeconomics.</description>
+    </item>
+    <item>
+      <title>Macroconomics</title>
+      <link>http://localhost:1313/posts/macroeconomics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/macroeconomics/</guid>
+      <description>This module provides students who have a mathematical background with an introduction to macroeconomics.</description>
+    </item>
+    <item>
+      <title>Macroeconomics - 2</title>
+      <link>http://localhost:1313/posts/ec201/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec201/</guid>
+      <description>This page is under construction.</description>
+    </item>
+    <item>
+      <title>Money and Banking</title>
+      <link>http://localhost:1313/posts/money_and_banking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/money_and_banking/</guid>
+      <description>The illustration includes elements such as bank buildings, currency symbols, financial charts, and educational tools, emphasizing the themes of monetary systems, banking operations, financial markets, and economic theory.</description>
+    </item>
+    <item>
       <title>Páginas de ejemplo</title>
       <link>http://localhost:1313/samples/_index.es/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/samples/_index.es/</guid>
       <description>Congo da vida a su contenido.</description>
+    </item>
+    <item>
+      <title>Quantitative [Macro] Economics</title>
+      <link>http://localhost:1313/posts/ec106/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec106/</guid>
+      <description>This module provides students who have a mathematical background with an introduction to macroeconomics.</description>
+    </item>
+    <item>
+      <title>Research in Applied Economics - Dissertation Supervision</title>
+      <link>http://localhost:1313/blog/ec331/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec331/</guid>
+      <description>This page is under construction.</description>
+    </item>
+    <item>
+      <title>Research in Applied Economics - Dissertation Supervision</title>
+      <link>http://localhost:1313/posts/ec331/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec331/</guid>
+      <description>This page is under construction.</description>
     </item>
     <item>
       <title>Tags</title>
@@ -450,6 +534,34 @@
       <description>Congo完全支持Hugo分类法，并将适应任何分类法设置。像这样的分类法列表还支持在术语列表上方显示自定义内容。</description>
     </item>
     <item>
+      <title>Topics in Financial Economics - Theories and International Finance</title>
+      <link>http://localhost:1313/blog/ec333/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ec333/</guid>
+      <description>This page is under construction.</description>
+    </item>
+    <item>
+      <title>Topics in Financial Economics - Theories and International Finance</title>
+      <link>http://localhost:1313/posts/ec333/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec333/</guid>
+      <description>This page is under construction.</description>
+    </item>
+    <item>
+      <title>Topics in Global Finance - MSc in Economics &amp; Finance</title>
+      <link>http://localhost:1313/posts/ec916/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ec916/</guid>
+      <description>Table of contents #Topics # Globalisation, Global Finance, Global Imbalances ≈ Lecture 1 Intertemporal Theory of Current Account ≈ Lecture 2 Dynamics of Small Open Economies and CA Sustainability ≈ Lecture 3 Equilibrium in Financial Markets and Capital Controls ≈ Lecture 4 International Financial Integration: Models, Evidence, Debates ≈Lecture 5 Risk Sharing, Integration, and the Transmission of Shocks ≈ Lecture 6 Balance of Payment Crisis ≈ Lecture 7 Banking, Banking Crises ≈ Lecture 8 Sovereign Debt Crises ≈ Lecture 9 Course Introduction Video - (2021) # I recorded this video during the covid-19 in 2021 but still usefull.</description>
+    </item>
+    <item>
+      <title>Understanding the Impact of Monetary Policy on Futures Markets</title>
+      <link>http://localhost:1313/posts/monetary_policy_and_futures_markets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/monetary_policy_and_futures_markets/</guid>
+      <description>The illustration capturing the dynamics of the futures market has been created, showcasing various aspects of trading.</description>
+    </item>
+    <item>
       <title>Willkommen bei Congo! :tada:</title>
       <link>http://localhost:1313/_index.de/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -462,13 +574,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/samples/_index.ja/</guid>
       <description>Congoはあなたのコンテンツに命を吹き込みます :heart_eyes: このセクションには、Congoがさまざまなタイプのコンテンツをどのようにレンダリングするかを示すいくつかのデモページがあります。また、Tagsページの例も見ることができます。</description>
-    </item>
-    <item>
-      <title>ドキュメント</title>
-      <link>http://localhost:1313/blog/_index.ja/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/_index.ja/</guid>
-      <description>シンプルでパワフル。Congoの使い方と特徴をご紹介します。 このセクションにはCongoの知るべきすべてが含まれています。もしあなたがCongoに触れるのが初めてならば、インストールガイドを読むか、例を見て、Congoは何ができるか確認してください。</description>
     </item>
     <item>
       <title>ドキュメント</title>
@@ -490,13 +595,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/samples/_index.zh-cn/</guid>
       <description>Congo让您的内容栩栩如生。 :heart_eyes: 这个部分包含一些演示页面，展示了Congo 如何呈现不同类型的内容。您还可以查看一个 分类法列表 页面的示例。</description>
-    </item>
-    <item>
-      <title>文档</title>
-      <link>http://localhost:1313/blog/_index.zh-cn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/_index.zh-cn/</guid>
-      <description>简单而强大。了解如何使用Congo及其功能。 该部分包含关于Congo的所有必要信息。如果您是新手，请查看 安装 指南以开始，或访问 示例 部分查看Congo的功能。</description>
     </item>
     <item>
       <title>文档</title>

@@ -3,12 +3,174 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
+      <url>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/research/</loc>
+            <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
   
     
       <url>
             <loc>http://localhost:1313/blog/</loc>
-            <lastmod>2022-01-20T00:00:00+00:00</lastmod>
+            <lastmod>2024-01-19T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/projects_news/</loc>
+            <lastmod>2024-01-19T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/ec956/</loc>
+            <lastmod>2024-01-04T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/ec106/</loc>
+            <lastmod>2023-12-12T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/climatechange/</loc>
+            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/projects/</loc>
+            <lastmod>2023-11-22T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/climate_central_banks/</loc>
+            <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/ec916/</loc>
+            <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/monetary_policy_and_futures_markets/</loc>
+            <lastmod>2023-08-15T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/macroeconomics/</loc>
+            <lastmod>2023-08-12T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/finance21/</loc>
+            <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/ec201/</loc>
+            <lastmod>2023-08-08T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/money_and_banking/</loc>
+            <lastmod>2023-08-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
     
   
     
@@ -18,29 +180,6 @@
           </url>
     
   
-    
-      <url>
-            <loc>http://localhost:1313/projects/</loc>
-            <lastmod>2022-01-20T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/</loc>
-            <lastmod>2023-01-23T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/version-2/upgrade/</loc>
-            <lastmod>2022-01-20T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -59,13 +198,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/version-2/_index.zh-cn/</loc>
-            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/docs/version-2/_index.zh-cn/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
           </url>
@@ -74,20 +206,6 @@
     
       <url>
             <loc>http://localhost:1313/projects/version-2/_index.zh-cn/</loc>
-            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/version-2/_index.ja/</loc>
-            <lastmod>2022-01-19T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/version-2/</loc>
             <lastmod>2022-01-19T00:00:00+00:00</lastmod>
           </url>
     
@@ -133,13 +251,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/installation/</loc>
-            <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/docs/installation/</loc>
             <lastmod>2020-08-16T00:00:00+00:00</lastmod>
           </url>
@@ -153,29 +264,9 @@
     
   
     
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/research/</loc>
-            <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
       <url>
             <loc>http://localhost:1313/teaching/</loc>
             <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/getting-started/</loc>
-            <lastmod>2020-08-15T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -193,13 +284,6 @@
           </url>
     
   
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/configuration/</loc>
-            <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -249,13 +333,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/homepage-layout/</loc>
-            <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/docs/homepage-layout/</loc>
             <lastmod>2020-08-13T00:00:00+00:00</lastmod>
           </url>
@@ -270,13 +347,6 @@
   
     
   
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/front-matter/</loc>
-            <lastmod>2020-08-12T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -297,13 +367,6 @@
   
     
   
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/shortcodes/</loc>
-            <lastmod>2020-08-11T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -330,13 +393,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/partials/</loc>
-            <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/docs/partials/</loc>
             <lastmod>2020-08-10T00:00:00+00:00</lastmod>
           </url>
@@ -351,13 +407,6 @@
   
     
   
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/content-examples/</loc>
-            <lastmod>2020-08-09T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -380,13 +429,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/advanced-customisation/</loc>
-            <lastmod>2020-08-08T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/docs/advanced-customisation/</loc>
             <lastmod>2020-08-08T00:00:00+00:00</lastmod>
           </url>
@@ -405,13 +447,6 @@
   
     
   
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/hosting-deployment/</loc>
-            <lastmod>2020-08-07T00:00:00+00:00</lastmod>
-          </url>
     
   
     
@@ -500,12 +535,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/version-2/lighthouse/</loc>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/docs/version-2/lighthouse/</loc>
           </url>
     
@@ -524,6 +553,18 @@
   
     
       <url>
+            <loc>http://localhost:1313/blog/python_macroeconomics/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/python_macroeconomics/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/tags/advanced/_index.ja/</loc>
           </url>
     
@@ -531,6 +572,12 @@
     
       <url>
             <loc>http://localhost:1313/tags/advanced/_index.zh-cn/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/astro-paper-3/</loc>
           </url>
     
   
@@ -550,7 +597,35 @@
   
     
       <url>
+            <loc>http://localhost:1313/posts/climate_central_banks/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/_index.ja/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/</loc>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/ec9da/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec9da/</loc>
           </url>
     
   
@@ -562,7 +637,63 @@
   
     
       <url>
+            <loc>http://localhost:1313/posts/projects_news/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/finance21/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec956/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/macroeconomics/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec201/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/money_and_banking/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/samples/_index.es/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec106/</loc>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/blog/ec331/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec331/</loc>
           </url>
     
   
@@ -580,6 +711,30 @@
   
     
       <url>
+            <loc>http://localhost:1313/blog/ec333/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec333/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/ec916/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/monetary_policy_and_futures_markets/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/_index.de/</loc>
           </url>
     
@@ -587,12 +742,6 @@
     
       <url>
             <loc>http://localhost:1313/samples/_index.ja/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/_index.ja/</loc>
           </url>
     
   
@@ -611,12 +760,6 @@
     
       <url>
             <loc>http://localhost:1313/samples/_index.zh-cn/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/_index.zh-cn/</loc>
           </url>
     
   

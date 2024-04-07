@@ -4,7 +4,7 @@ languageName = "English"
 weight = 1
 
 title = "Fatih Kansoy"
-# copyright = " ©  2024 Emre Esenturk"
+# copyright = " ©  2024 Fatih Kansoy"
 
 [params]
   dateFormat = "2 January 2006"
@@ -16,7 +16,7 @@ title = "Fatih Kansoy"
    name = "Fatih Kansoy"
    image = "img/author.jpg"
   # headline = "I'm only human"
-   bio = "Learn and Teach Economics/Finance"
+  bio = "Learn and Teach Economics/Finance"
   links = [
      { email = "mailto:kansoy@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
@@ -61,5 +61,5 @@ title = "Fatih Kansoy"
   #   { whatsapp = "https://wa.me/phone-number" },
      { x-twitter = "https://twitter.com/kansoy" },
      { youtube = "https://youtube.com/fatihkansoy" },
-       { cv = "https://twitter.com/kansoy" },
+     { cv = "https://twitter.com/kansoy" },
    ]

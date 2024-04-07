@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Release on Fatih Kansoy</title>
+    <link>http://localhost:1313/tags/release/</link>
+    <description>Recent content in Release on Fatih Kansoy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/release/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AstroPaper 3.0</title>
+      <link>http://localhost:1313/posts/astro-paper-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/astro-paper-3/</guid>
+      <description>We&amp;rsquo;rsdfsdfs dsa das dsad e excited to announce the release of AstroPaper v3, packed with new features, enhancements, and bug fixes to elevate your web development experience.</description>
+    </item>
+  </channel>
+</rss>

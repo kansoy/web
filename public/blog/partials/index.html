@@ -134,7 +134,7 @@
     "keywords": ["partials","analytics","privacy","comments","favicons","icon","docs"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "844"
+    "wordCount": "39"
   }
   </script>
 
@@ -534,6 +534,50 @@
         Partials
       </h1>
       
+        <div class="mb-12 mt-8 text-base text-neutral-500 print:hidden dark:text-neutral-400">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2020-08-10 00:00:00 &#43;0000 UTC">10 August 2020</time>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+        </div>
+      
       
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
@@ -549,23 +593,7 @@
   <div class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#analytics">Analytics</a>
-      <ul>
-        <li><a href="#fathom-analytics">Fathom Analytics</a></li>
-        <li><a href="#plausible-analytics">Plausible Analytics</a></li>
-        <li><a href="#google-analytics">Google Analytics</a></li>
-        <li><a href="#custom-analytics-providers">Custom analytics providers</a></li>
-      </ul>
-    </li>
-    <li><a href="#comments">Comments</a></li>
-    <li><a href="#favicons">Favicons</a></li>
-    <li><a href="#icon">Icon</a></li>
-    <li><a href="#extensions">Extensions</a>
-      <ul>
-        <li><a href="#article-link">Article link</a></li>
-        <li><a href="#head-and-footer">Head and Footer</a></li>
-      </ul>
-    </li>
+    <li><a href="#analytics">Analytics</a></li>
   </ul>
 </nav>
   </div>
@@ -576,118 +604,6 @@
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <h2 id="analytics" class="relative group">Analytics <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#analytics" aria-label="Anchor">#</a></span></h2><p>Congo provides support for various analytics providers out of the box, as well as the ability to include custom code for any provider of your choice. If you don&rsquo;t currently have an analytics provider, check out Fathom Analytics.</p>
-<h3 id="fathom-analytics" class="relative group">Fathom Analytics <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#fathom-analytics" aria-label="Anchor">#</a></span></h3><p>Fathom Analytics is a privacy-first service that is a great alternative to Google Analytics. It allows you to get all the visitor information you need, without spying on them. As a Congo user, you can use this affiliate link to <a href="https://usefathom.com/ref/RLAJSV" target="_blank" rel="noreferrer">receive $10 credit</a> and try the service.</p>
-<p><a href="https://usefathom.com/ref/RLAJSV" target="_blank" rel="noreferrer">
-
-
-
-
-
-<figure>
-    
-    
-
-
-
-
-
-
-
-
-  
-    <picture
-      class="mx-auto my-0 rounded-md"
-      
-    >
-      
-      
-      
-      
-        <source
-          
-            srcset="/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_330x0_resize_q75_h2_box.webp 330w,/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_660x0_resize_q75_h2_box.webp 660w
-            
-              ,/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_1024x0_resize_q75_h2_box.webp 1024w
-            
-            
-              
-                ,/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_1320x720_resize_q75_h2_box.webp 1320w
-              
-            "
-          
-          sizes="100vw"
-          type="image/webp"
-        />
-      
-      <img
-        width="1320"
-        height="720"
-        class="mx-auto my-0 rounded-md"
-        alt="Fathom Analytics. Website analytics without compromise. Zero cookies, GDPR compliant, and privacy-first. Start a free trial."
-        loading="lazy" decoding="async"
-        
-          src="/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_660x0_resize_q75_box.jpg"
-          srcset="/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_330x0_resize_q75_box.jpg 330w,/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_660x0_resize_q75_box.jpg 660w
-          
-            ,/blog/partials/fathom-analytics_hu841b74b37c0f8b1e0e9a064be02ef5ae_49300_1024x0_resize_q75_box.jpg 1024w
-          
-          
-            ,/blog/partials/fathom-analytics.jpg 1320w
-          "
-          sizes="100vw"
-        
-      />
-    </picture>
-  
-
-
-</figure>
-</a></p>
-<p>To enable Fathom Analytics support, simply provide your Fathom site code in the <code>config/_default/params.toml</code> file. The script will load in your site directly from the Fathom Analytics CDN.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="c"># config/_default/params.toml</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">fathomAnalytics</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">site</span> <span class="p">=</span> <span class="s2">&#34;ABC12345&#34;</span>
-</span></span></code></pre></div><h3 id="plausible-analytics" class="relative group">Plausible Analytics <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#plausible-analytics" aria-label="Anchor">#</a></span></h3><p>To enable Plausible analytics support, simply provide the domain of the website you want to track in the <code>config/_default/params.toml</code> file. If you are using a self-hosted Plausible, or wish to use a <a href="https://plausible.io/docs/proxy/introduction" target="_blank" rel="noreferrer">proxied analytics</a> script and event API router, you can also provide additional <code>event</code> and <code>script</code> configuration values. If you do not provide these two values, the script will load directly with Plausible&rsquo;s default managed service. Refer to <a href="https://plausible.io/docs/proxy/introduction" target="_blank" rel="noreferrer">Using a proxy for analytics</a> for more details.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="c"># config/_default/params.toml</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">plausibleAnalytics</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">domain</span> <span class="p">=</span> <span class="s2">&#34;blog.yoursite.com&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">event</span> <span class="p">=</span> <span class="s2">&#34;https://plausible.yoursite.com/api/event&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">script</span> <span class="p">=</span> <span class="s2">&#34;https://plausible.yoursite.com/js/script.js&#34;</span>
-</span></span></code></pre></div><h3 id="google-analytics" class="relative group">Google Analytics <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#google-analytics" aria-label="Anchor">#</a></span></h3><p>Google Analytics support is provided through the internal Hugo partial. Simply provide the <code>googleAnalytics</code> key in the <code>config/_default/config.toml</code> file and the script will be added automatically.</p>
-<p>Both version 3 (analytics.js) and version 4 (gtag.js) are supported, based on the configuration value provided:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="c"># config/_default/config.toml</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># version 3</span>
-</span></span><span class="line"><span class="cl"><span class="nx">googleAnalytics</span> <span class="p">=</span> <span class="s2">&#34;UA-PROPERTY_ID&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="c"># version 4</span>
-</span></span><span class="line"><span class="cl"><span class="nx">googleAnalytics</span> <span class="p">=</span> <span class="s2">&#34;G-MEASUREMENT_ID&#34;</span>
-</span></span></code></pre></div><h3 id="custom-analytics-providers" class="relative group">Custom analytics providers <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#custom-analytics-providers" aria-label="Anchor">#</a></span></h3><p>If you wish to use a different analytics provider on your website you can also override the analytics partial and provide your own script. Simply create the file <code>layouts/partials/analytics.html</code> in your project and it will automatically include it in the <code>&lt;head&gt;</code> of the website.</p>
-<h2 id="comments" class="relative group">Comments <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#comments" aria-label="Anchor">#</a></span></h2><p>To add comments to your articles, Congo includes support for a comments partial that is included at the base of each article page. Simply provide a <code>layouts/partials/comments.html</code> which contains the code required to display your chosen comments.</p>
-<p>You can use either the built-in Hugo Disqus template, or provide your own custom code. Refer to the <a href="https://gohugo.io/content-management/comments/" target="_blank" rel="noreferrer">Hugo docs</a> for further information.</p>
-<p>Once the partial has been provided, finer control over where comments are displayed is then managed using the <code>showComments</code> parameter. This value can be set at the theme level in the <code>params.toml</code> <a href="http://localhost:1313/blog/configuration/#theme-parameters">config file</a>, or on a per-article basis by including it in the <a href="http://localhost:1313/blog/front-matter/">front matter</a>. The parameter defaults to <code>false</code> so it must be set to <code>true</code> in one of these locations in order for comments to be displayed.</p>
-<h2 id="favicons" class="relative group">Favicons <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#favicons" aria-label="Anchor">#</a></span></h2><p>Congo provides a default set of blank favicons to get started but you can provide your own assets to override them. The easiest way to obtain new favicon assets is to generate them using a third-party provider like <a href="https://favicon.io" target="_blank" rel="noreferrer">favicon.io</a>.</p>
-<p>Icon assets should be placed directly in the <code>static/</code> folder of your website and named as per the listing below. If you use <a href="https://favicon.io" target="_blank" rel="noreferrer">favicon.io</a>, these will be the filenames that are automatically generated for you, but you can provide your own assets if you wish.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">static/
-</span></span><span class="line"><span class="cl">├─ android-chrome-192x192.png
-</span></span><span class="line"><span class="cl">├─ android-chrome-512x512.png
-</span></span><span class="line"><span class="cl">├─ apple-touch-icon.png
-</span></span><span class="line"><span class="cl">├─ favicon-16x16.png
-</span></span><span class="line"><span class="cl">├─ favicon-32x32.png
-</span></span><span class="line"><span class="cl">├─ favicon.ico
-</span></span><span class="line"><span class="cl">└─ site.webmanifest
-</span></span></code></pre></div><p>Alternatively, you can also completely override the default favicon behaviour and provide your own favicon HTML tags and assets. Simply provide a <code>layouts/partials/favicons.html</code> file in your project and this will be injected into the site <code>&lt;head&gt;</code> in place of the default assets.</p>
-<h2 id="icon" class="relative group">Icon <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#icon" aria-label="Anchor">#</a></span></h2><p>Similar to the <a href="http://localhost:1313/blog/shortcodes/#icon">icon shortcode</a>, you can include icons in your own templates and partials by using Congo&rsquo;s <code>icon.html</code> partial. The partial takes one parameter which is the name of the icon to be included.</p>
-<p><strong>Example:</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">  <span class="p">{{</span> <span class="nx">partial</span> <span class="s">&#34;icon.html&#34;</span> <span class="s">&#34;github&#34;</span> <span class="p">}}</span>
-</span></span></code></pre></div><p>Icons are populated using Hugo pipelines which makes them very flexible. Congo includes a number of built-in icons for social, links and other purposes. Check the <a href="http://localhost:1313/samples/icons/">icon samples</a> page for a full list of supported icons.</p>
-<p>Custom icons can be added by providing your own icon assets in the <code>assets/icons/</code> directory of your project. The icon can then be referenced in the partial by using the SVG filename without the <code>.svg</code> extension.</p>
-<p>Icons can also be used in article content by calling the <a href="http://localhost:1313/blog/shortcodes/#icon">icon shortcode</a>.</p>
-<h2 id="extensions" class="relative group">Extensions <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#extensions" aria-label="Anchor">#</a></span></h2><p>Congo also provides for a number of extension partials that allow for expanding upon base functionality.</p>
-<h3 id="article-link" class="relative group">Article link <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#article-link" aria-label="Anchor">#</a></span></h3><p>If you wish to insert additional code after article links, create a <code>layouts/partials/extend-article-link.html</code> file. This is especially powerful when combined with the <a href="http://localhost:1313/blog/shortcodes/#badge"><code>badge</code></a> shortcode which can be used to highlight metadata for certain articles.</p>
-<h3 id="head-and-footer" class="relative group">Head and Footer <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#head-and-footer" aria-label="Anchor">#</a></span></h3><p>The theme allows for inserting additional code directly into the <code>&lt;head&gt;</code> and <code>&lt;footer&gt;</code> sections of the template. These can be useful for providing scripts or other logic that isn&rsquo;t part of the theme.</p>
-<p>Simply create either <code>layouts/partials/extend-head.html</code> or <code>layouts/partials/extend-footer.html</code> and these will automatically be included in your website build. Both partials are injected as the last items in <code>&lt;head&gt;</code> and <code>&lt;footer&gt;</code> so they can be used to override theme defaults.</p>
 
       </div>
     </section>
@@ -695,6 +611,76 @@
       
 
       
+  
+  <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:1313/blog/partials/&amp;quote=Partials"
+          title="Share on Facebook"
+          aria-label="Share on Facebook"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://twitter.com/intent/tweet/?url=http://localhost:1313/blog/partials/&amp;text=Partials"
+          title="Tweet on Twitter"
+          aria-label="Tweet on Twitter"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://reddit.com/submit/?url=http://localhost:1313/blog/partials/&amp;resubmit=true&amp;title=Partials"
+          title="Submit to Reddit"
+          aria-label="Submit to Reddit"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M201.5 305.5c-13.8 0-24.9-11.1-24.9-24.6 0-13.8 11.1-24.9 24.9-24.9 13.6 0 24.6 11.1 24.6 24.9 0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4 0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7 0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9 0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5 0 52.6 59.2 95.2 132 95.2 73.1 0 132.3-42.6 132.3-95.2 0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6 0-2.2-2.2-6.1-2.2-8.3 0-2.5 2.5-2.5 6.4 0 8.6 22.8 22.8 87.3 22.8 110.2 0 2.5-2.2 2.5-6.1 0-8.6-2.2-2.2-6.1-2.2-8.3 0zm7.7-75c-13.6 0-24.6 11.1-24.6 24.9 0 13.6 11.1 24.6 24.6 24.6 13.8 0 24.9-11.1 24.9-24.6 0-13.8-11-24.9-24.9-24.9z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:1313/blog/partials/&amp;title=Partials"
+          title="Share on LinkedIn"
+          aria-label="Share on LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="m-1 inline-block min-w-[2.4rem] rounded bg-neutral-300 p-1 text-center text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
+          href="mailto:?body=http://localhost:1313/blog/partials/&amp;subject=Partials"
+          title="Send via email"
+          aria-label="Send via email"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+  </section>
+
 
       
   
@@ -722,6 +708,8 @@
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
+                    <time datetime="2020-08-11 00:00:00 &#43;0000 UTC">11 August 2020</time>
+                  
                 </span>
               </span>
             </a>
@@ -736,6 +724,8 @@
                   >Content Examples</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2020-08-09 00:00:00 &#43;0000 UTC">9 August 2020</time>
                   
                 </span>
               </span>
@@ -756,17 +746,6 @@
     </footer>
   </article>
 
-        
-          <div class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12">
-            <a
-              href="#the-top"
-              class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-              aria-label="Scroll to top"
-              title="Scroll to top"
-            >
-              &uarr;
-            </a>
-          </div>
         
       </main><footer class="py-10 print:hidden">
   

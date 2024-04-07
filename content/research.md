@@ -1,12 +1,13 @@
 ---
 title: "Research"
-date: 2020-08-16
-description: "How to install the Congo theme."
-summary: "Learn how to get up and running using Hugo and Congo from a completely blank state. It's the best place to start if you're a new user."
+date: 2024-03-25
+layout: "simple"
+description: "Fatih Kansoy | Research"
+#summary: "Learn how to get up and running using Hugo and Congo from a completely blank state. It's the best place to start if you're a new user."
 slug: "research"
 tags: ["research", "publications"]
 ---
-
+<!-- 
 Simply follow the standard Hugo [Quick Start](https://gohugo.io/getting-started/quick-start/) procedure to get up and running quickly. Detailed installation instructions can be found below. Instructions for [updating the theme](#installing-updates) are also available.
 
 ## Books
@@ -32,7 +33,7 @@ Simply follow the standard Hugo [Quick Start](https://gohugo.io/getting-started/
 | 2019 | 'Reproducing Authoritarian Neoliberalism in Turkey: Urban Governance and State Restructuring in the Shadow of Executive Centralization.' Globalizations 16(3): 320–35. |
 | 2018 | 'Authoritarian Neoliberalism and Democratic Backsliding in Turkey: Beyond the Narratives of Progress.' South European Society and Politics 23(2): 197–217. |
 
-<hr class="thin-line">
+<hr class="thin-line"> -->
 
 On this Research page, you'll find my research interests: central bank communication, empirical finance, applied economics, and the economics of artificial intelligence. My focus lies in blending quantitative finance with machine learning to understand historical and contemporary economic phenomena. Central to my work is a detailed study of central bank communication, where I seek to uncover insights using high-frequency data and computational methods.
 

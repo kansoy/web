@@ -17,13 +17,6 @@
     </item>
     <item>
       <title>Shortcodes</title>
-      <link>http://localhost:1313/blog/shortcodes/</link>
-      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/shortcodes/</guid>
-      <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
-    </item>
-    <item>
-      <title>Shortcodes</title>
       <link>http://localhost:1313/docs/shortcodes/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/docs/shortcodes/</guid>
