@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-11-22T10:35:54.547Z
+pubDatetime: 2023-11-22
 title: A Data based Introduction to Macroeconomics Course Design
 postSlug: python_macroeconomics
 featured: true
@@ -13,7 +13,7 @@ tags:
 description: "This project will design a real-world data-based introduction to macroeconomics course for undergraduates and graduates, integrating Python or R with theoretical models and macroeconomic data. Students will learn data handling, analysis, visualization, and optimization, along with programming fundamentals and key Python libraries like Matplotlib, NumPy, and pandas."
 ---
 
-<small>![EC916 Topics in Global Finance](@assets/images/pythonmacro.png)</small>
+<small>![EC916 Topics in Global Finance](pythonmacro.png)</small>
 <small> The illustration depicts a modern classroom setting where students interact with macroeconomic data using Python or R.</small>
 
 #### Table of contents

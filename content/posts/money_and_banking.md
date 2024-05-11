@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-10-25T10:25:54.547Z
+pubDatetime: 2023-10-25
 title: Money and Banking
 postSlug: money_and_banking
 featured: false
@@ -12,7 +12,7 @@ tags:
 description: "The course will relate this to recent economic events which have reverberated worldwide. It is particularly suitable for students wishing to enter careers in financial markets or further study in this area. The Money and Banking course will look at some key issues in the theory and practice of financial markets, monetary policy and banking and how their interactions affect the real world."
 ---
 
-<small>![EC916 Topics in Global Finance](@assets/images/moneyandbanking.png)</small>
+<small>![EC916 Topics in Global Finance](moneyandbanking.png)</small>
 <small>The illustration  includes elements such as bank buildings, currency symbols, financial charts, and educational tools, emphasizing the themes of monetary systems, banking operations, financial markets, and economic theory. </small>
 
 Focusing on the financial system and monetary policy, this course looks at key issues in the theory and practice of financial markets, banking, monetary policy and importantly their interaction and how this impacts the real world.

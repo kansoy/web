@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-11-22T11:25:54.547Z
+pubDatetime: 2023-11-22
 title: Exciting News! Funding Granted for Innovative Research-led Teaching in Economics
 postSlug: projects_news
 featured: true
@@ -13,7 +13,7 @@ description: "I am thrilled to share that I have recently been awarded approxima
 "
 ---
 
-<small>![EC916 Topics in Global Finance](@assets/images/ec916.png)</small>
+<small>![EC916 Topics in Global Finance](ec916.png)</small>
 
 I am thrilled to share that I have recently been awarded approximately £10K in funding from the Department of Economics for three dynamic projects, each designed to merge empirical research with educational innovation in finance and economics.
 

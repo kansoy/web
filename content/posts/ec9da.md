@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-10-25T10:25:54.547Z
+pubDatetime: 2023-10-25
 title: Economic Analysis- Macroeconomics (EC9DA)
 postSlug: ec9da
 featured: false

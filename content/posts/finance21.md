@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-10-25T10:25:54.547Z
+pubDatetime: 2023-10-25
 title: Finance in the 21st Century (including cryptocurrencies)
 postSlug: finance21
 featured: false

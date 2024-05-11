@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-11-22T10:25:54.547Z
+pubDatetime: 2023-11-22
 title: Understanding the Impact of Monetary Policy on Futures Markets
 postSlug: monetary_policy_and_futures_markets
 featured: false
@@ -12,7 +12,7 @@ tags:
 description: "I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance & Economics students at the Warwick Business School."
 ---
 
-<small>![EC916 Topics in Global Finance](@assets/images/futuresmarket.png)</small>
+<small>![EC916 Topics in Global Finance](futuresmarket.png)</small>
 <small>The illustration capturing the dynamics of the futures market has been created, showcasing various aspects of trading. </small>
 
 #### Table of contents

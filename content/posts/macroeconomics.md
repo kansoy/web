@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2024-01-04T10:25:54.547Z
+pubDatetime: 2024-01-04
 title: Macroconomics
 postSlug: macroeconomics
 featured: false

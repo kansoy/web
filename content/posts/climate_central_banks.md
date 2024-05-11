@@ -1,6 +1,6 @@
 ---
 author: Fatih Kansoy
-pubDatetime: 2023-11-22T10:25:54.547Z
+pubDatetime: 2023-11-22
 title: Climate Change and Central Banks
 postSlug: climate_central_banks
 featured: false
@@ -13,7 +13,7 @@ tags:
 description: "I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance & Economics students at the Warwick Business School."
 ---
 
-<small>![EC916 Topics in Global Finance](@assets/images/climatecentralbank.png)</small>
+<small>![EC916 Topics in Global Finance](climatecentralbank.png)</small>
 <small>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</small>
 
 #### Table of contents
