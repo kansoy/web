@@ -14,7 +14,7 @@ description: "I teach an engaging summer school course at the University of Warw
 
 I teach an engaging summer school course at the University of Warwick, specifically tailored for about 200 pre-university students from across the world. This course covers three significant areas: the evolving landscape of digital currencies like Bitcoin and their potential to redefine traditional monetary systems; the vital role of central banks in addressing the global climate crisis and maintaining financial stability; and the impact of big financial data, AI, machine learning, and algorithmic trading on financial markets. Each topic is designed to provide students with a comprehensive understanding of current and emerging trends in finance and economics, equipping them with insights into the challenges and opportunities in today's interconnected financial world.
 
-<small>![EC916 Topics in Global Finance](@assets/images/summerschool.png)</small>
+<small>![EC916 Topics in Global Finance](summerschool.png)</small>
 
 #### Bitcoin, cryptocurrency, central bank digital currency: Will Bitcoin become the money of the future?
 

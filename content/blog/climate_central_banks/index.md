@@ -33,7 +33,7 @@ tags: ["research", "project", "central banking", "climate change"]
 
 #### Name of the Project Leader
 
-Fatih Kansoy
+Fatih Kansoy -
 
 #### Title of the Project
 
