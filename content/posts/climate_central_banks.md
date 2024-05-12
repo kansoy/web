@@ -20,7 +20,7 @@ description: "I have updated the course outline for EC916 Topics in Global Finan
 
 #### Name of the Project Leader
 
-Fatih Kansoy
+Fatih Kansoy -
 
 #### Title of the Project
 
