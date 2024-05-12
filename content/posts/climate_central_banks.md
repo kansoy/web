@@ -13,7 +13,7 @@ tags:
 description: "I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance & Economics students at the Warwick Business School."
 ---
 
-<small>![Climate Change and Central Banking](/climatecentralbank.png)</small>
+<small>![Climate Change and Central Banking](/assets/img/climatecentralbank.png)</small>
 <small>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</small>
 
 #### Table of contents
