@@ -4,7 +4,7 @@
     <title>Blog|News on Fatih Kansoy</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog|News on Fatih Kansoy</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />

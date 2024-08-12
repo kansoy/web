@@ -4,7 +4,7 @@
     <title>Content Samples on Fatih Kansoy</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Content Samples on Fatih Kansoy</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -15,18 +15,18 @@
       <description>The illustration depicts a modern classroom setting where students interact with macroeconomic data using Python or R.</description>
     </item>
     <item>
-      <title>AstroPaper 3.0</title>
-      <link>http://localhost:1313/posts/astro-paper-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/astro-paper-3/</guid>
-      <description>We&amp;rsquo;rsdfsdfs dsa das dsad e excited to announce the release of AstroPaper v3, packed with new features, enhancements, and bug fixes to elevate your web development experience.</description>
-    </item>
-    <item>
       <title>Climate Change and Central Banks</title>
       <link>http://localhost:1313/posts/climate_central_banks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/climate_central_banks/</guid>
       <description>This illustration brings together the concepts of financial market dynamics, monetary policy, central banking, and environmental sustainability.</description>
+    </item>
+    <item>
+      <title>Content Samples</title>
+      <link>http://localhost:1313/posts/_index-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/_index-copy/</guid>
+      <description>Congo brings your content to life.</description>
     </item>
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>

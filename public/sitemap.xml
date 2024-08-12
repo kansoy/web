@@ -201,12 +201,6 @@
   
     
       <url>
-            <loc>http://localhost:1313/posts/astro-paper-3/</loc>
-          </url>
-    
-  
-    
-      <url>
             <loc>http://localhost:1313/tags/advanced/_index.es/</loc>
           </url>
     
@@ -216,6 +210,12 @@
     
       <url>
             <loc>http://localhost:1313/posts/climate_central_banks/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/_index-copy/</loc>
           </url>
     
   
@@ -293,8 +293,6 @@
       <url>
             <loc>http://localhost:1313/posts/ec106/</loc>
           </url>
-    
-  
     
   
     
