@@ -20,5 +20,7 @@ Since 2019, I have been actively involved in teaching a diverse array of macro-f
 
 
 
- <!-- <p align="center">
-<img src="uofoxford.png" alt="University of Oxford" style="width: 50%;"> </p> --> 
+ <!-- --> 
+ <p align="center">
+<img src="uofoxford.png" alt="University of Oxford" style="width: 50%;"> </p> 
+
