@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f0f0"/>
+
+  <!-- Maradona Running -->
+  <circle cx="150" cy="300" r="30" fill="#ffd700"/> <!-- Head -->
+  <line x1="150" y1="330" x2="150" y2="420" stroke="#000" stroke-width="8"/> <!-- Body -->
+  <line x1="150" y1="360" x2="100" y2="320" stroke="#000" stroke-width="6"/> <!-- Left Arm Raised -->
+  <line x1="150" y1="360" x2="190" y2="340" stroke="#000" stroke-width="6"/> <!-- Right Arm Swinging -->
+  <line x1="150" y1="420" x2="120" y2="500" stroke="#000" stroke-width="8"/> <!-- Left Leg -->
+  <line x1="150" y1="420" x2="180" y2="480" stroke="#000" stroke-width="8"/> <!-- Right Leg Striding -->
+
+  <!-- Soccer Ball -->
+  <circle cx="110" cy="500" r="10" fill="#000"/> <!-- Soccer ball -->
+
+  <!-- Turkish Central Bank Figure (Balance Scale) -->
+  <rect x="550" y="250" width="20" height="100" fill="#000"/> <!-- Central Pillar -->
+  <line x1="560" y1="250" x2="560" y2="190" stroke="#000" stroke-width="5"/> <!-- Vertical line -->
+  <line x1="520" y1="190" x2="600" y2="190" stroke="#000" stroke-width="5"/> <!-- Horizontal balance -->
+  <line x1="520" y1="190" x2="520" y2="220" stroke="#000" stroke-width="2"/> <!-- Left scale line -->
+  <line x1="600" y1="190" x2="600" y2="220" stroke="#000" stroke-width="2"/> <!-- Right scale line -->
+  <circle cx="520" cy="220" r="15" fill="#ff6600"/> <!-- Left Weight -->
+  <circle cx="600" cy="220" r="15" fill="#ff6600"/> <!-- Right Weight -->
+
+  <!-- Turkish Lira Symbols -->
+  <text x="513" y="225" font-family="Arial" font-size="18" fill="#FFF">₺</text> <!-- Left Lira -->
+  <text x="593" y="225" font-family="Arial" font-size="18" fill="#FFF">₺</text> <!-- Right Lira -->
+
+  <!-- Title -->
+  <text x="220" y="50" font-family="Arial" font-size="24" fill="#333">Maradona vs. Turkish Central Bank</text>
+</svg>
