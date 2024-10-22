@@ -11,7 +11,7 @@ tags: [“Türkiye Cumhuriyet Merkez Bankası”, “Maradona”, “Para Politi
 
 ## Türkiye Cumhuriyet Merkez Bankası Para Politikasının Maradona’sı mı?
 
-Diego Maradona’nın 1986 Dünya Kupası’nda İngiltere’ye karşı oynadığı maç, sadece dramasıyla değil, attığı birbirinden tamamen farklı iki efsanevi golle de futbol tarihine kazınmıştı. O gollerden biri malum, hakemi ve milyonları kandıran, kurnaz, kural dışı “Tanrı’nın Eli” golüydü. Diğeri ise Maradona’nın İngiliz savunmasını 60 metre boyunca peşinden sürüklediği ve beş altı şaşkın oyuncunun kendisini aldatmak için hamle yapmasını beklerken düz bir hat üzerinde ilerlediği muhteşem [koşusuydu](https://www.youtube.com/embed/Da_CDPRG2j0?si=1lI8ImoU0skfWVis&amp;start=50). Bu koşu sonrası attığı gold futbol tarihine 100 yılın golü efsanevi golü olarak geçti. Aslında Maradona aşağı yukarı düm düz koşmuştu ve fakat bu tahmin edilemezdi - tıpkı modern para politikaları gibi.  
+Diego Maradona’nın 1986 Dünya Kupası’nda İngiltere’ye karşı oynadığı maç, sadece dramasıyla değil, attığı birbirinden tamamen farklı iki efsanevi golle de futbol tarihine kazınmıştı. O gollerden biri malum, hakemi ve milyonları kandıran, kurnaz, kural dışı “Tanrı’nın Eli” golüydü. Diğeri ise Maradona’nın İngiliz savunmasını 60 metre boyunca peşinden sürüklediği ve beş altı şaşkın oyuncunun kendisini aldatmak için hamle yapmasını beklerken düz bir hat üzerinde ilerlediği muhteşem [koşusuydu](https://www.youtube.com/embed/Da_CDPRG2j0?si=1lI8ImoU0skfWVis&amp;start=50). Bu koşu sonrası attığı gol futbol tarihine 100 yılın golü efsanevi golü olarak geçti. Aslında Maradona aşağı yukarı düm düz koşmuştu ve fakat bu tahmin edilemezdi - tıpkı modern para politikaları gibi.  
 
 <small>![Maradona and Turkish Central Bank](maradona2.png)</small>
 
