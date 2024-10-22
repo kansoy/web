@@ -1,6 +1,6 @@
 ---
 title: "Para Politikasının Maradonası: Türkiye Merkez Bankası"
-date: 2024-10-21
+date: 2024-10-22
 draft: false
 description: "Turkish Central Bank and the Maradona Effect"
 summary: "Yıllar süren alışılmadık politikaların yol açtığı ekonomik sıkıntıların ardından, Türkiye Cumhuriyet Merkez Bankası yeni yönetim altında disiplinli bir yaklaşım izliyor. Maradona’nın ünlü düz koşusuna benzer şekilde, banka piyasadaki beklentileri yöneterek enflasyonu istikrara kavuşturmayı, güvenilirliği korumayı ve erken faiz indirimi baskısına direnç göstermeyi amaçlıyor. Özetle: istikrar süreklilik gerektirir."
