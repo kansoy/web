@@ -1,7 +1,7 @@
 ---
 title: "Maradona of Monetary Policy: Turkish Central Bank"
 date: 2024-10-21
-draft: false
+draft: true
 description: "Turkish Central Bank and the Maradona Effect"
 summary: "Turkey’s central bank, after years of unconventional policy that led to economic turmoil, is now following a disciplined approach under new leadership. Like Maradona’s famous straight run, the bank aims to stabilize inflation by managing market expectations, maintaining credibility, and resisting pressure for premature rate cuts. Stability requires consistency."
 slug: "Turkish Central Bank, Maradona, Monetary Policy"
