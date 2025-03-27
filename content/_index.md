@@ -4,9 +4,9 @@ description: "Fatih Kansoy's personal website."
 ---
 
 
-{{< lead >}}
+<!-- {{< lead >}}
 <strong> News!</strong>: As of September 2024, I've joined Oxford!
-{{< /lead >}}
+{{< /lead >}} -->
 
 
 
