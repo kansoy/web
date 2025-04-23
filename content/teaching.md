@@ -13,24 +13,33 @@ tags: ["teaching", "courses"]
 - [Oxford Saïd Business School - Master in Financial Economics - Macroeconomics](https://macroeconomics.info/)
 - [Oxford Saïd Business School - Master in Financial Economics - Macro-Finance](https://macrofinance.info/)
 
+### Dissertation Supervision - MPhil and MSc
+
+- Text as a Data (Machine Learning, Natural Language Processing) in Economics and Finance
+
+- Quantitative Finance (Asset Pricing, Financial Economics)
+
+- Macroeconomics (Central Banking, Monetary Economics, International Finance)
+
 
 ##  Teaching at the University of Warwick - and the Bank of England
 <!-- - [Teaching Philosophy](#teaching-philosophy) -->
 - [The Courses I Teach at the University of Oxford - 2024-25](#the-courses-i-teach-at-the-university-of-oxford---2024-25)
+  - [Dissertation Supervision - MPhil and MSc](#dissertation-supervision---mphil-and-msc)
 - [Teaching at the University of Warwick - and the Bank of England](#teaching-at-the-university-of-warwick---and-the-bank-of-england)
+- [Teaching Philosophy](#teaching-philosophy)
 - [Courses](#courses)
   - [Courses for Masters](#courses-for-masters)
   - [Courses for Undergraduate](#courses-for-undergraduate)
   - [Courses for Summer School](#courses-for-summer-school)
-  - [Dissertation Supervision](#dissertation-supervision)
 
-<!-- ---
+
 Welcome to my teaching page. I teach a range of courses designed to deepen understanding in finance and economics. On this page, you'll find detailed syllabi, course outlines, recommended readings, and additional resources to support student learning.
 ![Teaching Portfolio](/img/teachingfeynman.png)
 
 ## Teaching Philosophy
 
-My teaching philosophy is deeply inspired by [**Richard Feynman**](https://en.wikipedia.org/wiki/Richard_Feynman) (illustrated above), a renowned physicist known not just for his groundbreaking research but also for his exceptional teaching skills. Feynman's ability to unravel complex scientific concepts into understandable, engaging narratives profoundly resonated with me. His passionate and straightforward approach in explaining intricate theories set a high standard for educational excellence. He embodied the essence of making learning enjoyable and accessible, an ethos I strive to emulate in my own teaching. His unique method of fostering curiosity and critical thinking among students, often referred to as the [**Feynman Technique**](https://fs.blog/feynman-technique/) has been a guiding principle in my journey as an educator. In every course I teach, I aim to channel his enthusiasm for discovery and clarity, ensuring that my students not only grasp the theoretical aspects of Finance and Economics but also appreciate their practical applications in the real world. -->
+My teaching philosophy is deeply inspired by [**Richard Feynman**](https://en.wikipedia.org/wiki/Richard_Feynman) (illustrated above), a renowned physicist known not just for his groundbreaking research but also for his exceptional teaching skills. Feynman's ability to unravel complex scientific concepts into understandable, engaging narratives profoundly resonated with me. His passionate and straightforward approach in explaining intricate theories set a high standard for educational excellence. He embodied the essence of making learning enjoyable and accessible, an ethos I strive to emulate in my own teaching. His unique method of fostering curiosity and critical thinking among students, often referred to as the [**Feynman Technique**](https://fs.blog/feynman-technique/) has been a guiding principle in my journey as an educator. In every course I teach, I aim to channel his enthusiasm for discovery and clarity, ensuring that my students not only grasp the theoretical aspects of Finance and Economics but also appreciate their practical applications in the real world. 
 
 ## Courses
 
@@ -58,10 +67,3 @@ My teaching philosophy is deeply inspired by [**Richard Feynman**](https://en.wi
 
 -  [Finance in the 21st Century (Including Cryptocurrencies) - Module Leader](/blog/finance21)
 
-### Dissertation Supervision
-
-- Textual Analysis (Machine Learning, Natural Language Processing)
-
-- Quantitative Finance (Asset Pricing, Financial Economics)
-
-- Macroeconomics (Central Banking, Monetary Economics, International Macroeconomics)
