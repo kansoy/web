@@ -8,6 +8,10 @@ slug: "teaching"
 tags: ["teaching", "courses"]
 ---
 
+## The Courses I Teach at the University of Oxford
+
+- [Oxford Saïd Business School - Master in Financial Economics - Macroeconomics](https://macroeconomics.info/)
+- [Oxford Saïd Business School - Master in Financial Economics - Macro-Finance](https://macroefinance.info/)
 
 - [Teaching Philosophy](#teaching-philosophy)
 - [Courses](#courses)
