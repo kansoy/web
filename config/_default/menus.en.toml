@@ -47,11 +47,11 @@
 #     target = "_blank"
 
 
-[[main]]
-identifier = "appearance"
-weight = 99
-[main.params]
-action = "appearance"
+# [[main]]
+# identifier = "appearance"
+# weight = 99
+# [main.params]
+# action = "appearance"
 # icon = "appearance"
 
 [[main]]
