@@ -35,26 +35,25 @@ Simply follow the standard Hugo [Quick Start](https://gohugo.io/getting-started/
 
 <hr class="thin-line"> -->
 
-On this Research page, you'll find my research interests: central bank communication, empirical finance, applied economics, and the economics of artificial intelligence. My focus lies in blending quantitative finance with machine learning to understand historical and contemporary economic phenomena. Central to my work is a detailed study of central bank communication, where I seek to uncover insights using high-frequency data and computational methods.
-
-![Teaching Portfolio](/img/research.png)
-
 
 ## Research Interests
 
-- Central Bank Communication
-- Empirical Financial Economics
-- Central Bank Digital Currency and Cryptocurrencies
-- Digital Economic History
+- Central Banking: Policies, Tools, & Implications  | 
+- Text Mining in Economics
+- Climate Change and Finance
+- Quantitative Economic and Financial History
+
 
 ## Working in Progress
 
-- Tweets, Speeches, and Minutes: A Textual Analysis of Central Bank Communication for Bank of England. (with Joel Mundy - Bank of England).
-- Drivers of Central Bank Digital Currency. (with Serene Lam - Bank of America - Merrill Lynch).
-- A High-frequency Event Study of Federal Reserve Communication and its Impact on Financial Markets (with Neel Gandhi - UBS).
-- The Impact of ESG on Stock Returns: A High-frequency Analysis (Dominykas Stasiulaitis - Nasdaq).
-- The Central Banks and Climate Change: A Textual Analysis.
-- Determinants of Wages in Burocracy in the Ottoman Empire: An Empirical Analysis for the 19th Century. (with Omer Akyildiz - Marmara University - Istanbul).
+
+- From Cash to Code:  Intentions to Adapt  Central Bank Digital Currencies.  (Draft Ready)
+- Do Central Bankers Realy Care Climate Change?
+- Why High-frequency Data Matters? An Event-study Analysis on Futures Markets.  (Draft Ready)
+- Five Thousand Ottoman Resumes Speak:  Religion, Wages, and Social Mobility in the Twilight of an Empire.  (with Omer Akyildiz) (Draft Ready)
+- Central Bank Communication with Public:   Bank of England and Twitter (X) (with Joel Mundy - Bank of England) (Draft Ready)
+- Green Shields: The Role of ESG in Uncertain Times  (with Dominykas Stasiulaitis) (Draft Ready)
+
 
 ## Publications
 
