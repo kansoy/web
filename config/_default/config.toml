@@ -6,8 +6,10 @@ baseURL = "https://fatih.ai"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 9
 summaryLength = 0
+
+[pagination]
+  pagerSize = 9
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
