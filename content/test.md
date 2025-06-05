@@ -1,16 +1,20 @@
 ---
 title: "Test Page"
 date: 2025-06-05
+layout: "simple"
+description: "Test page"
+slug: "test"
+tags: ["test"]
 ---
 
-## Simple Test
+## Working Papers
 
-This is a test paragraph.
+### Green Shields: The Role of ESG in Uncertain Times
 
-### Section 1
+with Dominykas Stasiulaitis  
+Working Paper  
+University of Oxford
 
-Some content here.
+[PDF](http://fatih.ai/esg.pdf) | [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278853)
 
-### Section 2
-
-More content here.
+Abstract: The rapid growth of sustainable investing...
