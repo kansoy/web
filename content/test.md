@@ -7,6 +7,12 @@ slug: "test"
 tags: ["test"]
 ---
 
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
 ## Working Papers
 
 ### Green Shields: The Role of ESG in Uncertain Times
