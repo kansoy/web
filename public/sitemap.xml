@@ -4,8 +4,17 @@
   
     
       <url>
-            <loc>http://localhost:1313/blog/</loc>
-            <lastmod>2025-06-02T00:00:00+00:00</lastmod>
+            <loc>http://localhost:1313/</loc>
+            <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/research/</loc>
+            <lastmod>2025-06-05T00:00:00+00:00</lastmod>
           </url>
     
   
@@ -15,9 +24,13 @@
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>http://localhost:1313/blog/</loc>
             <lastmod>2025-06-02T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
     
   
     
@@ -32,51 +45,10 @@
     
   
     
-  
-    
       <url>
             <loc>http://localhost:1313/green/</loc>
             <lastmod>2025-01-04T00:00:00+00:00</lastmod>
           </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/para-politikasinin-maradonasi/</loc>
-            <lastmod>2024-10-22T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/blog/turkish-central-bank-maradona-monetary-policy/</loc>
-            <lastmod>2024-10-21T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/research/</loc>
-            <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-          </url>
-    
-  
     
   
     
@@ -223,6 +195,12 @@
   
     
       <url>
+            <loc>http://localhost:1313/sirket/dashboard/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>http://localhost:1313/blog/python_macroeconomics/</loc>
           </url>
     
@@ -352,6 +330,12 @@
     
       <url>
             <loc>http://localhost:1313/posts/ec331/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/sirket/</loc>
           </url>
     
   

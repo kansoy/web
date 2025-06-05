@@ -6,8 +6,15 @@
     <description>Recent content in fatih.ai on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Green Shields: The Role of ESG in Uncertain Times</title>
       <link>http://localhost:1313/blog/boe/</link>
@@ -21,27 +28,6 @@
       <pubDate>Sat, 04 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/green/</guid>
       <description>Discover how ESG characteristics create asymmetric responses to monetary policy, featuring the Paris Agreement transformation and industry-specific effects through interactive data visualizations.</description>
-    </item>
-    <item>
-      <title>Para Politikasının Maradonası: Türkiye Merkez Bankası</title>
-      <link>http://localhost:1313/blog/para-politikasinin-maradonasi/</link>
-      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/para-politikasinin-maradonasi/</guid>
-      <description>Yıllar süren alışılmadık politikaların yol açtığı ekonomik sıkıntıların ardından, Türkiye Cumhuriyet Merkez Bankası yeni yönetim altında disiplinli bir yaklaşım izliyor. Maradona’nın ünlü düz koşusuna benzer şekilde, banka piyasadaki beklentileri yöneterek enflasyonu istikrara kavuşturmayı, güvenilirliği korumayı ve erken faiz indirimi baskısına direnç göstermeyi amaçlıyor. Özetle: istikrar süreklilik gerektirir.</description>
-    </item>
-    <item>
-      <title>Maradona of Monetary Policy: Turkish Central Bank</title>
-      <link>http://localhost:1313/blog/turkish-central-bank-maradona-monetary-policy/</link>
-      <pubDate>Mon, 21 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/turkish-central-bank-maradona-monetary-policy/</guid>
-      <description>Turkey’s central bank, after years of unconventional policy that led to economic turmoil, is now following a disciplined approach under new leadership. Like Maradona’s famous straight run, the bank aims to stabilize inflation by managing market expectations, maintaining credibility, and resisting pressure for premature rate cuts. Stability requires consistency.</description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>http://localhost:1313/research/</link>
-      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/</guid>
-      <description></description>
     </item>
     <item>
       <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics✨</title>
@@ -126,6 +112,13 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/teaching/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/sirket/dashboard/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/sirket/dashboard/</guid>
+      <description></description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>

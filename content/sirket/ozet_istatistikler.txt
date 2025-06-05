@@ -1,0 +1,10 @@
+Özet İstatistikler:
+--------------------------------------------------
+Toplam dönem: 2022-01 - 2025-04
+Toplam kurulan şirket: 291,416
+Toplam kapanan şirket: 64,596
+Net değişim: 226,820
+Aylık ortalama kurulan: 7472.21
+Aylık ortalama kapanan: 1656.31
+En yüksek kurulan: 17,798 (2022-12)
+En yüksek kapanan: 4,714 (2024-12)
