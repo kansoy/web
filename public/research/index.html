@@ -817,81 +817,70 @@ Central banks increasingly use social media to communicate beyond financial mark
         </div>
     </div>
 </div>
+<style>
+/* Force disable Congo theme's mobile modal behavior */
+@media screen and (max-width: 1024px) {
+    /* Override Congo's mobile modal transformation */
+    body.mobile-menu-open,
+    body[data-modal="true"],
+    body.modal-open {
+        overflow: auto !important;
+        position: static !important;
+    }
+    
+    /* Remove Congo's mobile card/modal containers */
+    .mobile-menu-container,
+    .mobile-modal,
+    .modal-container,
+    [role="dialog"] {
+        position: static !important;
+        transform: none !important;
+        inset: auto !important;
+        display: block !important;
+        width: 100% !important;
+        height: auto !important;
+        max-height: none !important;
+        background: transparent !important;
+    }
+    
+    /* Force the actual content to be visible */
+    main.flex-grow {
+        position: relative !important;
+        transform: none !important;
+        display: block !important;
+        min-height: 100vh !important;
+    }
+}
+</style>
 <script>
-// Toggle individual articles
-function toggleArticle(id) {
-    const content = document.getElementById(id + '-content');
-    const chevron = document.getElementById(id + '-chevron');
-    
-    if (!content.classList.contains('always-open')) {
-        content.classList.toggle('expanded');
-        chevron.classList.toggle('rotate-180');
-    }
-}
-
-// Toggle abstract visibility
-function toggleAbstract(event, paperId) {
-    event.stopPropagation();
-    const abstractBox = document.getElementById(paperId + '-abstract');
-    const bibtexBox = document.getElementById(paperId + '-bibtex');
-    
-    // Hide bibtex if shown
-    if (bibtexBox && bibtexBox.classList.contains('show')) {
-        bibtexBox.classList.remove('show');
+// Disable Congo's mobile modal JavaScript behavior
+window.addEventListener('load', function() {
+    // Override any mobile menu toggle functions
+    if (typeof window.toggleMobileMenu !== 'undefined') {
+        window.toggleMobileMenu = function() { return false; };
     }
     
-    abstractBox.classList.toggle('show');
-}
-
-// Toggle bibtex visibility
-function toggleBibtex(event, paperId) {
-    event.stopPropagation();
-    const bibtexBox = document.getElementById(paperId + '-bibtex');
-    const abstractBox = document.getElementById(paperId + '-abstract');
-    
-    // Hide abstract if shown
-    if (abstractBox && abstractBox.classList.contains('show')) {
-        abstractBox.classList.remove('show');
-    }
-    
-    bibtexBox.classList.toggle('show');
-}
-
-// Copy BibTeX to clipboard
-function copyBibtex(paperId) {
-    const bibtexContent = document.getElementById(paperId + '-bibtex-content').textContent;
-    navigator.clipboard.writeText(bibtexContent).then(function() {
-        // Change button text temporarily
-        const button = event.target.closest('button');
-        const originalHTML = button.innerHTML;
-        button.innerHTML = '<i class="fas fa-check mr-1"></i> Copied!';
-        button.classList.add('bg-green-700');
-        button.classList.remove('bg-gray-700');
-        
-        setTimeout(() => {
-            button.innerHTML = originalHTML;
-            button.classList.remove('bg-green-700');
-            button.classList.add('bg-gray-700');
-        }, 2000);
-    }).catch(function(err) {
-        console.error('Could not copy text: ', err);
+    // Remove modal attributes that Congo might add
+    const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'attributes') {
+                const target = mutation.target;
+                if (target.hasAttribute('data-modal') || 
+                    target.classList.contains('mobile-modal') ||
+                    target.classList.contains('modal-open')) {
+                    target.removeAttribute('data-modal');
+                    target.classList.remove('mobile-modal', 'modal-open');
+                }
+            }
+        });
     });
-}
-
-// Apply default expansion setting on load
-window.onload = function() {
-    if (ALWAYS_OPEN_DEFAULT) {
-        const allContents = document.querySelectorAll('.article-content');
-        const allChevrons = document.querySelectorAll('[id$="-chevron"]');
-        
-        allContents.forEach(content => {
-            content.classList.add('always-open', 'expanded');
-        });
-        allChevrons.forEach(chevron => {
-            chevron.classList.add('rotate-180');
-        });
-    }
-}
+    
+    // Start observing body for attribute changes
+    observer.observe(document.body, {
+        attributes: true,
+        attributeFilter: ['class', 'data-modal']
+    });
+});
 </script>
 <!-- 
 ==========================
