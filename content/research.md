@@ -49,6 +49,7 @@ tags: ["research", "publications"]
     padding: 1.5rem;
     cursor: pointer;
     position: relative;
+    background-color: #e8e8e8;
 }
 
 .paper-header:hover {
@@ -60,6 +61,7 @@ tags: ["research", "publications"]
     font-weight: 600;
     margin-bottom: 0.5rem;
     padding-right: 2rem;
+    color: #1f2937;
 }
 
 .paper-meta {
@@ -79,6 +81,7 @@ tags: ["research", "publications"]
     top: 1.5rem;
     right: 1.5rem;
     transition: transform 0.3s ease;
+    color: #4b5563;
 }
 
 .expand-icon.rotated {
@@ -89,6 +92,7 @@ tags: ["research", "publications"]
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    background-color: #e8e8e8;
 }
 
 .paper-content.expanded {
@@ -97,6 +101,7 @@ tags: ["research", "publications"]
 
 .paper-inner {
     padding: 0 1.5rem 1.5rem;
+    background-color: #e8e8e8;
 }
 
 .button-group {
@@ -117,6 +122,7 @@ tags: ["research", "publications"]
     text-decoration: none;
     font-size: 0.875rem;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
 .paper-button:hover {
@@ -131,12 +137,18 @@ tags: ["research", "publications"]
 .btn-twitter { color: #1f2937; }
 .btn-bluesky { color: #0ea5e9; }
 .btn-bibtex { color: #8b5cf6; }
+.btn-abstract { color: #6b7280; }
 
 .content-section {
     background-color: #f3f4f6;
     padding: 1rem;
     border-radius: 0.375rem;
     margin-bottom: 1rem;
+    display: none;
+}
+
+.content-section.show {
+    display: block;
 }
 
 .section-title {
@@ -203,11 +215,6 @@ tags: ["research", "publications"]
     margin: 3rem 0;
     border: 0;
     border-top: 2px solid #e5e7eb;
-}
-
-/* Hide elements by default */
-.hidden {
-    display: none;
 }
 
 /* Mobile responsive */
@@ -293,22 +300,22 @@ tags: ["research", "publications"]
                 <a href="https://bsky.app/profile/fatih.ai/post/3lqno6dfwok24" target="_blank" class="paper-button btn-bluesky">
                     <i class="fas fa-cloud"></i> Bluesky
                 </a>
-                <button onclick="toggleSection('paper1-abstract')" class="paper-button">
+                <button onclick="toggleSection(event, 'paper1-abstract')" class="paper-button btn-abstract">
                     <i class="fas fa-file-alt"></i> Abstract
                 </button>
-                <button onclick="toggleSection('paper1-bibtex')" class="paper-button btn-bibtex">
+                <button onclick="toggleSection(event, 'paper1-bibtex')" class="paper-button btn-bibtex">
                     <i class="fas fa-quote-left"></i> BibTeX
                 </button>
             </div>
             
-            <div id="paper1-abstract" class="content-section hidden">
+            <div id="paper1-abstract" class="content-section">
                 <div class="section-title">Abstract</div>
                 <div>
                     The rapid growth of sustainable investing, now exceeding 35 trillion USD globally, has transformed financial markets, yet the implications for monetary policy transmission remain underexplored. While existing literature documents heterogeneous firm responses to monetary policy through traditional channels such as size and leverage, it remains unknown whether environmental, social, and governance (ESG) characteristics create distinct transmission mechanisms. Using high-frequency identification around 160 Federal Reserve announcements from 2005 to 2025, we uncover an asymmetric pattern: high-ESG firms gain 1.6 basis points of protection from contractionary target surprises, yet suffer 2.6 basis points greater sensitivity to forward guidance shocks. This asymmetry persists within industries and intensifies with investor climate awareness. Remarkably, the Paris Agreement inverted these relationships: before December 2015, high-ESG firms were more vulnerable to contractionary policy within industries; afterward, they gained protection, representing a 186 basis point reversal. We develop a two-period model featuring heterogeneous investors with sustainability preferences that quantitatively matches these patterns. The model reveals how ESG investors' non-pecuniary utility creates differential demand elasticities, simultaneously protecting green firms from immediate rate changes while amplifying forward guidance vulnerability through their longer investment horizons. These findings establish environmental characteristics as a new dimension of monetary policy non-neutrality, with important implications as sustainable finance continues expanding.
                 </div>
             </div>
             
-            <div id="paper1-bibtex" class="content-section hidden">
+            <div id="paper1-bibtex" class="content-section">
                 <div class="section-title">BibTeX</div>
                 <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper1-bib')">
@@ -357,22 +364,22 @@ tags: ["research", "publications"]
                 <a href="http://fatih.ai/boe.pdf" download class="paper-button btn-download">
                     <i class="fas fa-download"></i> Download
                 </a>
-                <button onclick="toggleSection('paper2-abstract')" class="paper-button">
+                <button onclick="toggleSection(event, 'paper2-abstract')" class="paper-button btn-abstract">
                     <i class="fas fa-file-alt"></i> Abstract
                 </button>
-                <button onclick="toggleSection('paper2-bibtex')" class="paper-button btn-bibtex">
+                <button onclick="toggleSection(event, 'paper2-bibtex')" class="paper-button btn-bibtex">
                     <i class="fas fa-quote-left"></i> BibTeX
                 </button>
             </div>
             
-            <div id="paper2-abstract" class="content-section hidden">
+            <div id="paper2-abstract" class="content-section">
                 <div class="section-title">Abstract</div>
                 <div>
                     Central banks increasingly use social media to communicate beyond financial markets, yet evidence on public engagement effectiveness remains limited. Despite 113 central banks joining Twitter between 2008 and 2018, we lack understanding of what drives audience interaction with their content. To examine engagement determinants, we analyzed 3.13 million tweets mentioning the Bank of England from 2007 to 2022, including 9,810 official posts. We investigate posting patterns, measure engagement elasticity, and identify content characteristics predicting higher interaction. The Bank's posting schedule misaligns with peak audience engagement times, with evening hours generating the highest interaction despite minimal posting. Cultural content, such as the Alan Turing 50 pound note, achieved 1,300 times higher engagement than routine policy communications. Engagement elasticity averaged 1.095 with substantial volatility during events like Brexit, contrasting with the Federal Reserve's stability. Media content dramatically increased engagement: videos by 1,700 percent, photos by 126 percent, while monetary policy announcements and readability significantly enhanced all metrics. Content quality and timing matter more than posting frequency for effective central bank communication. These findings suggest central banks should prioritize accessible, media-rich content during high-attention periods rather than increasing volume, with implications for digital communication strategies in fulfilling public transparency mandates.
                 </div>
             </div>
             
-            <div id="paper2-bibtex" class="content-section hidden">
+            <div id="paper2-bibtex" class="content-section">
                 <div class="section-title">BibTeX</div>
                 <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper2-bib')">
@@ -421,22 +428,22 @@ tags: ["research", "publications"]
                 <a href="http://fatih.ai/nim.pdf" download class="paper-button btn-download">
                     <i class="fas fa-download"></i> Download
                 </a>
-                <button onclick="toggleSection('paper3-abstract')" class="paper-button">
+                <button onclick="toggleSection(event, 'paper3-abstract')" class="paper-button btn-abstract">
                     <i class="fas fa-file-alt"></i> Abstract
                 </button>
-                <button onclick="toggleSection('paper3-bibtex')" class="paper-button btn-bibtex">
+                <button onclick="toggleSection(event, 'paper3-bibtex')" class="paper-button btn-bibtex">
                     <i class="fas fa-quote-left"></i> BibTeX
                 </button>
             </div>
             
-            <div id="paper3-abstract" class="content-section hidden">
+            <div id="paper3-abstract" class="content-section">
                 <div class="section-title">Abstract</div>
                 <div>
                     This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
                 </div>
             </div>
             
-            <div id="paper3-bibtex" class="content-section hidden">
+            <div id="paper3-bibtex" class="content-section">
                 <div class="section-title">BibTeX</div>
                 <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper3-bib')">
@@ -484,22 +491,22 @@ tags: ["research", "publications"]
                 <a href="http://fatih.ai/istanbul.pdf" download class="paper-button btn-download">
                     <i class="fas fa-download"></i> Download
                 </a>
-                <button onclick="toggleSection('paper4-abstract')" class="paper-button">
+                <button onclick="toggleSection(event, 'paper4-abstract')" class="paper-button btn-abstract">
                     <i class="fas fa-file-alt"></i> Abstract
                 </button>
-                <button onclick="toggleSection('paper4-bibtex')" class="paper-button btn-bibtex">
+                <button onclick="toggleSection(event, 'paper4-bibtex')" class="paper-button btn-bibtex">
                     <i class="fas fa-quote-left"></i> BibTeX
                 </button>
             </div>
             
-            <div id="paper4-abstract" class="content-section hidden">
+            <div id="paper4-abstract" class="content-section">
                 <div class="section-title">Abstract</div>
                 <div>
                     This paper discusses and assesses Istanbul as an international finance centre within the context of its position in the sector of Islamic finance. No doubt, Istanbul is a centre of business and culture of Turkey and the Turkish government is at present endeavouring to turn Istanbul into a regional finance centre in ten years and, furthermore, into one of the top international financial centres in thirty years. In this context we evaluate Istanbul's potential and position to assume the role of a hub for Islamic finance. Our main conclusions are as follows; the current image, legal and regulatory infrastructure and human capacity of Istanbul do not presently allow it to become an international finance centre. In contrast, if we consider its strategic location standing between the Middle East, Eurasia and Africa as well as its strong relations with Muslim countries, and, last but not least, its strong banking system, Istanbul has the potential to serve as a centre for Islamic finance provided that the government's ambitions remain focused in this direction.
                 </div>
             </div>
             
-            <div id="paper4-bibtex" class="content-section hidden">
+            <div id="paper4-bibtex" class="content-section">
                 <div class="section-title">BibTeX</div>
                 <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper4-bib')">
@@ -534,9 +541,10 @@ function togglePaper(paperId) {
 }
 
 // Toggle individual sections (abstract, bibtex)
-function toggleSection(sectionId) {
+function toggleSection(event, sectionId) {
+    event.stopPropagation(); // Prevent triggering paper expansion
     const section = document.getElementById(sectionId);
-    section.classList.toggle('hidden');
+    section.classList.toggle('show');
     
     // Hide other sections in the same paper
     const paperId = sectionId.split('-')[0];
@@ -544,8 +552,8 @@ function toggleSection(sectionId) {
         document.getElementById(paperId + '-bibtex') : 
         document.getElementById(paperId + '-abstract');
     
-    if (otherSection && !section.classList.contains('hidden')) {
-        otherSection.classList.add('hidden');
+    if (otherSection && section.classList.contains('show')) {
+        otherSection.classList.remove('show');
     }
 }
 
