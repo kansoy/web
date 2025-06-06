@@ -238,19 +238,19 @@ tags: ["research", "publications"]
 ## Research Interests
 
 <div class="research-interests">
-<div class="interest-item">
+    <div class="interest-item">
         <i class="fas fa-chart-line" style="color: #2563eb;"></i>
         <span>Central Banking: Policies, Tools, & Implications</span>
     </div>
-<div class="interest-item">
+    <div class="interest-item">
         <i class="fas fa-robot" style="color: #2563eb;"></i>
         <span>Text Mining in Economics and Finance</span>
     </div>
-<div class="interest-item">
+    <div class="interest-item">
         <i class="fas fa-leaf" style="color: #10b981;"></i>
         <span>Climate Change and Finance</span>
     </div>
-<div class="interest-item">
+    <div class="interest-item">
         <i class="fas fa-history" style="color: #8b5cf6;"></i>
         <span>Quantitative Economic and Financial History</span>
     </div>
@@ -260,21 +260,21 @@ tags: ["research", "publications"]
 
 <!-- Paper 1 -->
 <div class="paper-card">
-<div class="paper-header" onclick="togglePaper('paper1')">
+    <div class="paper-header" onclick="togglePaper('paper1')">
         <h3 class="paper-title">Green Shields: The Role of ESG in Uncertain Times</h3>
-<div class="paper-meta">
+        <div class="paper-meta">
             with Dominykas Stasiulaitis
             <span class="status-badge badge-working">Working Paper</span>
         </div>
-<div class="paper-journal">
+        <div class="paper-journal">
             Department of Economics Discussion Paper Series, University of Oxford
         </div>
         <i class="fas fa-chevron-down expand-icon" id="paper1-icon"></i>
     </div>
     
-<div class="paper-content" id="paper1-content">
-<div class="paper-inner">
-<div class="button-group">
+    <div class="paper-content" id="paper1-content">
+        <div class="paper-inner">
+            <div class="button-group">
                 <a href="http://fatih.ai/esg.pdf" class="paper-button btn-pdf">
                     <i class="fas fa-file-pdf"></i> View PDF
                 </a>
@@ -301,16 +301,16 @@ tags: ["research", "publications"]
                 </button>
             </div>
             
-<div id="paper1-abstract" class="content-section hidden">
-    <div class="section-title">Abstract</div>
+            <div id="paper1-abstract" class="content-section hidden">
+                <div class="section-title">Abstract</div>
                 <div>
                     The rapid growth of sustainable investing, now exceeding 35 trillion USD globally, has transformed financial markets, yet the implications for monetary policy transmission remain underexplored. While existing literature documents heterogeneous firm responses to monetary policy through traditional channels such as size and leverage, it remains unknown whether environmental, social, and governance (ESG) characteristics create distinct transmission mechanisms. Using high-frequency identification around 160 Federal Reserve announcements from 2005 to 2025, we uncover an asymmetric pattern: high-ESG firms gain 1.6 basis points of protection from contractionary target surprises, yet suffer 2.6 basis points greater sensitivity to forward guidance shocks. This asymmetry persists within industries and intensifies with investor climate awareness. Remarkably, the Paris Agreement inverted these relationships: before December 2015, high-ESG firms were more vulnerable to contractionary policy within industries; afterward, they gained protection, representing a 186 basis point reversal. We develop a two-period model featuring heterogeneous investors with sustainability preferences that quantitatively matches these patterns. The model reveals how ESG investors' non-pecuniary utility creates differential demand elasticities, simultaneously protecting green firms from immediate rate changes while amplifying forward guidance vulnerability through their longer investment horizons. These findings establish environmental characteristics as a new dimension of monetary policy non-neutrality, with important implications as sustainable finance continues expanding.
                 </div>
             </div>
             
-<div id="paper1-bibtex" class="content-section hidden">
-    <div class="section-title">BibTeX</div>
-    <div class="bibtex-content">
+            <div id="paper1-bibtex" class="content-section hidden">
+                <div class="section-title">BibTeX</div>
+                <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper1-bib')">
                         <i class="fas fa-copy"></i> Copy
                     </button>
@@ -330,21 +330,21 @@ tags: ["research", "publications"]
 
 <!-- Paper 2 -->
 <div class="paper-card">
-<div class="paper-header" onclick="togglePaper('paper2')">
+    <div class="paper-header" onclick="togglePaper('paper2')">
         <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
-<div class="paper-meta">
+        <div class="paper-meta">
             with Joel Mundy (Bank of England)
             <span class="status-badge badge-working">Working Paper</span>
         </div>
-<div class="paper-journal">
+        <div class="paper-journal">
             Department of Economics Discussion Paper Series, University of Oxford
         </div>
         <i class="fas fa-chevron-down expand-icon" id="paper2-icon"></i>
     </div>
     
-<div class="paper-content" id="paper2-content">
-<div class="paper-inner">
-<div class="button-group">
+    <div class="paper-content" id="paper2-content">
+        <div class="paper-inner">
+            <div class="button-group">
                 <a href="http://fatih.ai/boe.pdf" class="paper-button btn-pdf">
                     <i class="fas fa-file-pdf"></i> View PDF
                 </a>
@@ -365,16 +365,16 @@ tags: ["research", "publications"]
                 </button>
             </div>
             
-<div id="paper2-abstract" class="content-section hidden">
-    <div class="section-title">Abstract</div>
+            <div id="paper2-abstract" class="content-section hidden">
+                <div class="section-title">Abstract</div>
                 <div>
                     Central banks increasingly use social media to communicate beyond financial markets, yet evidence on public engagement effectiveness remains limited. Despite 113 central banks joining Twitter between 2008 and 2018, we lack understanding of what drives audience interaction with their content. To examine engagement determinants, we analyzed 3.13 million tweets mentioning the Bank of England from 2007 to 2022, including 9,810 official posts. We investigate posting patterns, measure engagement elasticity, and identify content characteristics predicting higher interaction. The Bank's posting schedule misaligns with peak audience engagement times, with evening hours generating the highest interaction despite minimal posting. Cultural content, such as the Alan Turing 50 pound note, achieved 1,300 times higher engagement than routine policy communications. Engagement elasticity averaged 1.095 with substantial volatility during events like Brexit, contrasting with the Federal Reserve's stability. Media content dramatically increased engagement: videos by 1,700 percent, photos by 126 percent, while monetary policy announcements and readability significantly enhanced all metrics. Content quality and timing matter more than posting frequency for effective central bank communication. These findings suggest central banks should prioritize accessible, media-rich content during high-attention periods rather than increasing volume, with implications for digital communication strategies in fulfilling public transparency mandates.
                 </div>
             </div>
             
-<div id="paper2-bibtex" class="content-section hidden">
-    <div class="section-title">BibTeX</div>
-    <div class="bibtex-content">
+            <div id="paper2-bibtex" class="content-section hidden">
+                <div class="section-title">BibTeX</div>
+                <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper2-bib')">
                         <i class="fas fa-copy"></i> Copy
                     </button>
@@ -398,20 +398,20 @@ tags: ["research", "publications"]
 
 <!-- Paper 3 -->
 <div class="paper-card">
-<div class="paper-header" onclick="togglePaper('paper3')">
+    <div class="paper-header" onclick="togglePaper('paper3')">
         <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
-<div class="paper-meta">
+        <div class="paper-meta">
             <span class="status-badge badge-journal">Journal Article</span>
         </div>
-<div class="paper-journal">
+        <div class="paper-journal">
             Journal of BRSA Banking and Financial Markets
         </div>
         <i class="fas fa-chevron-down expand-icon" id="paper3-icon"></i>
     </div>
     
-<div class="paper-content" id="paper3-content">
-<div class="paper-inner">
-<div class="button-group">
+    <div class="paper-content" id="paper3-content">
+        <div class="paper-inner">
+            <div class="button-group">
                 <a href="http://fatih.ai/nim.pdf" class="paper-button btn-pdf">
                     <i class="fas fa-file-pdf"></i> View PDF
                 </a>
@@ -429,16 +429,16 @@ tags: ["research", "publications"]
                 </button>
             </div>
             
-<div id="paper3-abstract" class="content-section hidden">
-    <div class="section-title">Abstract</div>
+            <div id="paper3-abstract" class="content-section hidden">
+                <div class="section-title">Abstract</div>
                 <div>
                     This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
                 </div>
             </div>
             
-<div id="paper3-bibtex" class="content-section hidden">
-    <div class="section-title">BibTeX</div>
-    <div class="bibtex-content">
+            <div id="paper3-bibtex" class="content-section hidden">
+                <div class="section-title">BibTeX</div>
+                <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper3-bib')">
                         <i class="fas fa-copy"></i> Copy
                     </button>
@@ -460,21 +460,21 @@ tags: ["research", "publications"]
 
 <!-- Paper 4 -->
 <div class="paper-card">
-<div class="paper-header" onclick="togglePaper('paper4')">
+    <div class="paper-header" onclick="togglePaper('paper4')">
         <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
-<div class="paper-meta">
+        <div class="paper-meta">
             with H Karlioglu
             <span class="status-badge badge-journal">Journal Article</span>
         </div>
-<div class="paper-journal">
+        <div class="paper-journal">
             Afro Eurasian Studies
         </div>
         <i class="fas fa-chevron-down expand-icon" id="paper4-icon"></i>
     </div>
     
-<div class="paper-content" id="paper4-content">
-<div class="paper-inner">
-<div class="button-group">
+    <div class="paper-content" id="paper4-content">
+        <div class="paper-inner">
+            <div class="button-group">
                 <a href="http://fatih.ai/istanbul.pdf" class="paper-button btn-pdf">
                     <i class="fas fa-file-pdf"></i> View PDF
                 </a>
@@ -492,16 +492,16 @@ tags: ["research", "publications"]
                 </button>
             </div>
             
-<div id="paper4-abstract" class="content-section hidden">
-    <div class="section-title">Abstract</div>
+            <div id="paper4-abstract" class="content-section hidden">
+                <div class="section-title">Abstract</div>
                 <div>
                     This paper discusses and assesses Istanbul as an international finance centre within the context of its position in the sector of Islamic finance. No doubt, Istanbul is a centre of business and culture of Turkey and the Turkish government is at present endeavouring to turn Istanbul into a regional finance centre in ten years and, furthermore, into one of the top international financial centres in thirty years. In this context we evaluate Istanbul's potential and position to assume the role of a hub for Islamic finance. Our main conclusions are as follows; the current image, legal and regulatory infrastructure and human capacity of Istanbul do not presently allow it to become an international finance centre. In contrast, if we consider its strategic location standing between the Middle East, Eurasia and Africa as well as its strong relations with Muslim countries, and, last but not least, its strong banking system, Istanbul has the potential to serve as a centre for Islamic finance provided that the government's ambitions remain focused in this direction.
                 </div>
             </div>
             
-<div id="paper4-bibtex" class="content-section hidden">
-    <div class="section-title">BibTeX</div>
-    <div class="bibtex-content">
+            <div id="paper4-bibtex" class="content-section hidden">
+                <div class="section-title">BibTeX</div>
+                <div class="bibtex-content">
                     <button class="copy-button" onclick="copyBibtex('paper4-bib')">
                         <i class="fas fa-copy"></i> Copy
                     </button>
