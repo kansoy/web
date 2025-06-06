@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Fatih Kansoy</title>
-    <link>http://localhost:63205/tags/research/</link>
+    <link>http://localhost:64051/tags/research/</link>
     <description>Recent content in Research on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63205/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64051/tags/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>http://localhost:63205/research/</link>
+      <link>http://localhost:64051/research/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/research/</guid>
+      <guid>http://localhost:64051/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:63205/research/</link>
+      <link>http://localhost:64051/research/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/research/</guid>
+      <guid>http://localhost:64051/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>http://localhost:63205/blog/climate_central_banks/</link>
+      <link>http://localhost:64051/blog/climate_central_banks/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/climate_central_banks/</guid>
+      <guid>http://localhost:64051/blog/climate_central_banks/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>Understanding the Impact of Monetary Policy on Futures Markets</title>
-      <link>http://localhost:63205/blog/monetary_policy_and_futures_markets/</link>
+      <link>http://localhost:64051/blog/monetary_policy_and_futures_markets/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/monetary_policy_and_futures_markets/</guid>
+      <guid>http://localhost:64051/blog/monetary_policy_and_futures_markets/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:63205/about/</link>
+      <link>http://localhost:64051/about/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/about/</guid>
+      <guid>http://localhost:64051/about/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>http://localhost:63205/blog/python_macroeconomics/</link>
+      <link>http://localhost:64051/blog/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/python_macroeconomics/</guid>
+      <guid>http://localhost:64051/blog/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>http://localhost:63205/posts/python_macroeconomics/</link>
+      <link>http://localhost:64051/posts/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/posts/python_macroeconomics/</guid>
+      <guid>http://localhost:64051/posts/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>http://localhost:63205/posts/climate_central_banks/</link>
+      <link>http://localhost:64051/posts/climate_central_banks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/posts/climate_central_banks/</guid>
+      <guid>http://localhost:64051/posts/climate_central_banks/</guid>
       <description></description>
     </item>
     <item>
       <title>Understanding the Impact of Monetary Policy on Futures Markets</title>
-      <link>http://localhost:63205/posts/monetary_policy_and_futures_markets/</link>
+      <link>http://localhost:64051/posts/monetary_policy_and_futures_markets/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/posts/monetary_policy_and_futures_markets/</guid>
+      <guid>http://localhost:64051/posts/monetary_policy_and_futures_markets/</guid>
       <description></description>
     </item>
   </channel>

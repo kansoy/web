@@ -2,115 +2,115 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog|News on Fatih Kansoy</title>
-    <link>http://localhost:63205/blog/</link>
+    <link>http://localhost:64051/blog/</link>
     <description>Recent content in Blog|News on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63205/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64051/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Green Shields: The Role of ESG in Uncertain Times</title>
-      <link>http://localhost:63205/blog/boe/</link>
+      <link>http://localhost:64051/blog/boe/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/boe/</guid>
+      <guid>http://localhost:64051/blog/boe/</guid>
       <description>The rapid growth of sustainable investing—now exceeding $35 trillion globally—has transformed financial markets, yet the implications for monetary policy transmission remain unexplored. While extensive literature documents heterogeneous firm responses to monetary policy through traditional channels like size and leverage, whether environmental, social, and governance (ESG) characteristics create distinct transmission mechanisms is unknown. Using high-frequency identification around 160 Federal Reserve announcements (2005-2025), we uncover an asymmetric pattern high-ESG firms gain 1.6 basis points protection from contractionary target surprises yet suffer 2.6 basis points greater sensitivity to forward guidance shocks. This asymmetry persists within industries and intensifies with investor climate awareness. Remarkably, the Paris Agreement inverted these relationships—before December 2015, high-ESG firms were more vulnerable to contractionary policy within industries; afterward, they gained protection, a 186 basis point reversal. We develop a two-period model featuring heterogeneous investors with sustainability preferences that quantitatively matches these patterns. The model reveals how ESG investors&amp;rsquo; non-pecuniary utility creates differential demand elasticities, simultaneously protecting green firms from immediate rate changes while amplifying forward guidance vulnerability through their longer investment horizons. These findings establish environmental characteristics as a new dimension of monetary policy non-neutrality, with profound implications as sustainable finance continues expanding..</description>
     </item>
     <item>
       <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics✨</title>
-      <link>http://localhost:63205/blog/projects_news/</link>
+      <link>http://localhost:64051/blog/projects_news/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/projects_news/</guid>
+      <guid>http://localhost:64051/blog/projects_news/</guid>
       <description>I am thrilled to share that I have recently been awarded approximately £10K in funding from the Department of Economics for three dynamic projects, each designed to merge empirical research with educational innovation in finance and economics.</description>
     </item>
     <item>
       <title>Macroconomics</title>
-      <link>http://localhost:63205/blog/ec956/</link>
+      <link>http://localhost:64051/blog/ec956/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec956/</guid>
+      <guid>http://localhost:64051/blog/ec956/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Quantitative [Macro] Economics</title>
-      <link>http://localhost:63205/blog/ec106/</link>
+      <link>http://localhost:64051/blog/ec106/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec106/</guid>
+      <guid>http://localhost:64051/blog/ec106/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>http://localhost:63205/blog/climate_central_banks/</link>
+      <link>http://localhost:64051/blog/climate_central_banks/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/climate_central_banks/</guid>
+      <guid>http://localhost:64051/blog/climate_central_banks/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>EC916 Topics in Global Finace </title>
-      <link>http://localhost:63205/blog/ec916/</link>
+      <link>http://localhost:64051/blog/ec916/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec916/</guid>
+      <guid>http://localhost:64051/blog/ec916/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>Money and Banking</title>
-      <link>http://localhost:63205/blog/money_and_banking/</link>
+      <link>http://localhost:64051/blog/money_and_banking/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/money_and_banking/</guid>
+      <guid>http://localhost:64051/blog/money_and_banking/</guid>
       <description>The course will relate this to recent economic events which have reverberated worldwide. It is particularly suitable for students wishing to enter careers in financial markets or further study in this area. The Money and Banking course will look at some key issues in the theory and practice of financial markets, monetary policy and banking and how their interactions affect the real world.</description>
     </item>
     <item>
       <title>Understanding the Impact of Monetary Policy on Futures Markets</title>
-      <link>http://localhost:63205/blog/monetary_policy_and_futures_markets/</link>
+      <link>http://localhost:64051/blog/monetary_policy_and_futures_markets/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/monetary_policy_and_futures_markets/</guid>
+      <guid>http://localhost:64051/blog/monetary_policy_and_futures_markets/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>Macroeconomics</title>
-      <link>http://localhost:63205/blog/macroeconomics/</link>
+      <link>http://localhost:64051/blog/macroeconomics/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/macroeconomics/</guid>
+      <guid>http://localhost:64051/blog/macroeconomics/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Finance in the 21st Century </title>
-      <link>http://localhost:63205/blog/finance21/</link>
+      <link>http://localhost:64051/blog/finance21/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/finance21/</guid>
+      <guid>http://localhost:64051/blog/finance21/</guid>
       <description>I teach an engaging summer school course at the University of Warwick, specifically tailored for about 200 pre-university students from across the world. This course covers three significant areas: the evolving landscape of digital currencies like Bitcoin and their potential to redefine traditional monetary systems; the vital role of central banks in addressing the global climate crisis and maintaining financial stability; and the impact of big financial data, AI, machine learning, and algorithmic trading on financial markets</description>
     </item>
     <item>
       <title>Macroeconomics - 2</title>
-      <link>http://localhost:63205/blog/ec201/</link>
+      <link>http://localhost:64051/blog/ec201/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec201/</guid>
+      <guid>http://localhost:64051/blog/ec201/</guid>
       <description>Macroeconomics - 2</description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>http://localhost:63205/blog/python_macroeconomics/</link>
+      <link>http://localhost:64051/blog/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/python_macroeconomics/</guid>
+      <guid>http://localhost:64051/blog/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>
-      <link>http://localhost:63205/blog/ec9da/</link>
+      <link>http://localhost:64051/blog/ec9da/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec9da/</guid>
+      <guid>http://localhost:64051/blog/ec9da/</guid>
       <description></description>
     </item>
     <item>
       <title>Research in Applied Economics - Dissertation Supervision</title>
-      <link>http://localhost:63205/blog/ec331/</link>
+      <link>http://localhost:64051/blog/ec331/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec331/</guid>
+      <guid>http://localhost:64051/blog/ec331/</guid>
       <description></description>
     </item>
     <item>
       <title>Topics in Financial Economics - Theories and International Finance</title>
-      <link>http://localhost:63205/blog/ec333/</link>
+      <link>http://localhost:64051/blog/ec333/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/blog/ec333/</guid>
+      <guid>http://localhost:64051/blog/ec333/</guid>
       <description></description>
     </item>
   </channel>

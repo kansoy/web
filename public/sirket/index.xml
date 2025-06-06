@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sirkets on Fatih Kansoy</title>
-    <link>http://localhost:63205/sirket/</link>
+    <link>http://localhost:64051/sirket/</link>
     <description>Recent content in Sirkets on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:63205/sirket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64051/sirket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:63205/sirket/dashboard/</link>
+      <link>http://localhost:64051/sirket/dashboard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/sirket/dashboard/</guid>
+      <guid>http://localhost:64051/sirket/dashboard/</guid>
       <description></description>
     </item>
   </channel>

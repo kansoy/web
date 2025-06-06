@@ -2,276 +2,276 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Fatih Kansoy</title>
-    <link>http://localhost:63205/tags/</link>
+    <link>http://localhost:64051/tags/</link>
     <description>Recent content in Tags on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63205/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64051/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
-      <link>http://localhost:63205/tags/publications/</link>
+      <link>http://localhost:64051/tags/publications/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/publications/</guid>
+      <guid>http://localhost:64051/tags/publications/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:63205/tags/research/</link>
+      <link>http://localhost:64051/tags/research/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/research/</guid>
+      <guid>http://localhost:64051/tags/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Change</title>
-      <link>http://localhost:63205/tags/climate-change/</link>
+      <link>http://localhost:64051/tags/climate-change/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/climate-change/</guid>
+      <guid>http://localhost:64051/tags/climate-change/</guid>
       <description></description>
     </item>
     <item>
       <title>ESG</title>
-      <link>http://localhost:63205/tags/esg/</link>
+      <link>http://localhost:64051/tags/esg/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/esg/</guid>
+      <guid>http://localhost:64051/tags/esg/</guid>
       <description></description>
     </item>
     <item>
       <title>Monetary Policy</title>
-      <link>http://localhost:63205/tags/monetary-policy/</link>
+      <link>http://localhost:64051/tags/monetary-policy/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/monetary-policy/</guid>
+      <guid>http://localhost:64051/tags/monetary-policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Sustainable Finance</title>
-      <link>http://localhost:63205/tags/sustainable-finance/</link>
+      <link>http://localhost:64051/tags/sustainable-finance/</link>
       <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/sustainable-finance/</guid>
+      <guid>http://localhost:64051/tags/sustainable-finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Central Banking</title>
-      <link>http://localhost:63205/tags/central-banking/</link>
+      <link>http://localhost:64051/tags/central-banking/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/central-banking/</guid>
+      <guid>http://localhost:64051/tags/central-banking/</guid>
       <description></description>
     </item>
     <item>
       <title>Futures Markets</title>
-      <link>http://localhost:63205/tags/futures-markets/</link>
+      <link>http://localhost:64051/tags/futures-markets/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/futures-markets/</guid>
+      <guid>http://localhost:64051/tags/futures-markets/</guid>
       <description></description>
     </item>
     <item>
       <title>Teaching</title>
-      <link>http://localhost:63205/tags/teaching/</link>
+      <link>http://localhost:64051/tags/teaching/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/teaching/</guid>
+      <guid>http://localhost:64051/tags/teaching/</guid>
       <description></description>
     </item>
     <item>
       <title>Ec956</title>
-      <link>http://localhost:63205/tags/ec956/</link>
+      <link>http://localhost:64051/tags/ec956/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/ec956/</guid>
+      <guid>http://localhost:64051/tags/ec956/</guid>
       <description></description>
     </item>
     <item>
       <title>Macroeconomics</title>
-      <link>http://localhost:63205/tags/macroeconomics/</link>
+      <link>http://localhost:64051/tags/macroeconomics/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/macroeconomics/</guid>
+      <guid>http://localhost:64051/tags/macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Wbs</title>
-      <link>http://localhost:63205/tags/wbs/</link>
+      <link>http://localhost:64051/tags/wbs/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/wbs/</guid>
+      <guid>http://localhost:64051/tags/wbs/</guid>
       <description></description>
     </item>
     <item>
       <title>Ec106</title>
-      <link>http://localhost:63205/tags/ec106/</link>
+      <link>http://localhost:64051/tags/ec106/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/ec106/</guid>
+      <guid>http://localhost:64051/tags/ec106/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantitative Economics</title>
-      <link>http://localhost:63205/tags/quantitative-economics/</link>
+      <link>http://localhost:64051/tags/quantitative-economics/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/quantitative-economics/</guid>
+      <guid>http://localhost:64051/tags/quantitative-economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantitative Finance</title>
-      <link>http://localhost:63205/tags/quantitative-finance/</link>
+      <link>http://localhost:64051/tags/quantitative-finance/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/quantitative-finance/</guid>
+      <guid>http://localhost:64051/tags/quantitative-finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Banking</title>
-      <link>http://localhost:63205/tags/banking/</link>
+      <link>http://localhost:64051/tags/banking/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/banking/</guid>
+      <guid>http://localhost:64051/tags/banking/</guid>
       <description></description>
     </item>
     <item>
       <title>Ec916</title>
-      <link>http://localhost:63205/tags/ec916/</link>
+      <link>http://localhost:64051/tags/ec916/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/ec916/</guid>
+      <guid>http://localhost:64051/tags/ec916/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance</title>
-      <link>http://localhost:63205/tags/finance/</link>
+      <link>http://localhost:64051/tags/finance/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/finance/</guid>
+      <guid>http://localhost:64051/tags/finance/</guid>
       <description></description>
     </item>
     <item>
       <title>Globalisation</title>
-      <link>http://localhost:63205/tags/globalisation/</link>
+      <link>http://localhost:64051/tags/globalisation/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/globalisation/</guid>
+      <guid>http://localhost:64051/tags/globalisation/</guid>
       <description></description>
     </item>
     <item>
       <title>Interest</title>
-      <link>http://localhost:63205/tags/interest/</link>
+      <link>http://localhost:64051/tags/interest/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/interest/</guid>
+      <guid>http://localhost:64051/tags/interest/</guid>
       <description></description>
     </item>
     <item>
       <title>Money</title>
-      <link>http://localhost:63205/tags/money/</link>
+      <link>http://localhost:64051/tags/money/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/money/</guid>
+      <guid>http://localhost:64051/tags/money/</guid>
       <description></description>
     </item>
     <item>
       <title>Money and Banking</title>
-      <link>http://localhost:63205/tags/money-and-banking/</link>
+      <link>http://localhost:64051/tags/money-and-banking/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/money-and-banking/</guid>
+      <guid>http://localhost:64051/tags/money-and-banking/</guid>
       <description></description>
     </item>
     <item>
       <title>Project</title>
-      <link>http://localhost:63205/tags/project/</link>
+      <link>http://localhost:64051/tags/project/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/project/</guid>
+      <guid>http://localhost:64051/tags/project/</guid>
       <description></description>
     </item>
     <item>
       <title>Summer School</title>
-      <link>http://localhost:63205/tags/summer-school/</link>
+      <link>http://localhost:64051/tags/summer-school/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/summer-school/</guid>
+      <guid>http://localhost:64051/tags/summer-school/</guid>
       <description></description>
     </item>
     <item>
       <title>Futures Market</title>
-      <link>http://localhost:63205/tags/futures-market/</link>
+      <link>http://localhost:64051/tags/futures-market/</link>
       <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/futures-market/</guid>
+      <guid>http://localhost:64051/tags/futures-market/</guid>
       <description></description>
     </item>
     <item>
       <title>Growth</title>
-      <link>http://localhost:63205/tags/growth/</link>
+      <link>http://localhost:64051/tags/growth/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/growth/</guid>
+      <guid>http://localhost:64051/tags/growth/</guid>
       <description></description>
     </item>
     <item>
       <title>Inflation</title>
-      <link>http://localhost:63205/tags/inflation/</link>
+      <link>http://localhost:64051/tags/inflation/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/inflation/</guid>
+      <guid>http://localhost:64051/tags/inflation/</guid>
       <description></description>
     </item>
     <item>
       <title>Unemployment</title>
-      <link>http://localhost:63205/tags/unemployment/</link>
+      <link>http://localhost:64051/tags/unemployment/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/unemployment/</guid>
+      <guid>http://localhost:64051/tags/unemployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Bitcoint</title>
-      <link>http://localhost:63205/tags/bitcoint/</link>
+      <link>http://localhost:64051/tags/bitcoint/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/bitcoint/</guid>
+      <guid>http://localhost:64051/tags/bitcoint/</guid>
       <description></description>
     </item>
     <item>
       <title>Cbdc</title>
-      <link>http://localhost:63205/tags/cbdc/</link>
+      <link>http://localhost:64051/tags/cbdc/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/cbdc/</guid>
+      <guid>http://localhost:64051/tags/cbdc/</guid>
       <description></description>
     </item>
     <item>
       <title>Cryptocurrencies</title>
-      <link>http://localhost:63205/tags/cryptocurrencies/</link>
+      <link>http://localhost:64051/tags/cryptocurrencies/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/cryptocurrencies/</guid>
+      <guid>http://localhost:64051/tags/cryptocurrencies/</guid>
       <description></description>
     </item>
     <item>
       <title>Finance in the 21st Century</title>
-      <link>http://localhost:63205/tags/finance-in-the-21st-century/</link>
+      <link>http://localhost:64051/tags/finance-in-the-21st-century/</link>
       <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/finance-in-the-21st-century/</guid>
+      <guid>http://localhost:64051/tags/finance-in-the-21st-century/</guid>
       <description></description>
     </item>
     <item>
       <title>Ec201</title>
-      <link>http://localhost:63205/tags/ec201/</link>
+      <link>http://localhost:64051/tags/ec201/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/ec201/</guid>
+      <guid>http://localhost:64051/tags/ec201/</guid>
       <description></description>
     </item>
     <item>
       <title>Economics</title>
-      <link>http://localhost:63205/tags/economics/</link>
+      <link>http://localhost:64051/tags/economics/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/economics/</guid>
+      <guid>http://localhost:64051/tags/economics/</guid>
       <description></description>
     </item>
     <item>
       <title>Courses</title>
-      <link>http://localhost:63205/tags/courses/</link>
+      <link>http://localhost:64051/tags/courses/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/courses/</guid>
+      <guid>http://localhost:64051/tags/courses/</guid>
       <description></description>
     </item>
     <item>
       <title>advanced</title>
-      <link>http://localhost:63205/tags/advanced/</link>
+      <link>http://localhost:64051/tags/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/advanced/</guid>
+      <guid>http://localhost:64051/tags/advanced/</guid>
       <description></description>
     </item>
     <item>
       <title>Ec333</title>
-      <link>http://localhost:63205/tags/ec333/</link>
+      <link>http://localhost:64051/tags/ec333/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/ec333/</guid>
+      <guid>http://localhost:64051/tags/ec333/</guid>
       <description></description>
     </item>
     <item>
       <title>Ec9da</title>
-      <link>http://localhost:63205/tags/ec9da/</link>
+      <link>http://localhost:64051/tags/ec9da/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63205/tags/ec9da/</guid>
+      <guid>http://localhost:64051/tags/ec9da/</guid>
       <description></description>
     </item>
   </channel>
