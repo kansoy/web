@@ -4,7 +4,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/</loc>
+            <loc>http://localhost:64385/</loc>
             <lastmod>2025-06-05T00:00:00+00:00</lastmod>
           </url>
     
@@ -13,7 +13,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/research/</loc>
+            <loc>http://localhost:64385/research/</loc>
             <lastmod>2025-06-05T00:00:00+00:00</lastmod>
           </url>
     
@@ -22,7 +22,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/research/</loc>
+            <loc>http://localhost:64385/research/</loc>
             <lastmod>2025-06-05T00:00:00+00:00</lastmod>
           </url>
     
@@ -31,7 +31,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/</loc>
+            <loc>http://localhost:64385/blog/</loc>
             <lastmod>2025-06-02T00:00:00+00:00</lastmod>
           </url>
     
@@ -42,7 +42,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/boe/</loc>
+            <loc>http://localhost:64385/blog/boe/</loc>
             <lastmod>2025-06-02T00:00:00+00:00</lastmod>
           </url>
     
@@ -53,7 +53,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/green/</loc>
+            <loc>http://localhost:64385/green/</loc>
             <lastmod>2025-01-04T00:00:00+00:00</lastmod>
           </url>
     
@@ -62,7 +62,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/projects_news/</loc>
+            <loc>http://localhost:64385/blog/projects_news/</loc>
             <lastmod>2024-01-19T00:00:00+00:00</lastmod>
           </url>
     
@@ -75,7 +75,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec956/</loc>
+            <loc>http://localhost:64385/blog/ec956/</loc>
             <lastmod>2024-01-04T00:00:00+00:00</lastmod>
           </url>
     
@@ -88,7 +88,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec106/</loc>
+            <loc>http://localhost:64385/blog/ec106/</loc>
             <lastmod>2023-12-12T00:00:00+00:00</lastmod>
           </url>
     
@@ -101,7 +101,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/climate_central_banks/</loc>
+            <loc>http://localhost:64385/blog/climate_central_banks/</loc>
             <lastmod>2023-08-16T00:00:00+00:00</lastmod>
           </url>
     
@@ -110,22 +110,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec916/</loc>
-            <lastmod>2023-08-16T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:64172/blog/money_and_banking/</loc>
+            <loc>http://localhost:64385/blog/ec916/</loc>
             <lastmod>2023-08-16T00:00:00+00:00</lastmod>
           </url>
     
@@ -140,7 +125,22 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/monetary_policy_and_futures_markets/</loc>
+            <loc>http://localhost:64385/blog/money_and_banking/</loc>
+            <lastmod>2023-08-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:64385/blog/monetary_policy_and_futures_markets/</loc>
             <lastmod>2023-08-15T00:00:00+00:00</lastmod>
           </url>
     
@@ -151,7 +151,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/macroeconomics/</loc>
+            <loc>http://localhost:64385/blog/macroeconomics/</loc>
             <lastmod>2023-08-12T00:00:00+00:00</lastmod>
           </url>
     
@@ -168,7 +168,7 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/finance21/</loc>
+            <loc>http://localhost:64385/blog/finance21/</loc>
             <lastmod>2023-08-10T00:00:00+00:00</lastmod>
           </url>
     
@@ -179,14 +179,14 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec201/</loc>
+            <loc>http://localhost:64385/blog/ec201/</loc>
             <lastmod>2023-08-08T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/about/</loc>
+            <loc>http://localhost:64385/about/</loc>
             <lastmod>2020-08-16T00:00:00+00:00</lastmod>
           </url>
     
@@ -195,32 +195,26 @@
   
     
       <url>
-            <loc>http://localhost:64172/teaching/</loc>
+            <loc>http://localhost:64385/teaching/</loc>
             <lastmod>2020-08-16T00:00:00+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/sirket/dashboard/</loc>
+            <loc>http://localhost:64385/blog/python_macroeconomics/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/blog/python_macroeconomics/</loc>
+            <loc>http://localhost:64385/posts/python_macroeconomics/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/python_macroeconomics/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:64172/tags/advanced/_index.ja/</loc>
+            <loc>http://localhost:64385/tags/advanced/_index.ja/</loc>
           </url>
     
   
@@ -228,13 +222,13 @@
   
     
       <url>
-            <loc>http://localhost:64172/tags/advanced/_index.zh-cn/</loc>
+            <loc>http://localhost:64385/tags/advanced/_index.zh-cn/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/tags/advanced/_index.es/</loc>
+            <loc>http://localhost:64385/tags/advanced/_index.es/</loc>
           </url>
     
   
@@ -242,19 +236,19 @@
   
     
       <url>
-            <loc>http://localhost:64172/posts/climate_central_banks/</loc>
+            <loc>http://localhost:64385/posts/climate_central_banks/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/_index-copy/</loc>
+            <loc>http://localhost:64385/posts/_index-copy/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/</loc>
+            <loc>http://localhost:64385/posts/</loc>
           </url>
     
   
@@ -264,121 +258,115 @@
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec9da/</loc>
+            <loc>http://localhost:64385/blog/ec9da/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec9da/</loc>
+            <loc>http://localhost:64385/posts/ec9da/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/tags/_index.es/</loc>
+            <loc>http://localhost:64385/tags/_index.es/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/projects_news/</loc>
+            <loc>http://localhost:64385/posts/projects_news/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/finance21/</loc>
+            <loc>http://localhost:64385/posts/finance21/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec956/</loc>
+            <loc>http://localhost:64385/posts/ec956/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/macroeconomics/</loc>
+            <loc>http://localhost:64385/posts/macroeconomics/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec201/</loc>
+            <loc>http://localhost:64385/posts/ec201/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/money_and_banking/</loc>
+            <loc>http://localhost:64385/posts/money_and_banking/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/projects/</loc>
+            <loc>http://localhost:64385/projects/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec106/</loc>
+            <loc>http://localhost:64385/posts/ec106/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec331/</loc>
+            <loc>http://localhost:64385/blog/ec331/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec331/</loc>
+            <loc>http://localhost:64385/posts/ec331/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/sirket/</loc>
+            <loc>http://localhost:64385/tags/_index.ja/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/tags/_index.ja/</loc>
+            <loc>http://localhost:64385/tags/_index.zh-cn/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/tags/_index.zh-cn/</loc>
+            <loc>http://localhost:64385/blog/ec333/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/blog/ec333/</loc>
+            <loc>http://localhost:64385/posts/ec333/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec333/</loc>
+            <loc>http://localhost:64385/posts/ec916/</loc>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:64172/posts/ec916/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:64172/posts/monetary_policy_and_futures_markets/</loc>
+            <loc>http://localhost:64385/posts/monetary_policy_and_futures_markets/</loc>
           </url>
     
   

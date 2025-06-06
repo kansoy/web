@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Futures Markets on Fatih Kansoy</title>
-    <link>http://localhost:64172/tags/futures-markets/</link>
+    <link>http://localhost:64385/tags/futures-markets/</link>
     <description>Recent content in Futures Markets on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:64172/tags/futures-markets/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64385/tags/futures-markets/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics✨</title>
-      <link>http://localhost:64172/blog/projects_news/</link>
+      <link>http://localhost:64385/blog/projects_news/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64172/blog/projects_news/</guid>
+      <guid>http://localhost:64385/blog/projects_news/</guid>
       <description>I am thrilled to share that I have recently been awarded approximately £10K in funding from the Department of Economics for three dynamic projects, each designed to merge empirical research with educational innovation in finance and economics.</description>
     </item>
   </channel>
