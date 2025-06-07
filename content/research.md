@@ -13,19 +13,30 @@ tags: ["research", "publications"]
 <!-- Tailwind CSS CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- Hidden Settings - Set to true/false to control default expansion -->
+<!-- Hidden Settings -->
 <script>
-    const ALWAYS_OPEN_DEFAULT = false; // Change this to true to keep all abstracts and bibtex expanded by default
+    const ALWAYS_OPEN_DEFAULT = false; // false = buttons hidden until card clicked, true = all buttons visible by default
+    const BLACK_WHITE_BUTTONS = false; // false = colored buttons, true = black and white style buttons
 </script>
 
 <style>
 /* Clean, simple styling for standard page layout */
 .paper-section {
     margin-bottom: 2rem;
-    background-color: #f2f2f2;
+    background-color: #f9fafb;
     padding: 1.5rem;
     border-radius: 0.5rem;
     border: 1px solid #e5e7eb;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+}
+
+.paper-section:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.paper-header {
+    cursor: pointer;
 }
 
 .paper-title {
@@ -48,10 +59,15 @@ tags: ["research", "publications"]
 }
 
 .button-group {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: 0.75rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.button-group.show {
+    display: flex;
 }
 
 /* Hide abstract and bibtex by default */
@@ -85,6 +101,20 @@ tags: ["research", "publications"]
 .section-divider {
     margin: 3rem 0;
     border-color: #e5e7eb;
+}
+
+/* Black and white button style */
+.black-white-style .button-group a,
+.black-white-style .button-group button {
+    background-color: #f3f4f6 !important;
+    color: #374151 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+.black-white-style .button-group a:hover,
+.black-white-style .button-group button:hover {
+    background-color: #e5e7eb !important;
+    color: #111827 !important;
 }
 
 /* Mobile-friendly responsive design */
@@ -125,6 +155,17 @@ tags: ["research", "publications"]
 .copy-button.copied {
     background-color: #059669;
 }
+
+/* Expand indicator */
+.expand-indicator {
+    float: right;
+    color: #9ca3af;
+    transition: transform 0.2s;
+}
+
+.expand-indicator.expanded {
+    transform: rotate(180deg);
+}
 </style>
 
 ## Research Interests
@@ -153,17 +194,20 @@ tags: ["research", "publications"]
 ## Working in Progress
 
 <!-- Paper 1: Green Shields -->
-<div class="paper-section">
-    <h3 class="paper-title">Green Shields: The Role of ESG in Uncertain Times</h3>
-    <div class="paper-meta">
-        with Dominykas Stasiulaitis 
-        <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
-    </div>
-    <div class="paper-journal">
-        Journal: Department of Economics Discussion Paper Series, University of Oxford
+<div class="paper-section" onclick="toggleCard('paper1')">
+    <div class="paper-header">
+        <i class="fas fa-chevron-down expand-indicator" id="paper1-indicator"></i>
+        <h3 class="paper-title">Green Shields: The Role of ESG in Uncertain Times</h3>
+        <div class="paper-meta">
+            with Dominykas Stasiulaitis 
+            <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
+        </div>
+        <div class="paper-journal">
+            Journal: Department of Economics Discussion Paper Series, University of Oxford
+        </div>
     </div>
     
-  <div class="button-group">
+  <div class="button-group" id="paper1-buttons">
         <a href="http://fatih.ai/esg.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
@@ -173,13 +217,13 @@ tags: ["research", "publications"]
         <a href="https://arxiv.org/abs/2506.02143" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-archive"></i> arXiv
         </a>
-        <!-- <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
-        <button onclick="toggleAbstract('paper1')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        </a>
+        <button onclick="toggleAbstract(event, 'paper1')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex('paper1')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex(event, 'paper1')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
         <a href="https://x.com/kansoy/status/1929638410358346063" target="_blank" class="inline-flex items-center gap-2 text-gray-800 hover:text-gray-900 text-sm bg-gray-100 px-3 py-1.5 rounded-md transition-colors">
@@ -216,17 +260,20 @@ tags: ["research", "publications"]
 </div>
 
 <!-- Paper 2: Central Bank Communication -->
-<div class="paper-section">
-    <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
-    <div class="paper-meta">
-        with Joel Mundy (Bank of England) 
-        <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
-    </div>
-    <div class="paper-journal">
-        Journal: Department of Economics Discussion Paper Series, University of Oxford
+<div class="paper-section" onclick="toggleCard('paper2')">
+    <div class="paper-header">
+        <i class="fas fa-chevron-down expand-indicator" id="paper2-indicator"></i>
+        <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
+        <div class="paper-meta">
+            with Joel Mundy (Bank of England) 
+            <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
+        </div>
+        <div class="paper-journal">
+            Journal: Department of Economics Discussion Paper Series, University of Oxford
+        </div>
     </div>
     
-  <div class="button-group">
+  <div class="button-group" id="paper2-buttons">
         <a href="http://fatih.ai/boe.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
@@ -236,13 +283,13 @@ tags: ["research", "publications"]
         <a href="https://arxiv.org/abs/2506.02559" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-archive"></i> arXiv
         </a>
-        <!-- <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
-        <button onclick="toggleAbstract('paper2')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        </a>
+        <button onclick="toggleAbstract(event, 'paper2')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex('paper2')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex(event, 'paper2')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
     </div>
@@ -277,16 +324,19 @@ tags: ["research", "publications"]
 ## Published Papers
 
 <!-- Paper 3: NIM -->
-<div class="paper-section">
-    <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
-    <div class="paper-meta">
-        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
-    </div>
-    <div class="paper-journal">
-        Journal of BRSA Banking and Financial Markets
+<div class="paper-section" onclick="toggleCard('nim')">
+    <div class="paper-header">
+        <i class="fas fa-chevron-down expand-indicator" id="nim-indicator"></i>
+        <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
+        <div class="paper-meta">
+            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
+        </div>
+        <div class="paper-journal">
+            Journal of BRSA Banking and Financial Markets
+        </div>
     </div>
     
-  <div class="button-group">
+  <div class="button-group" id="nim-buttons">
         <a href="http://fatih.ai/nim.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
@@ -296,10 +346,10 @@ tags: ["research", "publications"]
         <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
         </a>
-        <button onclick="toggleAbstract('nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleAbstract(event, 'nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex('nim')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex(event, 'nim')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
     </div>
@@ -332,17 +382,20 @@ tags: ["research", "publications"]
 </div>
 
 <!-- Paper 4: Istanbul -->
-<div class="paper-section">
-    <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
-    <div class="paper-meta">
-        with H Karlioglu 
-        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded ml-2">Journal Article</span>
-    </div>
-    <div class="paper-journal">
-        Afro Eurasian Studies
+<div class="paper-section" onclick="toggleCard('istanbul')">
+    <div class="paper-header">
+        <i class="fas fa-chevron-down expand-indicator" id="istanbul-indicator"></i>
+        <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
+        <div class="paper-meta">
+            with H Karlioglu 
+            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded ml-2">Journal Article</span>
+        </div>
+        <div class="paper-journal">
+            Afro Eurasian Studies
+        </div>
     </div>
     
-  <div class="button-group">
+  <div class="button-group" id="istanbul-buttons">
         <a href="http://fatih.ai/istanbul.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
@@ -352,10 +405,10 @@ tags: ["research", "publications"]
         <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
         </a>
-        <button onclick="toggleAbstract('istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleAbstract(event, 'istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex('istanbul')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex(event, 'istanbul')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
     </div>
@@ -388,8 +441,18 @@ tags: ["research", "publications"]
 </div>
 
 <script>
+// Toggle card buttons visibility
+function toggleCard(paperId) {
+    const buttons = document.getElementById(paperId + '-buttons');
+    const indicator = document.getElementById(paperId + '-indicator');
+    
+    buttons.classList.toggle('show');
+    indicator.classList.toggle('expanded');
+}
+
 // Toggle abstract visibility
-function toggleAbstract(paperId) {
+function toggleAbstract(event, paperId) {
+    event.stopPropagation();
     const abstractBox = document.getElementById(paperId + '-abstract');
     const bibtexBox = document.getElementById(paperId + '-bibtex');
     
@@ -402,7 +465,8 @@ function toggleAbstract(paperId) {
 }
 
 // Toggle bibtex visibility
-function toggleBibtex(paperId) {
+function toggleBibtex(event, paperId) {
+    event.stopPropagation();
     const bibtexBox = document.getElementById(paperId + '-bibtex');
     const abstractBox = document.getElementById(paperId + '-abstract');
     
@@ -433,21 +497,34 @@ function copyBibtex(paperId) {
     });
 }
 
-// Apply default expansion setting on load
+// Apply settings on load
 window.onload = function() {
+    // Apply button style
+    if (BLACK_WHITE_BUTTONS) {
+        document.body.classList.add('black-white-style');
+    }
+    
+    // Apply default expansion setting
     if (ALWAYS_OPEN_DEFAULT) {
-        // Show all abstracts and bibtex sections
-        const allAbstracts = document.querySelectorAll('.abstract-section');
-        const allBibtex = document.querySelectorAll('.bibtex-section');
+        // Show all button groups and rotate indicators
+        const allButtons = document.querySelectorAll('.button-group');
+        const allIndicators = document.querySelectorAll('.expand-indicator');
         
-        allAbstracts.forEach(abstract => {
-            abstract.classList.add('show');
+        allButtons.forEach(buttonGroup => {
+            buttonGroup.classList.add('show');
         });
-        allBibtex.forEach(bibtex => {
-            bibtex.classList.add('show');
+        allIndicators.forEach(indicator => {
+            indicator.classList.add('expanded');
         });
     }
 }
+
+// Prevent card toggle when clicking on links/buttons inside
+document.querySelectorAll('.button-group a, .button-group button, .abstract-section, .bibtex-section').forEach(element => {
+    element.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+});
 </script>
 <!-- 
 ==========================
