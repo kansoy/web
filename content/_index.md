@@ -11,7 +11,7 @@ description: "Fatih Kansoy's personal website."
 
 
 
-I'm Fatih, a Departmental Lecturer at the [University of Oxford](https://www.oxford.ac.uk), working in the [Department of Economics](https://www.economics.ox.ac.uk/home) and [Saïd Business School](https://www.sbs.ox.ac.uk). My research focuses on central bank communication (+ text analysis (nlp)), empirical finance (using high-frequency data), and digital economic history. Previously, I taught at the [University of Warwick](https://warwick.ac.uk/economics)'s Economics Department, [Warwick Business School](https://wbs.ac.uk), and the Bank of England.
+I'm Fatih, working in the [Department of Economics](https://www.economics.ox.ac.uk/home) and [Saïd Business School](https://www.sbs.ox.ac.uk) as a lecturer at the [University of Oxford](https://www.economics.ox.ac.uk/people/fatih-kansoy). My research focuses on central bank communication (+ text analysis (nlp)), empirical climate finance (using high-frequency data), and quantitative economic history. Previously, I taught at the [University of Warwick](https://warwick.ac.uk/economics)'s Economics Department, [Warwick Business School](https://wbs.ac.uk), and the Bank of England.
 
 
 <!-- It's <strong>Fatih</strong>. I currently hold a position as a Departmental Lecturer at the [University of Oxford](https://www.oxford.ac.uk). I completed my  Ph.D. in Economics from the <strong> [University of Nottingham](https://www.nottingham.ac.uk/economics)</strong>. My research primarily focuses on quantitative [with high-frequency financial data] finance, computational economic history (digital history), and, more specifically, the world of <strong> [central banking](https://www.centralbanking.info)</strong>.
