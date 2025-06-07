@@ -217,9 +217,9 @@ tags: ["research", "publications"]
         <a href="https://arxiv.org/abs/2506.02143" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-archive"></i> arXiv
         </a>
-        <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <!-- <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a>
+        </a> -->
         <button onclick="toggleAbstract(event, 'paper1')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
@@ -283,9 +283,9 @@ tags: ["research", "publications"]
         <a href="https://arxiv.org/abs/2506.02559" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-archive"></i> arXiv
         </a>
-        <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <!-- <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a>
+        </a> -->
         <button onclick="toggleAbstract(event, 'paper2')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
@@ -343,9 +343,9 @@ tags: ["research", "publications"]
         <a href="https://dergipark.org.tr/tr/pub/bddkdergisi/issue/57356/874957" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-journal-whills"></i> Journal
         </a>
-        <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <!-- <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a>
+        </a> -->
         <button onclick="toggleAbstract(event, 'nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
@@ -402,9 +402,9 @@ tags: ["research", "publications"]
         <a href="https://dergipark.org.tr/en/pub/afes/issue/44783/557024" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-journal-whills"></i> Journal
         </a>
-        <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <!-- <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a>
+        </a> -->
         <button onclick="toggleAbstract(event, 'istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
