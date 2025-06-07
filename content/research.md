@@ -261,8 +261,8 @@ tags: ["research", "publications"]
     </div>
 </div>
 
+<!-- 
 
-<!-- Paper 2: Central Bank Communication -->
 <div class="paper-section">
     <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
     <div class="paper-meta">
@@ -324,7 +324,7 @@ tags: ["research", "publications"]
 
 ## Published Papers
 
-<!-- Paper 3: NIM -->
+
 <div class="paper-section">
     <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
     <div class="paper-meta">
@@ -380,7 +380,7 @@ tags: ["research", "publications"]
     </div>
    </div>
 
-<!-- Paper 4: Istanbul -->
+
 <div class="paper-section">
     <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
     <div class="paper-meta">
@@ -434,7 +434,9 @@ tags: ["research", "publications"]
   publisher={Musiad (Independent Industrialists and Businessmen's Association)}
 }</pre>
     </div>
-</div>
+</div> 
+
+-->
 
 <script>
 // Toggle card buttons visibility
