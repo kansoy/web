@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ec9da on Fatih Kansoy</title>
-    <link>http://localhost:64385/tags/ec9da/</link>
+    <link>http://localhost:63018/tags/ec9da/</link>
     <description>Recent content in Ec9da on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:64385/tags/ec9da/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:63018/tags/ec9da/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>
-      <link>http://localhost:64385/blog/ec9da/</link>
+      <link>http://localhost:63018/blog/ec9da/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64385/blog/ec9da/</guid>
+      <guid>http://localhost:63018/blog/ec9da/</guid>
       <description></description>
     </item>
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>
-      <link>http://localhost:64385/posts/ec9da/</link>
+      <link>http://localhost:63018/posts/ec9da/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:64385/posts/ec9da/</guid>
+      <guid>http://localhost:63018/posts/ec9da/</guid>
       <description></description>
     </item>
   </channel>
