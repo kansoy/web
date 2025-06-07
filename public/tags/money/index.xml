@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Money on Fatih Kansoy</title>
-    <link>http://localhost:63461/tags/money/</link>
+    <link>http://localhost:1313/tags/money/</link>
     <description>Recent content in Money on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:63461/tags/money/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/money/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Money and Banking</title>
-      <link>http://localhost:63461/blog/money_and_banking/</link>
+      <link>http://localhost:1313/blog/money_and_banking/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:63461/blog/money_and_banking/</guid>
+      <guid>http://localhost:1313/blog/money_and_banking/</guid>
       <description>The course will relate this to recent economic events which have reverberated worldwide. It is particularly suitable for students wishing to enter careers in financial markets or further study in this area. The Money and Banking course will look at some key issues in the theory and practice of financial markets, monetary policy and banking and how their interactions affect the real world.</description>
     </item>
   </channel>

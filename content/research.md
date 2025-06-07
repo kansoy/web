@@ -14,118 +14,96 @@ tags: ["research", "publications"]
 <script src="https://cdn.tailwindcss.com"></script>
 
 <style>
-/* Fix for mobile modal behavior - This section prevents the card/modal view on mobile */
+/* Clean, simple styling for standard page layout */
+.paper-section {
+    margin-bottom: 3rem;
+}
+
+.paper-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.paper-meta {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.paper-journal {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    margin-bottom: 1rem;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.abstract-section {
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+
+.bibtex-section {
+    background-color: #111827;
+    color: #f3f4f6;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    font-family: monospace;
+    font-size: 0.75rem;
+}
+
+.section-divider {
+    margin: 3rem 0;
+    border-color: #e5e7eb;
+}
+
+/* Mobile-friendly responsive design */
 @media (max-width: 768px) {
-    /* Override any modal/popup styles from the theme */
-    body {
-        overflow: auto !important;
-        position: static !important;
+    .paper-section {
+        padding: 0 1rem;
     }
     
-    /* Force standard page layout instead of cards */
-    .prose > div,
-    .research-card,
-    .bg-white {
-        position: relative !important;
-        transform: none !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 0 1rem 0 !important;
-        border-radius: 0.5rem !important;
-        top: auto !important;
-        left: auto !important;
+    .button-group {
+        gap: 0.5rem;
     }
     
-    /* Ensure all content sections are visible */
-    main, article, .content, .prose {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-        position: relative !important;
-        z-index: auto !important;
-        min-height: auto !important;
-    }
-    
-    /* Remove any overlay or backdrop effects */
-    .overlay, .modal-overlay, .backdrop {
-        display: none !important;
-    }
-    
-    /* Ensure proper scrolling behavior */
-    html, body {
-        height: auto !important;
-        overflow-x: hidden !important;
-        overflow-y: auto !important;
-        -webkit-overflow-scrolling: touch !important;
-    }
-    
-    /* Fix container widths for mobile */
-    .container, .mx-auto {
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-        max-width: 100% !important;
-    }
-    
-    /* Ensure sections and headings are always visible */
-    h1, h2, h3, h4, section, div {
-        display: block !important;
-        visibility: visible !important;
-        opacity: 1 !important;
-    }
-    
-    /* Fix divider lines visibility */
-    hr {
-        display: block !important;
-        margin: 2rem 0 !important;
-        opacity: 1 !important;
-    }
-    
-    /* Prevent fixed positioning that might cause modal behavior */
-    * {
-        position: relative !important;
-    }
-    
-    /* Override any transform or transition that creates modal effect */
-    .prose > * {
-        transform: none !important;
-        transition: none !important;
+    .button-group a,
+    .button-group button {
+        font-size: 0.75rem;
+        padding: 0.375rem 0.75rem;
     }
 }
 
-/* Custom animations for expandable papers */
-.article-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-out;
+/* Copy button styling */
+.copy-button {
+    background-color: #4b5563;
+    color: #d1d5db;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
-.article-content.expanded {
-    max-height: 2000px;
-    transition: max-height 0.4s ease-in;
+
+.copy-button:hover {
+    background-color: #6b7280;
 }
-.article-content.always-open {
-    max-height: 2000px !important;
-}
-.rotate-180 {
-    transform: rotate(180deg);
-}
-.abstract-box, .bibtex-box {
-    display: none;
-}
-.abstract-box.show, .bibtex-box.show {
-    display: block;
-}
-/* Custom font for draft ready badge */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-.draft-badge {
-    font-family: 'Caveat', cursive;
-    font-style: italic;
+
+.copy-button.copied {
+    background-color: #059669;
 }
 </style>
-
-<!-- Hidden Settings - Set to true/false to control default expansion -->
-<script>
-    const ALWAYS_OPEN_DEFAULT = false; // Change this to true to keep all papers expanded by default
-</script>
 
 ## Research Interests
 
@@ -153,70 +131,52 @@ tags: ["research", "publications"]
 ## Working in Progress
 
 <!-- Paper 1: Green Shields -->
-<div class="bg-white rounded-lg shadow-sm border border-gray-200 mb-4 hover:shadow-md transition-shadow">
-    <div class="p-6 cursor-pointer" onclick="toggleArticle('paper1')">
-        <div class="flex justify-between items-start">
-            <div class="flex-1">
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">Green Shields: The Role of ESG in Uncertain Times</h3>
-                <div class="text-sm text-gray-600 mb-2">
-                    with Dominykas Stasiulaitis 
-                  <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded">Working Paper</span>
-                </div>
-                <div class="text-sm text-gray-500">
-                     Journal: Department of Economics Discussion Paper Series, University of Oxford
-                </div>
-            </div>
-            <div class="text-right">
-                <i class="fas fa-chevron-down transition-transform text-gray-400" id="paper1-chevron"></i>
-            </div>
-        </div>
+<div class="paper-section">
+    <h3 class="paper-title">Green Shields: The Role of ESG in Uncertain Times</h3>
+    <div class="paper-meta">
+        with Dominykas Stasiulaitis 
+        <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
     </div>
-    <div class="article-content" id="paper1-content">
-        <div class="px-6 pb-6">
-            <div class="flex flex-wrap gap-3 mb-4">
-                <a href="http://fatih.ai/esg.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-pdf"></i> View PDF
-                </a>
-                <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278853" target="_blank" class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 text-sm bg-blue-100 px-3 py-1.5 rounded-md transition-colors">
-    <i class="fas fa-file-alt"></i> SSRN
-</a>
-
-
-<a href="https://arxiv.org/abs/2506.02143" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
-    <i class="fas fa-archive"></i> arXiv
-</a>
-                <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-download"></i> Download
-                </a>
-                <button onclick="toggleAbstract(event, 'paper1')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-alt"></i> Abstract
-                </button>
-                <button onclick="toggleBibtex(event, 'paper1')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-quote-left"></i> BibTeX
-                </button>
-                 
-<a href="https://x.com/kansoy/status/1929638410358346063" target="_blank" class="inline-flex items-center gap-2 text-gray-800 hover:text-gray-900 text-sm bg-gray-100 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fab fa-x-twitter"></i> X Thread
-                </a>
-                <a href="https://bsky.app/profile/fatih.ai/post/3lqno6dfwok24" target="_blank" class="inline-flex items-center gap-2 text-sky-600 hover:text-sky-800 text-sm bg-sky-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-cloud"></i> Bluesky
-                </a>
-
-  </div>
-            <div class="abstract-box bg-gray-50 p-4 rounded-lg mb-3" id="paper1-abstract">
-                <h4 class="font-semibold mb-2 text-gray-700">Abstract:</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                  The rapid growth of sustainable investing, now exceeding 35 trillion USD globally, has transformed financial markets, yet the implications for monetary policy transmission remain underexplored. While existing literature documents heterogeneous firm responses to monetary policy through traditional channels such as size and leverage, it remains unknown whether environmental, social, and governance (ESG) characteristics create distinct transmission mechanisms. Using high-frequency identification around 160 Federal Reserve announcements from 2005 to 2025, we uncover an asymmetric pattern: high-ESG firms gain 1.6 basis points of protection from contractionary target surprises, yet suffer 2.6 basis points greater sensitivity to forward guidance shocks. This asymmetry persists within industries and intensifies with investor climate awareness. Remarkably, the Paris Agreement inverted these relationships: before December 2015, high-ESG firms were more vulnerable to contractionary policy within industries; afterward, they gained protection, representing a 186 basis point reversal. We develop a two-period model featuring heterogeneous investors with sustainability preferences that quantitatively matches these patterns. The model reveals how ESG investors' non-pecuniary utility creates differential demand elasticities, simultaneously protecting green firms from immediate rate changes while amplifying forward guidance vulnerability through their longer investment horizons. These findings establish environmental characteristics as a new dimension of monetary policy non-neutrality, with important implications as sustainable finance continues expanding.
-                </p>
-            </div>
-            <div class="bibtex-box bg-gray-900 text-gray-100 p-4 rounded-lg font-mono text-xs" id="paper1-bibtex">
-                <div class="flex justify-between items-start mb-2">
-                    <h4 class="font-sans font-semibold text-gray-300">BibTeX:</h4>
-                    <button onclick="copyBibtex('paper1')" class="font-sans text-xs bg-gray-700 hover:bg-gray-600 text-gray-300 px-2 py-1 rounded transition-colors">
-                        <i class="fas fa-copy mr-1"></i> Copy
-                    </button>
-                </div>
-                <pre class="whitespace-pre-wrap" id="paper1-bibtex-content">@article{kansoy2025green,
+    <div class="paper-journal">
+        Journal: Department of Economics Discussion Paper Series, University of Oxford
+    </div>
+    
+    <div class="button-group">
+        <a href="http://fatih.ai/esg.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-pdf"></i> View PDF
+        </a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278853" target="_blank" class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 text-sm bg-blue-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-alt"></i> SSRN
+        </a>
+        <a href="https://arxiv.org/abs/2506.02143" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-archive"></i> arXiv
+        </a>
+        <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-download"></i> Download
+        </a>
+        <a href="https://x.com/kansoy/status/1929638410358346063" target="_blank" class="inline-flex items-center gap-2 text-gray-800 hover:text-gray-900 text-sm bg-gray-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fab fa-x-twitter"></i> X Thread
+        </a>
+        <a href="https://bsky.app/profile/fatih.ai/post/3lqno6dfwok24" target="_blank" class="inline-flex items-center gap-2 text-sky-600 hover:text-sky-800 text-sm bg-sky-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-cloud"></i> Bluesky
+        </a>
+    </div>
+    
+    <div class="abstract-section">
+        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            The rapid growth of sustainable investing, now exceeding 35 trillion USD globally, has transformed financial markets, yet the implications for monetary policy transmission remain underexplored. While existing literature documents heterogeneous firm responses to monetary policy through traditional channels such as size and leverage, it remains unknown whether environmental, social, and governance (ESG) characteristics create distinct transmission mechanisms. Using high-frequency identification around 160 Federal Reserve announcements from 2005 to 2025, we uncover an asymmetric pattern: high-ESG firms gain 1.6 basis points of protection from contractionary target surprises, yet suffer 2.6 basis points greater sensitivity to forward guidance shocks. This asymmetry persists within industries and intensifies with investor climate awareness. Remarkably, the Paris Agreement inverted these relationships: before December 2015, high-ESG firms were more vulnerable to contractionary policy within industries; afterward, they gained protection, representing a 186 basis point reversal. We develop a two-period model featuring heterogeneous investors with sustainability preferences that quantitatively matches these patterns. The model reveals how ESG investors' non-pecuniary utility creates differential demand elasticities, simultaneously protecting green firms from immediate rate changes while amplifying forward guidance vulnerability through their longer investment horizons. These findings establish environmental characteristics as a new dimension of monetary policy non-neutrality, with important implications as sustainable finance continues expanding.
+        </p>
+    </div>
+    
+    <div class="bibtex-section">
+        <div class="flex justify-between items-start mb-2">
+            <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
+            <button onclick="copyBibtex('paper1')" class="copy-button">
+                <i class="fas fa-copy mr-1"></i> Copy
+            </button>
+        </div>
+        <pre class="whitespace-pre-wrap" id="paper1-bibtex">@article{kansoy2025green,
   title={Green Shields: The Role of ESG in Uncertain Times},
   author={Kansoy, Fatih and Stasiulaitis, Dominykas},
   journal={Department of Economics Discussion Paper Series, University of Oxford},
@@ -224,140 +184,101 @@ tags: ["research", "publications"]
   year={2025},
   institution={University of Oxford}
 }</pre>
-
-
-</div>
-        </div>
     </div>
 </div>
 
 <!-- Paper 2: Central Bank Communication -->
-<div class="bg-white rounded-lg shadow-sm border border-gray-200 mb-4 hover:shadow-md transition-shadow">
-    <div class="p-6 cursor-pointer" onclick="toggleArticle('paper2')">
-        <div class="flex justify-between items-start">
-            <div class="flex-1">
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
-                <div class="text-sm text-gray-600 mb-2">
-                    with Joel Mundy (Bank of England) 
-                  <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded">Working Paper</span>
-                </div>
-                <div class="text-sm text-gray-500">
-                     Journal: Department of Economics Discussion Paper Series, University of Oxford
-                </div>
-            </div>
-            <div class="text-right">
-                <i class="fas fa-chevron-down transition-transform text-gray-400" id="paper2-chevron"></i>
-            </div>
-        </div>
+<div class="paper-section">
+    <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
+    <div class="paper-meta">
+        with Joel Mundy (Bank of England) 
+        <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
     </div>
-    <div class="article-content" id="paper2-content">
-        <div class="px-6 pb-6">
-            <div class="flex flex-wrap gap-3 mb-4">
-                <a href="http://fatih.ai/boe.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-pdf"></i> View PDF
-                </a>
-                  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5279225" target="_blank" class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 text-sm bg-blue-100 px-3 py-1.5 rounded-md transition-colors">
-    <i class="fas fa-file-alt"></i> SSRN
-</a>
-
-
-<a href="https://arxiv.org/abs/2506.02559" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
-    <i class="fas fa-archive"></i> arXiv
-</a>
-                <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-download"></i> Download
-                </a>
-                <button onclick="toggleAbstract(event, 'paper2')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-alt"></i> Abstract
-                </button>
-                <button onclick="toggleBibtex(event, 'paper2')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-quote-left"></i> BibTeX
-                </button>
-            </div>
-            <div class="abstract-box bg-gray-50 p-4 rounded-lg mb-3" id="paper2-abstract">
-                <h4 class="font-semibold mb-2 text-gray-700">Abstract:</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
-Central banks increasingly use social media to communicate beyond financial markets, yet evidence on public engagement effectiveness remains limited. Despite 113 central banks joining Twitter between 2008 and 2018, we lack understanding of what drives audience interaction with their content. To examine engagement determinants, we analyzed 3.13 million tweets mentioning the Bank of England from 2007 to 2022, including 9,810 official posts. We investigate posting patterns, measure engagement elasticity, and identify content characteristics predicting higher interaction. The Bank's posting schedule misaligns with peak audience engagement times, with evening hours generating the highest interaction despite minimal posting. Cultural content, such as the Alan Turing 50 pound note, achieved 1,300 times higher engagement than routine policy communications. Engagement elasticity averaged 1.095 with substantial volatility during events like Brexit, contrasting with the Federal Reserve's stability. Media content dramatically increased engagement: videos by 1,700 percent, photos by 126 percent, while monetary policy announcements and readability significantly enhanced all metrics. Content quality and timing matter more than posting frequency for effective central bank communication. These findings suggest central banks should prioritize accessible, media-rich content during high-attention periods rather than increasing volume, with implications for digital communication strategies in fulfilling public transparency mandates.                </p>
-            </div>
-            <div class="bibtex-box bg-gray-900 text-gray-100 p-4 rounded-lg font-mono text-xs" id="paper2-bibtex">
-                <div class="flex justify-between items-start mb-2">
-                    <h4 class="font-sans font-semibold text-gray-300">BibTeX:</h4>
-                    <button onclick="copyBibtex('paper2')" class="font-sans text-xs bg-gray-700 hover:bg-gray-600 text-gray-300 px-2 py-1 rounded transition-colors">
-                        <i class="fas fa-copy mr-1"></i> Copy
-                    </button>
-                </div>
-                <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">@article{kansoy2025central,
+    <div class="paper-journal">
+        Journal: Department of Economics Discussion Paper Series, University of Oxford
+    </div>
+    
+    <div class="button-group">
+        <a href="http://fatih.ai/boe.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-pdf"></i> View PDF
+        </a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5279225" target="_blank" class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 text-sm bg-blue-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-alt"></i> SSRN
+        </a>
+        <a href="https://arxiv.org/abs/2506.02559" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-archive"></i> arXiv
+        </a>
+        <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-download"></i> Download
+        </a>
+    </div>
+    
+    <div class="abstract-section">
+        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            Central banks increasingly use social media to communicate beyond financial markets, yet evidence on public engagement effectiveness remains limited. Despite 113 central banks joining Twitter between 2008 and 2018, we lack understanding of what drives audience interaction with their content. To examine engagement determinants, we analyzed 3.13 million tweets mentioning the Bank of England from 2007 to 2022, including 9,810 official posts. We investigate posting patterns, measure engagement elasticity, and identify content characteristics predicting higher interaction. The Bank's posting schedule misaligns with peak audience engagement times, with evening hours generating the highest interaction despite minimal posting. Cultural content, such as the Alan Turing 50 pound note, achieved 1,300 times higher engagement than routine policy communications. Engagement elasticity averaged 1.095 with substantial volatility during events like Brexit, contrasting with the Federal Reserve's stability. Media content dramatically increased engagement: videos by 1,700 percent, photos by 126 percent, while monetary policy announcements and readability significantly enhanced all metrics. Content quality and timing matter more than posting frequency for effective central bank communication. These findings suggest central banks should prioritize accessible, media-rich content during high-attention periods rather than increasing volume, with implications for digital communication strategies in fulfilling public transparency mandates.
+        </p>
+    </div>
+    
+    <div class="bibtex-section">
+        <div class="flex justify-between items-start mb-2">
+            <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
+            <button onclick="copyBibtex('paper2')" class="copy-button">
+                <i class="fas fa-copy mr-1"></i> Copy
+            </button>
+        </div>
+        <pre class="whitespace-pre-wrap" id="paper2-bibtex">@article{kansoy2025central,
   title={Central Bank Communication with Public: Bank of England and Twitter (X)},
   author={Kansoy, Fatih and Mundy, Joel},
   journal={Department of Economics Discussion Paper Series, University of Oxford},
-  volume= {July 2025},
+  volume={July 2025},
   year={2025},
   institution={University of Oxford and Bank of England}
 }</pre>
-            </div>
-        </div>
     </div>
 </div>
 
- 
-<hr class="my-8 border-gray-300">
+<hr class="section-divider">
 
 ## Published Papers
 
-
-<!-- Paper 1: NIM -->
-<div class="bg-white rounded-lg shadow-sm border border-gray-200 mb-4 hover:shadow-md transition-shadow">
-    <div class="p-6 cursor-pointer" onclick="toggleArticle('nim')">
-        <div class="flex justify-between items-start">
-            <div class="flex-1">
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
-                <div class="text-sm text-gray-600 mb-2">
-              <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
-                </div>
-                <div class="text-sm text-gray-500">
-                     Journal of BRSA Banking and Financial Markets
-                </div>
-            </div>
-            <div class="text-right">
-                <i class="fas fa-chevron-down transition-transform text-gray-400" id="nim-chevron"></i>
-            </div>
-        </div>
+<!-- Paper 3: NIM -->
+<div class="paper-section">
+    <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
+    <div class="paper-meta">
+        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
     </div>
-    <div class="article-content" id="nim-content">
-        <div class="px-6 pb-6">
-            <div class="flex flex-wrap gap-3 mb-4">
-                <a href="http://fatih.ai/nim.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-pdf"></i> View PDF
-                </a>
-
-  <a href="https://dergipark.org.tr/tr/pub/bddkdergisi/issue/57356/874957" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
-        <i class="fas fa-journal-whills"></i> Journal            </a> 
-
-  <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-download"></i> Download
-                </a>
-                <button onclick="toggleAbstract(event, 'nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-alt"></i> Abstract
-                </button>
-                <button onclick="toggleBibtex(event, 'nim')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-quote-left"></i> BibTeX
-                </button>
-
-  </div>
-            <div class="abstract-box bg-gray-50 p-4 rounded-lg mb-3" id="nim-abstract">
-                <h4 class="font-semibold mb-2 text-gray-700">Abstract:</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                  This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
-                </p>
-            </div>
-            <div class="bibtex-box bg-gray-900 text-gray-100 p-4 rounded-lg font-mono text-xs" id="nim-bibtex">
-                <div class="flex justify-between items-start mb-2">
-                    <h4 class="font-sans font-semibold text-gray-300">BibTeX:</h4>
-                    <button onclick="copyBibtex('nim')" class="font-sans text-xs bg-gray-700 hover:bg-gray-600 text-gray-300 px-2 py-1 rounded transition-colors">
-                        <i class="fas fa-copy mr-1"></i> Copy
-                    </button>
-                </div>
-                <pre class="whitespace-pre-wrap" id="nim-bibtex-content">@article{kansoy2012determinants,
+    <div class="paper-journal">
+        Journal of BRSA Banking and Financial Markets
+    </div>
+    
+    <div class="button-group">
+        <a href="http://fatih.ai/nim.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-pdf"></i> View PDF
+        </a>
+        <a href="https://dergipark.org.tr/tr/pub/bddkdergisi/issue/57356/874957" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-journal-whills"></i> Journal
+        </a>
+        <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-download"></i> Download
+        </a>
+    </div>
+    
+    <div class="abstract-section">
+        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
+        </p>
+    </div>
+    
+    <div class="bibtex-section">
+        <div class="flex justify-between items-start mb-2">
+            <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
+            <button onclick="copyBibtex('nim')" class="copy-button">
+                <i class="fas fa-copy mr-1"></i> Copy
+            </button>
+        </div>
+        <pre class="whitespace-pre-wrap" id="nim-bibtex">@article{kansoy2012determinants,
   title={The determinants of net interest margin in the Turkish banking sector: does bank ownership matter},
   author={Kansoy, Fatih},
   journal={Journal of BRSA Banking and Financial Markets},
@@ -367,68 +288,47 @@ Central banks increasingly use social media to communicate beyond financial mark
   year={2012},
   publisher={Banking Regulation and Supervision Agency}
 }</pre>
-
-
-</div>
-        </div>
     </div>
 </div>
 
-
-<!-- Paper 2: istanbul -->
-<div class="bg-white rounded-lg shadow-sm border border-gray-200 mb-4 hover:shadow-md transition-shadow">
-    <div class="p-6 cursor-pointer" onclick="toggleArticle('istanbul')">
-        <div class="flex justify-between items-start">
-            <div class="flex-1">
-                <h3 class="text-xl font-semibold text-gray-900 mb-2">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
-                <div class="text-sm text-gray-600 mb-2">
-                    with H Karlioglu 
-                   <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
-                </div>
-                <div class="text-sm text-gray-500">
-                     Afro Eurasian Studies
-                </div>
-            </div>
-            <div class="text-right">
-                <i class="fas fa-chevron-down transition-transform text-gray-400" id="istanbul-chevron"></i>
-            </div>
-        </div>
+<!-- Paper 4: Istanbul -->
+<div class="paper-section">
+    <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
+    <div class="paper-meta">
+        with H Karlioglu 
+        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded ml-2">Journal Article</span>
     </div>
-    <div class="article-content" id="istanbul-content">
-        <div class="px-6 pb-6">
-            <div class="flex flex-wrap gap-3 mb-4">
-                <a href="http://fatih.ai/istanbul.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-pdf"></i> View PDF
-                </a>
-
-  <a href="https://dergipark.org.tr/en/pub/afes/issue/44783/557024" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
-    <i class="fas fa-journal-whills"></i> Journal            </a>     
-
-  <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-download"></i> Download
-                </a>
-                <button onclick="toggleAbstract(event, 'istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-file-alt"></i> Abstract
-                </button>
-                <button onclick="toggleBibtex(event, 'istanbul')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
-                    <i class="fas fa-quote-left"></i> BibTeX
-                </button>
-
-  </div>
-            <div class="abstract-box bg-gray-50 p-4 rounded-lg mb-3" id="istanbul-abstract">
-                <h4 class="font-semibold mb-2 text-gray-700">Abstract:</h4>
-                <p class="text-sm text-gray-600 leading-relaxed">
-                  This paper discusses and assesses Istanbul as an international finance centre within the context of its position in the sector of of Islamic finance. No doubt, Istanbul is a centre of business and culture of Turkey and the Turkish government is at present endeavouring to turn Istanbul into a regional finance centre in ten years and ,furthermore, into one of the top international financial centre in thirty years. In this context we evaluate Istanbul's potential and position to assume the role of a hub for Islamic finance. Our main conclusions are as follows; the current image, legal and regulatory infrastructure and human capacity of Istanbul do not presently allow it to become an international finance centre. In contrast, if we consider its strategic location standing between the Middle East, Eurasia and Africa as well as its strong relations with Muslim countries, and ,last but not least, its strong banking system, Istanbul has the potential to serve as a centre for Islamic finance provided that the government's ambitions remain focused in this direction.
-                </p>
-            </div>
-            <div class="bibtex-box bg-gray-900 text-gray-100 p-4 rounded-lg font-mono text-xs" id="istanbul-bibtex">
-                <div class="flex justify-between items-start mb-2">
-                    <h4 class="font-sans font-semibold text-gray-300">BibTeX:</h4>
-                    <button onclick="copyBibtex('istanbul')" class="font-sans text-xs bg-gray-700 hover:bg-gray-600 text-gray-300 px-2 py-1 rounded transition-colors">
-                        <i class="fas fa-copy mr-1"></i> Copy
-                    </button>
-                </div>
-                <pre class="whitespace-pre-wrap" id="istanbul-bibtex-content">@article{kansoy2013islamic,
+    <div class="paper-journal">
+        Afro Eurasian Studies
+    </div>
+    
+    <div class="button-group">
+        <a href="http://fatih.ai/istanbul.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-pdf"></i> View PDF
+        </a>
+        <a href="https://dergipark.org.tr/en/pub/afes/issue/44783/557024" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-journal-whills"></i> Journal
+        </a>
+        <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-download"></i> Download
+        </a>
+    </div>
+    
+    <div class="abstract-section">
+        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            This paper discusses and assesses Istanbul as an international finance centre within the context of its position in the sector of of Islamic finance. No doubt, Istanbul is a centre of business and culture of Turkey and the Turkish government is at present endeavouring to turn Istanbul into a regional finance centre in ten years and ,furthermore, into one of the top international financial centre in thirty years. In this context we evaluate Istanbul's potential and position to assume the role of a hub for Islamic finance. Our main conclusions are as follows; the current image, legal and regulatory infrastructure and human capacity of Istanbul do not presently allow it to become an international finance centre. In contrast, if we consider its strategic location standing between the Middle East, Eurasia and Africa as well as its strong relations with Muslim countries, and ,last but not least, its strong banking system, Istanbul has the potential to serve as a centre for Islamic finance provided that the government's ambitions remain focused in this direction.
+        </p>
+    </div>
+    
+    <div class="bibtex-section">
+        <div class="flex justify-between items-start mb-2">
+            <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
+            <button onclick="copyBibtex('istanbul')" class="copy-button">
+                <i class="fas fa-copy mr-1"></i> Copy
+            </button>
+        </div>
+        <pre class="whitespace-pre-wrap" id="istanbul-bibtex">@article{kansoy2013islamic,
   title={Islamic Finance as a Means to Make Istanbul an International Financial Centre},
   author={Kansoy, Fatih and Karlioglu, Hasan Huseyin},
   journal={Afro Eurasian Studies},
@@ -438,89 +338,27 @@ Central banks increasingly use social media to communicate beyond financial mark
   year={2013},
   publisher={Musiad (Independent Industrialists and Businessmen's Association)}
 }</pre>
-
-
-</div>
-        </div>
     </div>
 </div>
 
-
-
 <script>
-// Toggle individual articles
-function toggleArticle(id) {
-    const content = document.getElementById(id + '-content');
-    const chevron = document.getElementById(id + '-chevron');
-    
-    if (!content.classList.contains('always-open')) {
-        content.classList.toggle('expanded');
-        chevron.classList.toggle('rotate-180');
-    }
-}
-
-// Toggle abstract visibility
-function toggleAbstract(event, paperId) {
-    event.stopPropagation();
-    const abstractBox = document.getElementById(paperId + '-abstract');
-    const bibtexBox = document.getElementById(paperId + '-bibtex');
-    
-    // Hide bibtex if shown
-    if (bibtexBox && bibtexBox.classList.contains('show')) {
-        bibtexBox.classList.remove('show');
-    }
-    
-    abstractBox.classList.toggle('show');
-}
-
-// Toggle bibtex visibility
-function toggleBibtex(event, paperId) {
-    event.stopPropagation();
-    const bibtexBox = document.getElementById(paperId + '-bibtex');
-    const abstractBox = document.getElementById(paperId + '-abstract');
-    
-    // Hide abstract if shown
-    if (abstractBox && abstractBox.classList.contains('show')) {
-        abstractBox.classList.remove('show');
-    }
-    
-    bibtexBox.classList.toggle('show');
-}
-
-// Copy BibTeX to clipboard
+// Simple copy BibTeX function
 function copyBibtex(paperId) {
-    const bibtexContent = document.getElementById(paperId + '-bibtex-content').textContent;
+    const bibtexContent = document.getElementById(paperId + '-bibtex').textContent;
     navigator.clipboard.writeText(bibtexContent).then(function() {
         // Change button text temporarily
         const button = event.target.closest('button');
         const originalHTML = button.innerHTML;
         button.innerHTML = '<i class="fas fa-check mr-1"></i> Copied!';
-        button.classList.add('bg-green-700');
-        button.classList.remove('bg-gray-700');
+        button.classList.add('copied');
         
         setTimeout(() => {
             button.innerHTML = originalHTML;
-            button.classList.remove('bg-green-700');
-            button.classList.add('bg-gray-700');
+            button.classList.remove('copied');
         }, 2000);
     }).catch(function(err) {
         console.error('Could not copy text: ', err);
     });
-}
-
-// Apply default expansion setting on load
-window.onload = function() {
-    if (ALWAYS_OPEN_DEFAULT) {
-        const allContents = document.querySelectorAll('.article-content');
-        const allChevrons = document.querySelectorAll('[id$="-chevron"]');
-        
-        allContents.forEach(content => {
-            content.classList.add('always-open', 'expanded');
-        });
-        allChevrons.forEach(chevron => {
-            chevron.classList.add('rotate-180');
-        });
-    }
 }
 </script>
 
