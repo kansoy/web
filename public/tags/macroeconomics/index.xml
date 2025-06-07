@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Macroeconomics on Fatih Kansoy</title>
-    <link>http://localhost:56572/tags/macroeconomics/</link>
+    <link>http://localhost:58193/tags/macroeconomics/</link>
     <description>Recent content in Macroeconomics on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:56572/tags/macroeconomics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58193/tags/macroeconomics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Macroconomics</title>
-      <link>http://localhost:56572/blog/ec956/</link>
+      <link>http://localhost:58193/blog/ec956/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/blog/ec956/</guid>
+      <guid>http://localhost:58193/blog/ec956/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Quantitative [Macro] Economics</title>
-      <link>http://localhost:56572/blog/ec106/</link>
+      <link>http://localhost:58193/blog/ec106/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/blog/ec106/</guid>
+      <guid>http://localhost:58193/blog/ec106/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Macroeconomics</title>
-      <link>http://localhost:56572/blog/macroeconomics/</link>
+      <link>http://localhost:58193/blog/macroeconomics/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/blog/macroeconomics/</guid>
+      <guid>http://localhost:58193/blog/macroeconomics/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Macroeconomics - 2</title>
-      <link>http://localhost:56572/blog/ec201/</link>
+      <link>http://localhost:58193/blog/ec201/</link>
       <pubDate>Tue, 08 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/blog/ec201/</guid>
+      <guid>http://localhost:58193/blog/ec201/</guid>
       <description>Macroeconomics - 2</description>
     </item>
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>
-      <link>http://localhost:56572/blog/ec9da/</link>
+      <link>http://localhost:58193/blog/ec9da/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/blog/ec9da/</guid>
+      <guid>http://localhost:58193/blog/ec9da/</guid>
       <description></description>
     </item>
     <item>
       <title>Economic Analysis- Macroeconomics (EC9DA)</title>
-      <link>http://localhost:56572/posts/ec9da/</link>
+      <link>http://localhost:58193/posts/ec9da/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/posts/ec9da/</guid>
+      <guid>http://localhost:58193/posts/ec9da/</guid>
       <description></description>
     </item>
     <item>
       <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics</title>
-      <link>http://localhost:56572/posts/projects_news/</link>
+      <link>http://localhost:58193/posts/projects_news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/posts/projects_news/</guid>
+      <guid>http://localhost:58193/posts/projects_news/</guid>
       <description></description>
     </item>
     <item>
       <title>Macroconomics</title>
-      <link>http://localhost:56572/posts/ec956/</link>
+      <link>http://localhost:58193/posts/ec956/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/posts/ec956/</guid>
+      <guid>http://localhost:58193/posts/ec956/</guid>
       <description></description>
     </item>
     <item>
       <title>Macroconomics</title>
-      <link>http://localhost:56572/posts/macroeconomics/</link>
+      <link>http://localhost:58193/posts/macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/posts/macroeconomics/</guid>
+      <guid>http://localhost:58193/posts/macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantitative [Macro] Economics</title>
-      <link>http://localhost:56572/posts/ec106/</link>
+      <link>http://localhost:58193/posts/ec106/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56572/posts/ec106/</guid>
+      <guid>http://localhost:58193/posts/ec106/</guid>
       <description></description>
     </item>
   </channel>

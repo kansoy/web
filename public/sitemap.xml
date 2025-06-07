@@ -19,6 +19,11 @@
     
   
     
+      <url>
+            <loc>http://localhost:53559/research/</loc>
+            <lastmod>2025-06-05T00:00:00+00:00</lastmod>
+          </url>
+    
   
     
       <url>
@@ -31,9 +36,11 @@
   
     
       <url>
-            <loc>http://localhost:53559/green/</loc>
-            <lastmod>2025-01-04T00:00:00+00:00</lastmod>
+            <loc>http://localhost:53559/research/</loc>
+            <lastmod>2025-06-05T00:00:00+00:00</lastmod>
           </url>
+    
+  
     
   
     
