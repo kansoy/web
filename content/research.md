@@ -21,7 +21,7 @@ tags: ["research", "publications"]
 <style>
 /* Clean, simple styling for standard page layout */
 .paper-section {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     background-color: #f2f2f2;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -60,10 +60,11 @@ tags: ["research", "publications"]
 }
 
 .abstract-section {
-    background-color: #f9fafb;
+    background-color: #ffffff;
     padding: 1.5rem;
     border-radius: 0.5rem;
     margin: 1rem 0;
+    border: 1px solid #e5e7eb;
 }
 
 .bibtex-section {
@@ -253,15 +254,14 @@ tags: ["research", "publications"]
         </p>
     </div>
     
-<div class="bibtex-section" id="paper2-bibtex">
-    <div class="flex justify-between items-start mb-2">
+  <div class="bibtex-section" id="paper2-bibtex">
+        <div class="flex justify-between items-start mb-2">
             <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
             <button onclick="copyBibtex('paper2')" class="copy-button">
                 <i class="fas fa-copy mr-1"></i> Copy
             </button>
         </div>
-    <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">
-  @article{kansoy2025central,
+        <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">@article{kansoy2025central,
   title={Central Bank Communication with Public: Bank of England and Twitter (X)},
   author={Kansoy, Fatih and Mundy, Joel},
   journal={Department of Economics Discussion Paper Series, University of Oxford},
@@ -304,14 +304,14 @@ tags: ["research", "publications"]
         </button>
     </div>
     
-<div class="abstract-section" id="nim-abstract">
-    <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+  <div class="abstract-section" id="nim-abstract">
+        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
         <p class="text-sm text-gray-600 leading-relaxed">
             This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
         </p>
-</div>
+    </div>
     
-<div class="bibtex-section" id="nim-bibtex">
+  <div class="bibtex-section" id="nim-bibtex">
         <div class="flex justify-between items-start mb-2">
             <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
             <button onclick="copyBibtex('nim')" class="copy-button">
