@@ -13,10 +13,19 @@ tags: ["research", "publications"]
 <!-- Tailwind CSS CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- Hidden Settings - Set to true/false to control default expansion -->
+<script>
+    const ALWAYS_OPEN_DEFAULT = false; // Change this to true to keep all abstracts and bibtex expanded by default
+</script>
+
 <style>
 /* Clean, simple styling for standard page layout */
 .paper-section {
     margin-bottom: 3rem;
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #e5e7eb;
 }
 
 .paper-title {
@@ -80,7 +89,9 @@ tags: ["research", "publications"]
 /* Mobile-friendly responsive design */
 @media (max-width: 768px) {
     .paper-section {
-        padding: 0 1rem;
+        padding: 1rem;
+        margin-left: -0.5rem;
+        margin-right: -0.5rem;
     }
     
     .button-group {
@@ -214,7 +225,7 @@ tags: ["research", "publications"]
         Journal: Department of Economics Discussion Paper Series, University of Oxford
     </div>
     
-<div class="button-group">
+  <div class="button-group">
         <a href="http://fatih.ai/boe.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
@@ -235,7 +246,7 @@ tags: ["research", "publications"]
         </button>
     </div>
     
-<div class="abstract-section" id="paper2-abstract">
+  <div class="abstract-section" id="paper2-abstract">
         <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
         <p class="text-sm text-gray-600 leading-relaxed">
             Central banks increasingly use social media to communicate beyond financial markets, yet evidence on public engagement effectiveness remains limited. Despite 113 central banks joining Twitter between 2008 and 2018, we lack understanding of what drives audience interaction with their content. To examine engagement determinants, we analyzed 3.13 million tweets mentioning the Bank of England from 2007 to 2022, including 9,810 official posts. We investigate posting patterns, measure engagement elasticity, and identify content characteristics predicting higher interaction. The Bank's posting schedule misaligns with peak audience engagement times, with evening hours generating the highest interaction despite minimal posting. Cultural content, such as the Alan Turing 50 pound note, achieved 1,300 times higher engagement than routine policy communications. Engagement elasticity averaged 1.095 with substantial volatility during events like Brexit, contrasting with the Federal Reserve's stability. Media content dramatically increased engagement: videos by 1,700 percent, photos by 126 percent, while monetary policy announcements and readability significantly enhanced all metrics. Content quality and timing matter more than posting frequency for effective central bank communication. These findings suggest central banks should prioritize accessible, media-rich content during high-attention periods rather than increasing volume, with implications for digital communication strategies in fulfilling public transparency mandates.
@@ -243,13 +254,14 @@ tags: ["research", "publications"]
     </div>
     
 <div class="bibtex-section" id="paper2-bibtex">
-        <div class="flex justify-between items-start mb-2">
+    <div class="flex justify-between items-start mb-2">
             <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
             <button onclick="copyBibtex('paper2')" class="copy-button">
                 <i class="fas fa-copy mr-1"></i> Copy
             </button>
         </div>
-        <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">@article{kansoy2025central,
+    <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">
+  @article{kansoy2025central,
   title={Central Bank Communication with Public: Bank of England and Twitter (X)},
   author={Kansoy, Fatih and Mundy, Joel},
   journal={Department of Economics Discussion Paper Series, University of Oxford},
@@ -281,9 +293,9 @@ tags: ["research", "publications"]
         <a href="https://dergipark.org.tr/tr/pub/bddkdergisi/issue/57356/874957" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-journal-whills"></i> Journal
         </a>
-        <!-- <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
+        </a>
         <button onclick="toggleAbstract('nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
@@ -292,14 +304,14 @@ tags: ["research", "publications"]
         </button>
     </div>
     
-  <div class="abstract-section" id="nim-abstract">
-        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+<div class="abstract-section" id="nim-abstract">
+    <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
         <p class="text-sm text-gray-600 leading-relaxed">
             This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
         </p>
-    </div>
+</div>
     
-  <div class="bibtex-section" id="nim-bibtex">
+<div class="bibtex-section" id="nim-bibtex">
         <div class="flex justify-between items-start mb-2">
             <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
             <button onclick="copyBibtex('nim')" class="copy-button">
@@ -330,16 +342,16 @@ tags: ["research", "publications"]
         Afro Eurasian Studies
     </div>
     
-   <div class="button-group">
+  <div class="button-group">
         <a href="http://fatih.ai/istanbul.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
         <a href="https://dergipark.org.tr/en/pub/afes/issue/44783/557024" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-journal-whills"></i> Journal
         </a>
-        <!-- <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
+        </a>
         <button onclick="toggleAbstract('istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
@@ -420,8 +432,23 @@ function copyBibtex(paperId) {
         console.error('Could not copy text: ', err);
     });
 }
-</script>
 
+// Apply default expansion setting on load
+window.onload = function() {
+    if (ALWAYS_OPEN_DEFAULT) {
+        // Show all abstracts and bibtex sections
+        const allAbstracts = document.querySelectorAll('.abstract-section');
+        const allBibtex = document.querySelectorAll('.bibtex-section');
+        
+        allAbstracts.forEach(abstract => {
+            abstract.classList.add('show');
+        });
+        allBibtex.forEach(bibtex => {
+            bibtex.classList.add('show');
+        });
+    }
+}
+</script>
 <!-- 
 ==========================
 BUTTON LIBRARY - Copy and paste these buttons as needed
