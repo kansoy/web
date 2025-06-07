@@ -194,6 +194,8 @@ tags: ["research", "publications"]
 ## Working in Progress
 
 <!-- Paper 1: Green Shields -->
+
+<!-- Paper 1: Green Shields -->
 <div class="paper-section" onclick="toggleCard('paper1')">
     <div class="paper-header">
         <i class="fas fa-chevron-down expand-indicator" id="paper1-indicator"></i>
@@ -259,21 +261,19 @@ tags: ["research", "publications"]
     </div>
 </div>
 
+
 <!-- Paper 2: Central Bank Communication -->
-<div class="paper-section" onclick="toggleCard('paper2')">
-    <div class="paper-header">
-        <i class="fas fa-chevron-down expand-indicator" id="paper2-indicator"></i>
-        <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
-        <div class="paper-meta">
-            with Joel Mundy (Bank of England) 
-            <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
-        </div>
-        <div class="paper-journal">
-            Journal: Department of Economics Discussion Paper Series, University of Oxford
-        </div>
+<div class="paper-section">
+    <h3 class="paper-title">Central Bank Communication with Public: Bank of England and Twitter (X)</h3>
+    <div class="paper-meta">
+        with Joel Mundy (Bank of England) 
+        <span class="inline-block bg-orange-100 text-orange-800 text-xs px-2 py-1 rounded ml-2">Working Paper</span>
+    </div>
+    <div class="paper-journal">
+        Journal: Department of Economics Discussion Paper Series, University of Oxford
     </div>
     
-  <div class="button-group" id="paper2-buttons">
+  <div class="button-group">
         <a href="http://fatih.ai/boe.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
@@ -283,13 +283,13 @@ tags: ["research", "publications"]
         <a href="https://arxiv.org/abs/2506.02559" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-archive"></i> arXiv
         </a>
-        <!-- <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/boe.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
-        <button onclick="toggleAbstract(event, 'paper2')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        </a>
+        <button onclick="toggleAbstract('paper2')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex(event, 'paper2')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex('paper2')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
     </div>
@@ -299,22 +299,23 @@ tags: ["research", "publications"]
         <p class="text-sm text-gray-600 leading-relaxed">
             Central banks increasingly use social media to communicate beyond financial markets, yet evidence on public engagement effectiveness remains limited. Despite 113 central banks joining Twitter between 2008 and 2018, we lack understanding of what drives audience interaction with their content. To examine engagement determinants, we analyzed 3.13 million tweets mentioning the Bank of England from 2007 to 2022, including 9,810 official posts. We investigate posting patterns, measure engagement elasticity, and identify content characteristics predicting higher interaction. The Bank's posting schedule misaligns with peak audience engagement times, with evening hours generating the highest interaction despite minimal posting. Cultural content, such as the Alan Turing 50 pound note, achieved 1,300 times higher engagement than routine policy communications. Engagement elasticity averaged 1.095 with substantial volatility during events like Brexit, contrasting with the Federal Reserve's stability. Media content dramatically increased engagement: videos by 1,700 percent, photos by 126 percent, while monetary policy announcements and readability significantly enhanced all metrics. Content quality and timing matter more than posting frequency for effective central bank communication. These findings suggest central banks should prioritize accessible, media-rich content during high-attention periods rather than increasing volume, with implications for digital communication strategies in fulfilling public transparency mandates.
         </p>
-    </div>
+  </div>
     
-  <div class="bibtex-section" id="paper2-bibtex">
+   <div class="bibtex-section" id="paper2-bibtex">
         <div class="flex justify-between items-start mb-2">
             <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
             <button onclick="copyBibtex('paper2')" class="copy-button">
                 <i class="fas fa-copy mr-1"></i> Copy
             </button>
         </div>
-        <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">@article{kansoy2025central,
-  title={Central Bank Communication with Public: Bank of England and Twitter (X)},
-  author={Kansoy, Fatih and Mundy, Joel},
-  journal={Department of Economics Discussion Paper Series, University of Oxford},
-  volume={July 2025},
-  year={2025},
-  institution={University of Oxford and Bank of England}
+        <pre class="whitespace-pre-wrap" id="paper2-bibtex-content">
+        @article{kansoy2025central,
+        title={Central Bank Communication with Public: Bank of England and Twitter (X)},
+        author={Kansoy, Fatih and Mundy, Joel},
+        journal={Department of Economics Discussion Paper Series, University of Oxford},
+        volume={July 2025},
+        year={2025},
+        institution={University of Oxford and Bank of England}
 }</pre>
     </div>
 </div>
@@ -324,42 +325,39 @@ tags: ["research", "publications"]
 ## Published Papers
 
 <!-- Paper 3: NIM -->
-<div class="paper-section" onclick="toggleCard('nim')">
-    <div class="paper-header">
-        <i class="fas fa-chevron-down expand-indicator" id="nim-indicator"></i>
-        <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
-        <div class="paper-meta">
-            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
-        </div>
-        <div class="paper-journal">
-            Journal of BRSA Banking and Financial Markets
-        </div>
+<div class="paper-section">
+    <h3 class="paper-title">The Determinants of Net Interest Margin in the Turkish Banking Sector: Does Bank Ownership Matter?</h3>
+    <div class="paper-meta">
+        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">Journal Article</span>
+    </div>
+    <div class="paper-journal">
+        Journal of BRSA Banking and Financial Markets
     </div>
     
-  <div class="button-group" id="nim-buttons">
+  <div class="button-group">
         <a href="http://fatih.ai/nim.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
         <a href="https://dergipark.org.tr/tr/pub/bddkdergisi/issue/57356/874957" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-journal-whills"></i> Journal
         </a>
-        <!-- <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/nim.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
-        <button onclick="toggleAbstract(event, 'nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        </a>
+        <button onclick="toggleAbstract('nim')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex(event, 'nim')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex('nim')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
     </div>
     
-  <div class="abstract-section" id="nim-abstract">
+   <div class="abstract-section" id="nim-abstract">
         <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
         <p class="text-sm text-gray-600 leading-relaxed">
             This research presented an empirical investigation of the determinants of the net interest margin in Turkish Banking sector with a particular emphasis on the bank ownership structure. This study employed a unique bank-level dataset covering Turkey's commercial banking sector for the 2001-2012. Our main results are as follows. Operation diversity, credit risk and operating costs are important determinants of margin in Turkey. More efficient banks exhibit lower margin and also price stability contributes to lower margin. The effect of principal determinants such as credit risk, bank size, market concentration and inflation vary across foreign-owned, state-controlled and private banks. At the same time, the impacts of implicit interest payment, operation diversity and operating cost are homogeneous across all banks.
         </p>
-    </div>
+     </div>
     
   <div class="bibtex-section" id="nim-bibtex">
         <div class="flex justify-between items-start mb-2">
@@ -368,47 +366,45 @@ tags: ["research", "publications"]
                 <i class="fas fa-copy mr-1"></i> Copy
             </button>
         </div>
-        <pre class="whitespace-pre-wrap" id="nim-bibtex-content">@article{kansoy2012determinants,
-  title={The determinants of net interest margin in the Turkish banking sector: does bank ownership matter},
-  author={Kansoy, Fatih},
-  journal={Journal of BRSA Banking and Financial Markets},
-  volume={6},
-  number={2},
-  pages={13--49},
-  year={2012},
-  publisher={Banking Regulation and Supervision Agency}
-}</pre>
+        <pre class="whitespace-pre-wrap" id="nim-bibtex-content">
+        @article{kansoy2012determinants,
+        title={The determinants of net interest margin in the Turkish banking sector: does bank ownership matter},
+        author={Kansoy, Fatih},
+        journal={Journal of BRSA Banking and Financial Markets},
+        volume={6},
+        number={2},
+        pages={13--49},
+        year={2012},
+        publisher={Banking Regulation and Supervision Agency}
+        }</pre>
     </div>
-</div>
+   </div>
 
 <!-- Paper 4: Istanbul -->
-<div class="paper-section" onclick="toggleCard('istanbul')">
-    <div class="paper-header">
-        <i class="fas fa-chevron-down expand-indicator" id="istanbul-indicator"></i>
-        <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
-        <div class="paper-meta">
-            with H Karlioglu 
-            <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded ml-2">Journal Article</span>
-        </div>
-        <div class="paper-journal">
-            Afro Eurasian Studies
-        </div>
+<div class="paper-section">
+    <h3 class="paper-title">Islamic Finance as a Means to Make Istanbul an International Financial Centre</h3>
+    <div class="paper-meta">
+        with H Karlioglu 
+        <span class="inline-block bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded ml-2">Journal Article</span>
+    </div>
+    <div class="paper-journal">
+        Afro Eurasian Studies
     </div>
     
-  <div class="button-group" id="istanbul-buttons">
+ <div class="button-group">
         <a href="http://fatih.ai/istanbul.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-pdf"></i> View PDF
         </a>
         <a href="https://dergipark.org.tr/en/pub/afes/issue/44783/557024" target="_blank" class="inline-flex items-center gap-2 text-violet-600 hover:text-violet-800 text-sm bg-violet-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-journal-whills"></i> Journal
         </a>
-        <!-- <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+        <a href="http://fatih.ai/istanbul.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-download"></i> Download
-        </a> -->
-        <button onclick="toggleAbstract(event, 'istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+        </a>
+        <button onclick="toggleAbstract('istanbul')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
-        <button onclick="toggleBibtex(event, 'istanbul')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+        <button onclick="toggleBibtex('istanbul')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
     </div>
