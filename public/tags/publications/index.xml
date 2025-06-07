@@ -2,45 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Fatih Kansoy</title>
-    <link>http://localhost:59734/tags/publications/</link>
+    <link>http://localhost:61219/tags/publications/</link>
     <description>Recent content in Publications on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:59734/tags/publications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61219/tags/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
-      <link>http://localhost:59734/research/</link>
+      <link>http://localhost:61219/research/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59734/research/</guid>
+      <guid>http://localhost:61219/research/</guid>
       <description></description>
     </item>
     <item>
       <title>Research</title>
-      <link>http://localhost:59734/research/</link>
+      <link>http://localhost:61219/research/</link>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59734/research/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>http://localhost:59734/research/</link>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59734/research/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>http://localhost:59734/research/</link>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59734/research/</guid>
+      <guid>http://localhost:61219/research/</guid>
       <description></description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:59734/about/</link>
+      <link>http://localhost:61219/about/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:59734/about/</guid>
+      <guid>http://localhost:61219/about/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
   </channel>
