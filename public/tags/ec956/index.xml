@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ec956 on Fatih Kansoy</title>
-    <link>http://localhost:62553/tags/ec956/</link>
+    <link>http://localhost:65520/tags/ec956/</link>
     <description>Recent content in Ec956 on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:62553/tags/ec956/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:65520/tags/ec956/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Macroconomics</title>
-      <link>http://localhost:62553/blog/ec956/</link>
+      <link>http://localhost:65520/blog/ec956/</link>
       <pubDate>Thu, 04 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62553/blog/ec956/</guid>
+      <guid>http://localhost:65520/blog/ec956/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
     <item>
       <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics</title>
-      <link>http://localhost:62553/posts/projects_news/</link>
+      <link>http://localhost:65520/posts/projects_news/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62553/posts/projects_news/</guid>
+      <guid>http://localhost:65520/posts/projects_news/</guid>
       <description></description>
     </item>
     <item>
       <title>Macroconomics</title>
-      <link>http://localhost:62553/posts/ec956/</link>
+      <link>http://localhost:65520/posts/ec956/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62553/posts/ec956/</guid>
+      <guid>http://localhost:65520/posts/ec956/</guid>
       <description></description>
     </item>
   </channel>

@@ -322,3 +322,57 @@ code {
 }
 
 @tailwind utilities;
+
+/* Custom Light Mode Overrides */
+/* Force light theme and clean white backgrounds */
+:root {
+  color-scheme: light !important;
+}
+
+html {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+body {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(64, 64, 64) !important;
+}
+
+/* Ensure all major containers stay light */
+.prose,
+main,
+article,
+.article-content,
+header,
+nav,
+footer {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* Override any dark mode card backgrounds while preserving structure */
+.bg-neutral-100,
+.bg-neutral-50,
+.bg-gray-50,
+.bg-gray-100 {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/* Make sure text is always readable in light mode */
+.text-neutral-800,
+.text-neutral-700,
+.text-gray-800,
+.text-gray-700 {
+  color: rgb(64, 64, 64) !important;
+}
+
+/* Disable any dark mode media queries */
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(64, 64, 64) !important;
+  }
+}

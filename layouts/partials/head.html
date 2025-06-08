@@ -10,6 +10,65 @@
     <title>{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}</title>
     <meta name="title" content="{{ .Title | emojify }} &middot; {{ .Site.Title | emojify }}" />
   {{- end }}
+  {{/* Force Light Mode Script - Load before appearance.js */}}
+  <script>
+    // Force Light Mode - Clear any stored dark mode preferences
+    (function() {
+        // Clear any dark mode preference from localStorage
+        localStorage.removeItem("appearance");
+        localStorage.setItem("appearance", "light");
+        
+        // Remove dark class from document element immediately
+        document.documentElement.classList.remove("dark");
+        
+        // Set theme color to light
+        var metaThemeColor = document.querySelector("meta[name=theme-color]");
+        if (metaThemeColor) {
+            metaThemeColor.setAttribute("content", "rgb(255,255,255)");
+        }
+        
+        // Also override when DOM loads
+        document.addEventListener("DOMContentLoaded", function() {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("appearance", "light");
+        });
+    })();
+  </script>
+  
+  {{/* Force Light Mode CSS */}}
+  <style>
+    /* Force light mode at the highest priority */
+    html, body {
+        background-color: rgb(255, 255, 255) !important;
+        color: rgb(64, 64, 64) !important;
+    }
+    
+    /* Remove any dark mode classes */
+    html.dark, html.dark body {
+        background-color: rgb(255, 255, 255) !important;
+        color: rgb(64, 64, 64) !important;
+    }
+    
+    /* Override dark mode utility classes */
+    .dark\:bg-neutral-800,
+    .dark\:bg-neutral-700,
+    .dark\:bg-neutral-900,
+    .dark\:bg-gray-800,
+    .dark\:bg-gray-700,
+    .dark\:bg-gray-900 {
+        background-color: rgb(255, 255, 255) !important;
+    }
+    
+    .dark\:text-neutral-200,
+    .dark\:text-neutral-300,
+    .dark\:text-neutral-400,
+    .dark\:text-gray-200,
+    .dark\:text-gray-300,
+    .dark\:text-gray-400 {
+        color: rgb(64, 64, 64) !important;
+    }
+  </style>
+  
   {{/* Asset bundles */}}
   {{ $assets := newScratch }}
   {{ $algorithm := .Site.Params.fingerprintAlgorithm | default "sha256" }}
