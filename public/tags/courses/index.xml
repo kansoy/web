@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Courses on Fatih Kansoy</title>
-    <link>http://localhost:52240/tags/courses/</link>
+    <link>http://localhost:53037/tags/courses/</link>
     <description>Recent content in Courses on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Aug 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52240/tags/courses/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53037/tags/courses/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Teaching</title>
-      <link>http://localhost:52240/teaching/</link>
+      <link>http://localhost:53037/teaching/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52240/teaching/</guid>
+      <guid>http://localhost:53037/teaching/</guid>
       <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
   </channel>

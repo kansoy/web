@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inflation on Fatih Kansoy</title>
-    <link>http://localhost:52240/tags/inflation/</link>
+    <link>http://localhost:53037/tags/inflation/</link>
     <description>Recent content in Inflation on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52240/tags/inflation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53037/tags/inflation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Macroeconomics</title>
-      <link>http://localhost:52240/blog/macroeconomics/</link>
+      <link>http://localhost:53037/blog/macroeconomics/</link>
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52240/blog/macroeconomics/</guid>
+      <guid>http://localhost:53037/blog/macroeconomics/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
   </channel>
