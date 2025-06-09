@@ -16,7 +16,7 @@ tags: ["research", "publications"]
 <!-- Hidden Settings -->
 <script>
     const ALWAYS_OPEN_DEFAULT = true; // false = buttons hidden until card clicked, true = all buttons visible by default
-    const BLACK_WHITE_BUTTONS = true; // false = colored buttons, true = black and white style buttons
+    const BLACK_WHITE_BUTTONS = false; // false = colored buttons, true = black and white style buttons
 </script>
 
 <style>
