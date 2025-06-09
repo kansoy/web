@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ec333 on Fatih Kansoy</title>
-    <link>http://localhost:61805/tags/ec333/</link>
+    <link>http://localhost:1313/tags/ec333/</link>
     <description>Recent content in Ec333 on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:61805/tags/ec333/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ec333/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Topics in Financial Economics - Theories and International Finance</title>
-      <link>http://localhost:61805/blog/ec333/</link>
+      <link>http://localhost:1313/blog/ec333/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61805/blog/ec333/</guid>
+      <guid>http://localhost:1313/blog/ec333/</guid>
       <description></description>
     </item>
     <item>
       <title>Topics in Financial Economics - Theories and International Finance</title>
-      <link>http://localhost:61805/posts/ec333/</link>
+      <link>http://localhost:1313/posts/ec333/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:61805/posts/ec333/</guid>
+      <guid>http://localhost:1313/posts/ec333/</guid>
       <description></description>
     </item>
   </channel>

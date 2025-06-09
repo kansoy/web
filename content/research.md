@@ -348,6 +348,9 @@ tags: ["research", "publications"]
         <button onclick="toggleAbstract(event, 'paper3')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-file-alt"></i> Abstract
         </button>
+    <a href="https://arxiv.org/abs/2506.02559" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-archive"></i> arXiv
+        </a>
         <button onclick="toggleBibtex(event, 'paper3')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
             <i class="fas fa-quote-left"></i> BibTeX
         </button>
