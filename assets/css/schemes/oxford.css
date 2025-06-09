@@ -1,0 +1,40 @@
+/* Oxford Blue scheme */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* Stone */
+  --color-neutral-50: 250, 250, 249;
+  --color-neutral-100: 245, 245, 244;
+  --color-neutral-200: 231, 229, 228;
+  --color-neutral-300: 214, 211, 209;
+  --color-neutral-400: 168, 162, 158;
+  --color-neutral-500: 120, 113, 108;
+  --color-neutral-600: 87, 83, 78;
+  --color-neutral-700: 68, 64, 60;
+  --color-neutral-800: 41, 37, 36;
+  --color-neutral-900: 28, 25, 23;
+  --color-neutral-950: 12, 10, 9;
+  /* Oxford Blue - Based on #003366 */
+  --color-primary-50: 240, 248, 255;
+  --color-primary-100: 224, 242, 254;
+  --color-primary-200: 186, 230, 253;
+  --color-primary-300: 125, 211, 252;
+  --color-primary-400: 56, 189, 248;
+  --color-primary-500: 14, 165, 233;
+  --color-primary-600: 0, 51, 102;
+  --color-primary-700: 0, 40, 80;
+  --color-primary-800: 0, 30, 60;
+  --color-primary-900: 0, 20, 40;
+  --color-primary-950: 0, 10, 20;
+  /* Secondary Blue - Complementary navy shades */
+  --color-secondary-50: 248, 250, 252;
+  --color-secondary-100: 241, 245, 249;
+  --color-secondary-200: 226, 232, 240;
+  --color-secondary-300: 203, 213, 225;
+  --color-secondary-400: 148, 163, 184;
+  --color-secondary-500: 100, 116, 139;
+  --color-secondary-600: 71, 85, 105;
+  --color-secondary-700: 51, 65, 85;
+  --color-secondary-800: 30, 41, 59;
+  --color-secondary-900: 15, 23, 42;
+  --color-secondary-950: 2, 6, 23;
+} 
