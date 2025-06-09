@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Climate Change on Fatih Kansoy</title>
-    <link>http://localhost:53037/tags/climate-change/</link>
+    <link>http://localhost:61805/tags/climate-change/</link>
     <description>Recent content in Climate Change on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:53037/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:61805/tags/climate-change/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>http://localhost:53037/blog/climate_central_banks/</link>
+      <link>http://localhost:61805/blog/climate_central_banks/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53037/blog/climate_central_banks/</guid>
+      <guid>http://localhost:61805/blog/climate_central_banks/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>http://localhost:53037/blog/python_macroeconomics/</link>
+      <link>http://localhost:61805/blog/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53037/blog/python_macroeconomics/</guid>
+      <guid>http://localhost:61805/blog/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>http://localhost:53037/posts/python_macroeconomics/</link>
+      <link>http://localhost:61805/posts/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53037/posts/python_macroeconomics/</guid>
+      <guid>http://localhost:61805/posts/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>http://localhost:53037/posts/climate_central_banks/</link>
+      <link>http://localhost:61805/posts/climate_central_banks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53037/posts/climate_central_banks/</guid>
+      <guid>http://localhost:61805/posts/climate_central_banks/</guid>
       <description></description>
     </item>
   </channel>
