@@ -194,6 +194,8 @@ tags: ["research", "publications"]
 
 ## Working in Progress
 
+
+
 <!-- Paper 1: Green Shields -->
 
 <!-- Paper 1: Green Shields -->
@@ -264,6 +266,8 @@ tags: ["research", "publications"]
     </div>
 </div>
 
+
+
 <!-- Paper 2: Central Bank Communication -->
 <div class="paper-section" onclick="toggleCard('paper2')">
     <div class="paper-header">
@@ -320,6 +324,75 @@ tags: ["research", "publications"]
     institution={University of Oxford and Bank of England}
     }</pre>
     </div>
+</div>
+
+
+
+<!-- Paper 1: Green Shields -->
+<div class="paper-section" onclick="toggleCard('paper5')">
+    <div class="paper-header">
+        <i class="fas fa-chevron-down expand-indicator" id="paper1-indicator"></i>
+        <h3 class="paper-title">From Cash to Code: Intentions to Adapt  Central Bank Digital Currencies</h3>
+        <div class="paper-meta">
+       <span class="inline-block bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded">Working paper is soon </span>
+        </div>
+        <!-- <div class="paper-journal">
+            Journal: Department of Economics Discussion Paper Series, University of Oxford
+        </div> -->
+    </div>
+    <!--   
+  <div class="button-group" id="paper1-buttons">
+        <a href="http://fatih.ai/esg.pdf" class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm bg-blue-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-pdf"></i> View PDF
+        </a>
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5278853" target="_blank" class="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 text-sm bg-blue-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-alt"></i> SSRN
+        </a>
+        <a href="https://arxiv.org/abs/2506.02143" target="_blank" class="inline-flex items-center gap-2 text-red-700 hover:text-red-900 text-sm bg-red-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-archive"></i> arXiv
+        </a>
+        <a href="http://fatih.ai/esg.pdf" download class="inline-flex items-center gap-2 text-green-600 hover:text-green-800 text-sm bg-green-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-download"></i> Download
+        </a> 
+        <button onclick="toggleAbstract(event, 'paper1')" class="inline-flex items-center gap-2 text-gray-600 hover:text-gray-800 text-sm bg-gray-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-file-alt"></i> Abstract
+        </button>
+        <button onclick="toggleBibtex(event, 'paper1')" class="inline-flex items-center gap-2 text-purple-600 hover:text-purple-800 text-sm bg-purple-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-quote-left"></i> BibTeX
+        </button>
+        <a href="https://x.com/kansoy/status/1929638410358346063" target="_blank" class="inline-flex items-center gap-2 text-gray-800 hover:text-gray-900 text-sm bg-gray-100 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fab fa-x-twitter"></i> Thread
+        </a>
+        <a href="https://bsky.app/profile/fatih.ai/post/3lqno6dfwok24" target="_blank" class="inline-flex items-center gap-2 text-sky-600 hover:text-sky-800 text-sm bg-sky-50 px-3 py-1.5 rounded-md transition-colors">
+            <i class="fas fa-cloud"></i> Bluesky
+        </a>
+    </div> -->
+        <!--
+  <div class="abstract-section" id="paper1-abstract">
+        <h4 class="font-semibold mb-2 text-gray-700">Abstract</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+            The rapid growth of sustainable investing, now exceeding 35 trillion USD globally, has transformed financial markets, yet the implications for monetary policy transmission remain underexplored. While existing literature documents heterogeneous firm responses to monetary policy through traditional channels such as size and leverage, it remains unknown whether environmental, social, and governance (ESG) characteristics create distinct transmission mechanisms. Using high-frequency identification around 160 Federal Reserve announcements from 2005 to 2025, we uncover an asymmetric pattern: high-ESG firms gain 1.6 basis points of protection from contractionary target surprises, yet suffer 2.6 basis points greater sensitivity to forward guidance shocks. This asymmetry persists within industries and intensifies with investor climate awareness. Remarkably, the Paris Agreement inverted these relationships: before December 2015, high-ESG firms were more vulnerable to contractionary policy within industries; afterward, they gained protection, representing a 186 basis point reversal. We develop a two-period model featuring heterogeneous investors with sustainability preferences that quantitatively matches these patterns. The model reveals how ESG investors' non-pecuniary utility creates differential demand elasticities, simultaneously protecting green firms from immediate rate changes while amplifying forward guidance vulnerability through their longer investment horizons. These findings establish environmental characteristics as a new dimension of monetary policy non-neutrality, with important implications as sustainable finance continues expanding.
+        </p>
+    </div>-->
+ <!--
+<div class="bibtex-section" id="paper1-bibtex">
+        <div class="flex justify-between items-start mb-2">
+            <h4 class="font-sans font-semibold text-gray-300">BibTeX</h4>
+            <button onclick="copyBibtex('paper1')" class="copy-button">
+                <i class="fas fa-copy mr-1"></i> Copy
+            </button>
+        </div>
+    <pre class="whitespace-pre-wrap" id="paper1-bibtex-content">
+     @article{kansoy2025green,
+     title={Green Shields: The Role of ESG in Uncertain Times},
+     author={Kansoy, Fatih and Stasiulaitis, Dominykas},
+     journal={Department of Economics Discussion Paper Series, University of Oxford},
+     volume={June 2025},
+     year={2025},
+    institution={University of Oxford}
+       }
+       </pre>
+    </div>  -->
 </div>
 
 
