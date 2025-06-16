@@ -396,7 +396,7 @@ tags: ["research", "publications"]
 </div>
 
 
-## Pubished Articles
+## Pubished Articles (while I was a student)
 
 <!-- Paper 3: Net Interest Margin -->
 <div class="paper-section" onclick="toggleCard('paper3')">
