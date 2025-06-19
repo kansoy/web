@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Central Banking on Fatih Kansoy</title>
-    <link>https://fatih.ai/tags/central-banking/</link>
+    <link>http://localhost:1313/tags/central-banking/</link>
     <description>Recent content in Central Banking on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://fatih.ai/tags/central-banking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/central-banking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exciting News! Funding Granted for Innovative Research-led Teaching in Economics✨</title>
-      <link>https://fatih.ai/blog/projects_news/</link>
+      <link>http://localhost:1313/blog/projects_news/</link>
       <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://fatih.ai/blog/projects_news/</guid>
+      <guid>http://localhost:1313/blog/projects_news/</guid>
       <description>I am thrilled to share that I have recently been awarded approximately £10K in funding from the Department of Economics for three dynamic projects, each designed to merge empirical research with educational innovation in finance and economics.</description>
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>https://fatih.ai/blog/climate_central_banks/</link>
+      <link>http://localhost:1313/blog/climate_central_banks/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://fatih.ai/blog/climate_central_banks/</guid>
+      <guid>http://localhost:1313/blog/climate_central_banks/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>https://fatih.ai/blog/python_macroeconomics/</link>
+      <link>http://localhost:1313/blog/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fatih.ai/blog/python_macroeconomics/</guid>
+      <guid>http://localhost:1313/blog/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>A Data based Introduction to Macroeconomics Course Design</title>
-      <link>https://fatih.ai/posts/python_macroeconomics/</link>
+      <link>http://localhost:1313/posts/python_macroeconomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fatih.ai/posts/python_macroeconomics/</guid>
+      <guid>http://localhost:1313/posts/python_macroeconomics/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Change and Central Banks</title>
-      <link>https://fatih.ai/posts/climate_central_banks/</link>
+      <link>http://localhost:1313/posts/climate_central_banks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fatih.ai/posts/climate_central_banks/</guid>
+      <guid>http://localhost:1313/posts/climate_central_banks/</guid>
       <description></description>
     </item>
   </channel>
