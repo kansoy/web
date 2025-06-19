@@ -30,7 +30,7 @@ title = "Fatih Kansoy"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-      { github = "https://github.com/kansoy" },
+      # { github = "https://github.com/kansoy" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
      { google-scholar = "https://scholar.google.com/citations?user=xMvUwaoAAAAJ" },
@@ -61,6 +61,6 @@ title = "Fatih Kansoy"
   #   { whatsapp = "https://wa.me/phone-number" },
      { x-twitter = "https://twitter.com/kansoy" },
      { bluesky = "https://bsky.app/profile/fatih.ai" },
-     { youtube = "https://youtube.com/fatihkansoy" },
-     { cv = "https://fatih.ai/cv.pdf" },
+   #   { youtube = "https://youtube.com/fatihkansoy" },
+   #   { cv = "https://fatih.ai/cv.pdf" },
    ]

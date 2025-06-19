@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantitative Economics on Fatih Kansoy</title>
-    <link>http://localhost:1313/tags/quantitative-economics/</link>
+    <link>http://localhost:51560/tags/quantitative-economics/</link>
     <description>Recent content in Quantitative Economics on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/quantitative-economics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51560/tags/quantitative-economics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quantitative [Macro] Economics</title>
-      <link>http://localhost:1313/blog/ec106/</link>
+      <link>http://localhost:51560/blog/ec106/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/ec106/</guid>
+      <guid>http://localhost:51560/blog/ec106/</guid>
       <description>This module provides students who have a mathematical background with an introduction to macroeconomics. It is taught using a mathematical approach, with the focus on providing an intuitive understanding to core economic theory, which will also include ‘real world’ applications. Graphical analysis will also be used to illustrate key concepts, giving students a different way of examining problems that will complement the mathematics skills learnt in other modules.</description>
     </item>
   </channel>

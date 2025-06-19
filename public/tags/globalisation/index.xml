@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Globalisation on Fatih Kansoy</title>
-    <link>http://localhost:1313/tags/globalisation/</link>
+    <link>http://localhost:51560/tags/globalisation/</link>
     <description>Recent content in Globalisation on Fatih Kansoy</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/globalisation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51560/tags/globalisation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EC916 Topics in Global Finace </title>
-      <link>http://localhost:1313/blog/ec916/</link>
+      <link>http://localhost:51560/blog/ec916/</link>
       <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/ec916/</guid>
+      <guid>http://localhost:51560/blog/ec916/</guid>
       <description>I have updated the course outline for EC916 Topics in Global Finance. This course is designed for MSc in Economics students at the Department of Economics at the University of Warwick. This course is also available for MSc Finance &amp;amp; Economics students at the Warwick Business School.</description>
     </item>
     <item>
       <title>Topics in Global Finance - MSc in Economics &amp; Finance</title>
-      <link>http://localhost:1313/posts/ec916/</link>
+      <link>http://localhost:51560/posts/ec916/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ec916/</guid>
+      <guid>http://localhost:51560/posts/ec916/</guid>
       <description></description>
     </item>
   </channel>
